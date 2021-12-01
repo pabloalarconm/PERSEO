@@ -1,7 +1,7 @@
 # SEMANTIC FUNCTIONALITIES
 
 
-**Pull the image in your local from Dockerhub:**
+**Pull the image in your local from [Dockerhub](https://hub.docker.com/repository/docker/pabloalarconm/perseo):**
 
 `docker pull pabloalarconm/perseo:latest`
 
