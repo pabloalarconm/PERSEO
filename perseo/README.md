@@ -22,7 +22,7 @@ Milisecond timestamp for CSV spreadsheets
 
 RDF data transformation from N-Triples representation to Turtle
 
-**Run the docker by pointing your CSV files as a volume to `/app/data` It will take all CSVs from this directory and transform all of them:**
+**Run the docker by pointing your N-Triples files as a volume to `/app/data` It will take all CSVs from this directory and transform all of them:**
 
 `docker run --rm -v /path/of/your/volumes:/app/data pabloalarconm/perseo 2ttl`
 
