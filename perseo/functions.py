@@ -58,6 +58,7 @@ def uniqid(path_file):
     for i in data.index:
         data.at[i, "uniqid"] = milisec()
 
+    print(data['uniqid'])
     data.to_csv(path_file, sep="," , index=False)
 
 
