@@ -8,8 +8,8 @@ with open('requirements.txt') as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="perseo",
-    version="0.0.1",
+    name="py-perseo",
+    version="0.0.3",
     packages=find_packages(),
     author="Pablo Alarcón Moreno",
     author_email="pabloalarconmoreno@gmail.com",
