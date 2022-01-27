@@ -1,5 +1,5 @@
 
-from rdflib import Graph, URIRef, Literal
+from rdflib import Graph, URIRef, Literal, XSD
 from os import listdir
 from os.path import isfile, join
 from datetime import datetime

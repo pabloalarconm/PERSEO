@@ -2,12 +2,12 @@
 
 #from rdflib import Graph, URIRef
 from os import listdir, getcwd
-from os.path import isfile, join
-from datetime import datetime
-import pandas as pd
+# from os.path import isfile, join
+# from datetime import datetime
+# import pandas as pd
 import sys
 
-from functions import get_files, milisec, uniqid
+from functions import get_files, uniqid, nt2ttl
 
 mypath = getcwd()+ "/data"
 
