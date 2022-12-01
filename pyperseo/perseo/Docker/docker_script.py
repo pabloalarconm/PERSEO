@@ -7,7 +7,7 @@ from os import listdir, getcwd
 # import pandas as pd
 import sys
 
-from functions import get_files, uniqid, nt2ttl
+from pyperseo.perseo.main import get_files, uniqid, nt2ttl
 
 mypath = getcwd()+ "/data"
 

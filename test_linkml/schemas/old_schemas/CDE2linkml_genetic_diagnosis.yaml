@@ -1,0 +1,275 @@
+id: http://purl.org/ejp-rd/linkml/ 
+name: ejp
+description: |-
+  --------------------- Personal Information schema of EJP CDE model -------------------------
+# imports:
+#   - linkml:types
+prefixes:
+  ejp: http://purl.org/ejp-rd/cde/v1/example-rdf/
+  linkml: https://w3id.org/linkml/
+  schema: http://schema.org/
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  sio: http://semanticscience.org/resource/
+  obo: http://purl.obolibrary.org/obo/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  edam: http://edamontology.org/
+
+
+############ CLASSES ############
+
+classes:
+  
+  ############### UPPPER CLASSES #####################
+
+  identifier:
+    name: identifier
+    description: >-
+      Identifier used to relate Entity and its Role.
+    class_uri: sio:SIO_000115
+    slots:
+     - denotes
+     - has value
+
+  entity:
+    name: entity
+    description: >-
+      Identified Entity that personalized a Role.
+    class_uri: sio:SIO_000498
+    slots:
+      - has role
+      - has attribute
+
+  role:
+    name: role
+    description: >-
+      Role associated to an Entity into a certain process.
+    class_uri: sio:SIO_000016
+    slots:
+      - is realized in
+
+  process:
+    name: process
+    description: >-
+      The process where the entity is envolved by a certain role to measure a certain output.
+    class_uri: sio:SIO_000006
+    slots:
+      - has output
+
+  output:
+    name: output
+    description: >-
+      Output measure in a certain process associated to a certain Attribute
+    class_uri: sio:SIO_000015
+    slots:
+      - refers to
+
+  attribute:
+    name: attribute  
+    description: >-
+      Attribute represented as quality related to the output of a measurement of a certain entity.
+    class_uri: sio:SIO_000614
+
+    ############### INHERITED CLASSES #####################
+
+  patient identifier:
+    name: patient identifier
+    is_a: identifier
+    class_uri: sio:SIO_000115
+    slot_usage:
+      denotes :
+        slot_uri: sio:SIO_000020
+        range: genetic diagnosis patient
+
+
+  person:
+    name: person
+    is_a: entity
+    class_uri: sio:SIO_000498
+    slot_usage:
+      has role sex:
+        slot_uri: sio:SIO_000228
+        range: genetic diagnosis patient
+
+      has attribute hgnc: 
+        range: hgnc genome sequence variant attribute
+        slot_uri: sio:SIO_000008
+      has attribute omim:
+        range: omim genome sequence variant attribute
+        slot_uri: sio:SIO_000008
+      has attribute hgvs:
+        range: hgvs genome sequence variant attribute
+        slot_uri: sio:SIO_000008
+
+  genetic diagnosis patient:
+    is_a: role
+    name: genetic diagnosis patient
+    class_uri: obo:OBI_0000093
+    slot_usage:
+      is realized in hgnc:
+        slot_uri: sio:SIO_000356
+        range: hgnc genetic testing process
+      is realized in omim:
+        slot_uri: sio:SIO_000356
+        range: omim genetic testing process
+      is realized in hgvs:
+        slot_uri: sio:SIO_000356
+        range: hgvs genetic testing process
+
+    ################## HGNC ####################
+
+
+  hgnc genetic testing process:
+    is_a: process
+    name: hgnc genetic testing process
+    class_uri: obo:NCIT_C15709
+    slot_usage:
+      has output:
+        range: hgnc genome sequence variant output
+
+
+  hgnc genome sequence variant output:
+    is_a: output
+    name: hgnc genome sequence variant output
+    class_uri: sio:SIO_001381
+    slot_usage:
+      refers to:
+        range: hgnc genome sequence variant attribute
+    slots:
+      - has value
+
+  hgnc genome sequence variant attribute:
+    is_a: attribute
+    name: hgnc genome sequence variant attribute  
+    class_uri: edam:data_2298
+
+
+    ################## OMIM ####################
+
+  omim genetic testing process:
+    is_a: process
+    name: omim genetic testing process
+    class_uri: obo:NCIT_C15709
+    slot_usage:
+      has output:
+        range: omim genome sequence variant output
+
+
+  omim genome sequence variant output:
+    is_a: output
+    name: omim genome sequence variant output
+    class_uri: sio:SIO_001381
+    slot_usage:
+      refers to:
+        range: omim genome sequence variant attribute
+    slots:
+      - has value
+
+  omim genome sequence variant attribute:
+    is_a: attribute
+    name: omim genome sequence variant attribute  
+    class_uri: edam:data_1153
+
+    ################## HGVS ####################
+
+
+  hgvs genetic testing process:
+    is_a: process
+    name: hgvs genetic testing process
+    class_uri: obo:NCIT_C15709
+    slot_usage:
+      has output:
+        range: hgvs genome sequence variant output
+
+
+  hgvs genome sequence variant output:
+    is_a: output
+    name: hgvs genome sequence variant output
+    class_uri: sio:SIO_001388
+    slot_usage:
+      refers to:
+        range: hgvs genome sequence variant attribute
+    slots:
+      - has value
+
+  hgvs genome sequence variant attribute:
+    is_a: attribute
+    name: hgvs genome sequence variant attribute  
+    class_uri: obo:NCIT_C171178
+
+
+
+############ SLOTS  #############
+
+slots:
+
+  has value:
+    description: >-
+      A relation between a informational entity and its actual value (numeric, date, text, etc).
+    range: string
+    slot_uri: sio:SIO_000300
+
+  # has value date:
+  #   description: >-
+  #     A relation between a informational entity and its actual value (numeric, date, text, etc).
+  #   range: date
+  #   slot_uri: sio:SIO_000300
+    
+  denotes:
+    description: >-
+      denotes is a relation between an entity and what it is a sign or indication of, or what specifically means.
+    range: role
+    slot_uri: sio:SIO_000020
+
+  has role:
+    description: >-
+      has role is a relation between an entity and a role that it bears.
+    range: role
+    slot_uri: sio:SIO_000228
+
+  has attribute:
+    description: >-
+      has attribute is a relation that associates a entity with an attribute where an attribute is an intrinsic characteristic such as a quality, capability, disposition, function, or is an externally derived attribute determined from some descriptor (e.g. a quantity, position, label/identifier) either directly or indirectly through generalization of entities of the same type.
+    range: attribute
+    slot_uri: sio:SIO_000008
+
+  is realized in:
+    description: >-
+      the role of a patient is realized in medical examination.
+    range: process
+    slot_uri: sio:SIO_000356
+
+  has output:
+    description: >-
+      has output is a relation between an process and an entity, where the entity is present at the end of the process.
+    range: output
+    slot_uri: sio:SIO_000229
+
+  refers to:
+    description: >-
+      refers to is a relation between one entity and the entity that it makes reference to.
+    range: attribute
+    slot_uri: sio:SIO_000628
+
+  label:
+    slot_uri: rdfs:label
+    range: string
+
+  name:
+    aliases: [ 'label', 'title' ]
+    description: >-
+      A human-readable name or title.
+    range: string
+    slot_uri: rdfs:label
+
+
+############ TYPES  #############
+
+types:
+
+  string:
+    uri: xsd:string
+    base: str
+
+############ ENUMS  #############
+

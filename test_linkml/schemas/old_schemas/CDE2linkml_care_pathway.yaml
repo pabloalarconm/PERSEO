@@ -1,0 +1,180 @@
+id: http://purl.org/ejp-rd/linkml/ 
+name: ejp
+description: |-
+  --------------------- Care Pathway schema of EJP CDE model -------------------------
+# imports:
+#   - linkml:types
+prefixes:
+  ejp: http://purl.org/ejp-rd/cde/v1/example-rdf/
+  linkml: https://w3id.org/linkml/
+  schema: http://schema.org/
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  sio: http://semanticscience.org/resource/
+  obo: http://purl.obolibrary.org/obo/
+  xsd: http://www.w3.org/2001/XMLSchema#
+
+############ CLASSES ############
+
+classes:
+  
+  ############### UPPPER CLASSES #####################
+
+  identifier:
+    name: identifier
+    description: >-
+      Identifier used to relate Entity and its Role.
+    class_uri: sio:SIO_000115
+    slots:
+     - denotes
+     - has value
+
+  entity:
+    name: entity
+    description: >-
+      Identified Entity that personalized a Role.
+    class_uri: sio:SIO_000498
+    slots:
+      - has role
+      #- has attribute
+
+  role:
+    name: role
+    description: >-
+      Role associated to an Entity into a certain process.
+    class_uri: sio:SIO_000016
+    slots:
+      - is realized in
+
+  process:
+    name: process
+    description: >-
+      The process where the entity is envolved by a certain role to measure a certain output.
+    class_uri: sio:SIO_000006
+
+
+
+
+    ############### INHERITED CLASSES #####################
+
+  patient identifier:
+    name: patient identifier
+    is_a: identifier
+    class_uri: sio:SIO_000115
+    slot_usage:
+      denotes:
+        slot_uri: sio:SIO_000020
+        range: first contact patient
+
+
+  person:
+    name: person
+    is_a: entity
+    class_uri: sio:SIO_000498
+    slot_usage:
+      has role sex:
+        slot_uri: sio:SIO_000228
+        range: first contact patient
+
+
+  first contact patient:
+    is_a: role
+    name: first contact patient
+    class_uri: obo:OBI_0000093
+    slot_usage:
+      is realized in:
+        range: first contact with specialized center process
+    # slots:
+    #   - type healthcare activity
+
+
+  first contact with specialized center process:
+    is_a: process
+    name: first contact with specialized center process
+    class_uri: obo:NCIT_C159705
+    slots:
+      - has start time
+      - has end time
+  
+  start date:
+    name: start date
+    class_uri: sio:SIO_000031
+    slots:
+      - has value date
+
+  end date:
+    name: end date
+    class_uri: sio:SIO_000032
+    slots:
+      - has value date
+
+
+############ SLOTS  #############
+
+slots:
+
+  has value:
+    description: >-
+      A relation between a informational entity and its actual value (numeric, date, text, etc).
+    range: string
+    slot_uri: sio:SIO_000300
+
+  has value date:
+    description: >-
+      A relation between a informational entity and its actual value (numeric, date, text, etc).
+    range: date
+    slot_uri: sio:SIO_000300
+    
+  denotes:
+    description: >-
+      denotes is a relation between an entity and what it is a sign or indication of, or what specifically means.
+    range: role
+    slot_uri: sio:SIO_000020
+
+  has role:
+    description: >-
+      has role is a relation between an entity and a role that it bears.
+    range: role
+    slot_uri: sio:SIO_000228
+  
+  has start time:
+    slot_uri: sio:SIO_000680
+    range: start date
+
+  has end time:
+    slot_uri: sio:SIO_000681
+    range: end date
+
+  is realized in:
+    description: >-
+      the role of a patient is realized in medical examination.
+    range: process
+    slot_uri: sio:SIO_000356
+
+  label:
+    slot_uri: rdfs:label
+    range: string
+
+  name:
+    aliases: [ 'label', 'title' ]
+    description: >-
+      A human-readable name or title.
+    range: string
+    slot_uri: rdfs:label
+
+  # type healthcare activity:
+  #   slot_uri: rdf:type
+  #   range: obo:NCIT_C16205
+
+
+############ TYPES  #############
+
+types:
+
+  string:
+    uri: xsd:string
+    base: str
+
+  date:
+    uri: xsd:datetime
+    typeof: string

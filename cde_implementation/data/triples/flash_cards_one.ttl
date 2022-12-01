@@ -1,0 +1,26 @@
+@prefix ejprd_usecase_flash: <http://purl.org/ejp-rd/ontologies/2022/6/ejprd-usecase-flash#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix this: <http://example.org/data/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+this:456781_Use_case a ejprd_usecase_flash:Use_case ;
+    rdfs:label "As a Data steward of a patient registry I would like to be guided towards good FAIR implementation choices for my data such that I can make my data efficiently useable in combination with other FAIR resources in automated scenarios."^^xsd:string ;
+    ejprd_usecase_flash:such_that_I_can this:456781_Contextual_goal ;
+    ejprd_usecase_flash:use_case_involves_specific_goal this:456781_Specific_goal ;
+    ejprd_usecase_flash:use_case_of_user this:456781_User .
+
+this:456781_Contextual_goal a ejprd_usecase_flash:ContextualGoal ;
+    rdfs:label "be guided towards good FAIR implementation choices for my data"^^xsd:string .
+
+this:456781_Role a ejprd_usecase_flash:Clinical_doing_research_role ;
+    rdfs:label "Data steward of a patient registry"^^xsd:string ;
+    ejprd_usecase_flash:user_role_of this:456781_User .
+
+this:456781_Specific_goal a ejprd_usecase_flash:SpecificGoal ;
+    rdfs:label "make my data efficiently useable in combination with other FAIR resources in automated scenarios"^^xsd:string .
+
+this:456781_User a ejprd_usecase_flash:Clinical_doing_research ;
+    rdfs:label "Franz Schaefer"^^xsd:string ;
+    ejprd_usecase_flash:has_id <https://orcid.org/0000-0001-2345-6789> ;
+    ejprd_usecase_flash:has_user_role this:456781_Role .
+

@@ -1,0 +1,78 @@
+id: https://w3id.org/linkml/examples/personinfo
+name: personinfo
+prefixes:                                  
+  linkml: https://w3id.org/linkml/
+  schema: http://schema.org/
+  personinfo: https://w3id.org/linkml/examples/personinfo/
+  ORCID: https://orcid.org/
+  PATO: http://purl.obolibrary.org/obo/PATO_
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  sio: http://semanticscience.org/resource/
+  obo: http://purl.obolibrary.org/obo/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  biolink: https://w3id.org/biolink/vocab/
+
+imports:
+  - linkml:types
+default_range: string
+
+
+
+classes:
+
+  Identifier:
+    class_uri: sio:SIO_000115
+    attributes:
+      # has_value_id:
+      #   range: string
+      #   slot_uri: sio:SIO_000300
+      denotes:
+        #multivalued: true
+        #inlined_as_list: true
+        range: Output
+        slot_uri: sio:SIO_000020
+
+  Output:
+    class_uri: sio:SIO_000015
+    attributes:
+      has_value:
+        #ultivalued: true
+        # inlined_as_list: true
+        slot_uri: sio:SIO_000300
+        range: string
+      refers_to:
+        #multivalued: true
+        # inlined_as_list: true
+        range: Attribute
+        slot_uri: sio:SIO_000628
+
+
+  Attribute:
+    class_uri: sio:SIO_000614
+    attributes:
+      has_value_gender:
+        multivalued:
+        slot_uri: sio:SIO_000300
+        range: GenderType
+
+
+  # Container:
+  #   attributes:
+  #     fill_output:
+  #       range: Output
+  #       multivalued: true
+  #       #inlined_as_list: true
+  #     fill_attribute:
+  #       range: Attribute
+  #       multivalued: true
+  #       inlined_as_list: true
+
+
+enums:
+  GenderType:
+    permissible_values:
+      Female:
+        meaning: obo:NCIT_C20197
+      Male:
+        meaning: obo:NCIT_C16576

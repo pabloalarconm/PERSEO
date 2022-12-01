@@ -9,13 +9,13 @@ with open('requirements.txt') as f:
 
 setup(
     name="pyperseo",
-    version="0.0.8",
-    packages= ['pyperseo'],
+    version="0.0.9",
+    packages= ['perseo'],
     author="Pablo Alarcón Moreno",
     author_email="pabloalarconmoreno@gmail.com",
     url="https://github.com/pabloalarconm/PERSEO",
     description="Personal Semantic Objects",
     license="MIT",
-    keywords=["Semantics", "RDF", "FAIR", "EJP"],
+    keywords=["Semantic", "RDF", "FAIR", "EJP"],
     long_description=readme
 )
