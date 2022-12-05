@@ -64,7 +64,7 @@ triplets = [
 
 ["this:$(pid)_$(uniqid)_Startdate","sio:SIO_000300","$(startdate)","xsd:date"],
 ["this:$(pid)_$(uniqid)_Enddate","sio:SIO_000300","$(enddate)","xsd:date"],
-# ["this:$(pid)_Identifier","sio:SIO_000332","$(pid)","xsd:string"]
+# ["this:$(pid)_Identifier","sio:SIO_000300","$(pid)","xsd:string"]
 ]
 
 config = dict(

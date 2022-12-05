@@ -1,0 +1,184 @@
+
+
+body:
+  cde: Body_measurement
+  columns:
+    pid: pid_body
+    processURI: processURI_body
+    attributeURI: qualityURI_body
+    valueOutput: value_body
+    datatype: valueDatatype_body
+    unitURI: unitURI_body
+    unitLabel: unitLabel_body
+    startdate: date_body
+    enddate: date_body
+    comments: comments_body
+
+
+image:
+  cde: Imaging
+  columns:
+    pid: pid_ima
+    processURI: processURI_ima
+    targetURI: target_ima
+    targetLabel: target_label_ima
+    valueOutput: imageID_ima
+    startdate: date_ima
+    enddate: date_ima
+    comments: comments_ima
+
+lab:
+  cde: Lab_measurement
+  columns:
+    pid: pid_lab
+    processURI: processURI_lab
+    inputURI: material_tested_lab
+    inputLabel: material_tested_label_lab
+    targetURI: target_lab
+    targetLabel: target_label_lab
+    valueOutput: value_lab
+    datatype: valueDatatype_lab
+    unitURI: unitURI_lab
+    unitLabel: unitLabel_lab
+    startdate: date_lab
+    enddate: date_lab
+    comments: comments_lab
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Birth_date:
+#   cde: Birth_date
+#   columns:
+#     pid: pat_id
+#     value: birthdate
+#     startdate: first_visit_date
+#     enddate: first_visit_date
+
+# Sex:
+#   cde: Sex
+#   columns:
+#     pid: pat_id
+#     valueAttributeIRI: sex_uri
+#     value: sex
+#     startdate: first_visit_date
+#     enddate: first_visit_date
+
+# Patient_status:
+#   cde: Patient_status
+#   columns:
+#     pid: pat_id
+#     value: status_label
+#     valueAttributeIRI: status
+#     startdate: status_datetime
+#     enddate: status_datetime
+
+# Date_of_death:
+#   cde: Date_of_death
+#   columns:
+#     pid: pat_id
+#     value: death_datetime
+#     startdate: death_datetime
+#     enddate: death_datetime
+
+# Care_pathway:
+#   cde: Care_pathway
+#   columns:
+#     pid: pat_id
+#     value: first_visit_date
+#     startdate: first_visit_date
+#     enddate: first_visit_date
+
+# Diagnosis:
+#   cde: Diagnosis
+#   columns:
+#     pid: pat_id
+#     valueAttributeIRI: diagnosis
+#     value: diagnosis_label
+#     startdate: diagnosis_date
+#     enddate: diagnosis_date
+
+# Date_of_diagnosis:
+#   cde: Date_of_diagnosis
+#   columns:
+#     pid: pat_id
+#     value: diagnosis_date
+#     outputURI: onset_diagnosis
+#     startdate: diagnosis_date
+#     enddate: diagnosis_date
+
+# Onset_of_symptoms:
+#   cde: Onset_of_symptoms
+#   columns:
+#     pid: pat_id
+#     outputURI: onset_symptom
+#     value: first_symptoms_date
+#     startdate: first_visit_date
+#     enddate: first_visit_date
+
+# Genotype:
+#   cde: Genotype
+#   columns:
+#     pid: pat_id
+#     value: hgvs_code
+#     valueAttributeIRI: omim_code
+#     attributeURI: gen_type
+#     startdate: genetic_datetime
+#     enddate: genetic_datetime
+
+
+# Phenotype:
+#   cde: Phenotype
+#   columns:
+#     pid: pat_id
+#     valueAttributeIRI: dia_ce_sle_vasculitis_uri
+#     value: dia_ce_sle_vasculitis
+#     startdate: first_visit_date
+#     enddate: first_visit_date
+
+
+# Consent_clinical:
+#   cde: Consent
+#   columns:
+#     pid: pat_id
+#     value: consent_clinical
+#     outputURI: consent_clinical_uri
+#     startdate: informed_consent_date
+#     enddate: informed_consent_date
+
+
+# Consent_research:
+#   cde: Consent
+#   columns:
+#     pid: pat_id
+#     value: consent_research
+#     outputURI: consent_research_uri
+#     startdate: informed_consent_date
+#     enddate: informed_consent_date
+
+
+# Disability:
+#   cde: Disability
+#   columns:
+#     pid: pat_id
+#     value: disability_score
+#     processURI : disability_type
+#     startdate: disability_datetime
+#     enddate: disability_datetime

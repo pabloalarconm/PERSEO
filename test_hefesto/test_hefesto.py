@@ -2,13 +2,13 @@ from Hefesto.main import Hefesto
 import yaml
 
 # Import YAML configuration file with all parameters:
-with open("CDEconfig.yaml") as file:
+with open("DCDEconfig.yaml") as file:
     configuration = yaml.load(file, Loader=yaml.FullLoader)
 
-test = Hefesto(datainput = "OFFICIAL_DATA_INPUT.csv")
+test = Hefesto(datainput = "DCDE_input.csv")
 transform = test.transform_shape(configuration=configuration)
-label = test.get_label("outputURI")
-url_from_label= test.get_uri("outputURI_label","ncit")
-repl= test.replacement("outputURI_label", "Date","DateXXX", duplicate=False)
+# label = test.get_label("outputURI")
+# url_from_label= test.get_uri("outputURI_label","ncit")
+# repl= test.replacement("outputURI_label", "Date","DateXXX", duplicate=False)
 
-repl.to_csv ("result_final.csv", index = False, header=True)
+transform.to_csv ("result_DCDE.csv", index = False, header=True)
