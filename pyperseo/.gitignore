@@ -1,3 +1,4 @@
-pyperseo/__pycache__
-pyperseo/pyperseo.egg-info
-pyperseo/dist
+__pycache__
+pyperseo.egg-info
+dist
+/pyperseo.egg-info
