@@ -1,0 +1,2 @@
+model,processURI,outputURI,attributeURI,valueAttributeIRI,value,datatype,startdate,enddate,pid,chronoid,uniqid,context_id
+Care_pathway,http://purl.obolibrary.org/obo/NCIT_C159705,http://purl.obolibrary.org/obo/NCIT_C25716,http://purl.obolibrary.org/obo/NCIT_C164021,,2020-01-13,xsd:date,2020-01-13,2020-01-13,500-0001,,20221117154928619224,20221117154928621366

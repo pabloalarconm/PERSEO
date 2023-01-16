@@ -1,0 +1,66 @@
+@prefix ns1: <file:///home/pabloalarconm/Desktop/EJP/PERSEO/cde_implementation/data/triples/> .
+@prefix ns2: <urn:x-rdflib:> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sio: <https://sio.semanticscience.org/resource/> .
+@prefix this: <http://example.org/data/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+this:20221117154928621411_Context {
+    this:500-0001_Entity a sio:SIO_000498 ;
+        rdfs:label "Person"^^xsd:string ;
+        sio:SIO_000008 this:500-0001_20221117154928619270_Attribute ;
+        sio:SIO_000228 this:500-0001_20221117154928619270_Role .
+
+    this:500-0001_ID a sio:SIO_000115 ;
+        rdfs:label "Identifier"^^xsd:string ;
+        sio:SIO_000020 this:500-0001_20221117154928619270_Role ;
+        sio:SIO_000300 "500-0001"^^xsd:string .
+
+    this:500-0001_20221117154928619270_Output a obo:DUO_0000001,
+            sio:SIO_000015 ;
+        rdfs:label "Consent measurement output"^^xsd:string ;
+        sio:SIO_000300 "Consent to data being shared for clinical care"^^<file:///data/$(datatype)> ;
+        sio:SIO_000628 this:500-0001_20221117154928619270_Attribute .
+
+    this:500-0001_20221117154928619270_Process a obo:OBI_0000810,
+            sio:SIO_000006 ;
+        rdfs:label "Consent measurement process"^^xsd:string ;
+        sio:SIO_000229 this:500-0001_20221117154928619270_Output .
+
+    this:500-0001_20221117154928619270_Attribute a obo:NCIT_C25460,
+            sio:SIO_000614 ;
+        rdfs:label "Consent attribute"^^xsd:string .
+
+    this:500-0001_20221117154928619270_Role a obo:OBI_0000093,
+            sio:SIO_000016 ;
+        rdfs:label "Patient role"^^xsd:string ;
+        sio:SIO_000356 this:500-0001_20221117154928619270_Process .
+}
+
+ns1:consent.nt {
+    this:20221117154928621411_Context a obo:NCIT_C25616 ;
+        sio:SIO_000068 this:500-0001_Timeline ;
+        sio:SIO_000300 "20221117154928621411"^^xsd:string ;
+        sio:SIO_000680 this:20221117154928621411_Startdate ;
+        sio:SIO_000681 this:20221117154928621411_Enddate .
+
+    this:20221117154928621411_Enddate a sio:SIO_000032 ;
+        rdfs:label "Consent enddate: 2020-01-13"^^xsd:string ;
+        sio:SIO_000300 "2020-01-13"^^xsd:date .
+
+    this:20221117154928621411_Startdate a sio:SIO_000031 ;
+        rdfs:label "Consent startdate: 2020-01-13"^^xsd:string ;
+        sio:SIO_000300 "2020-01-13"^^xsd:date .
+
+    this:500-0001_Identifier a sio:SIO_000115 ;
+        sio:SIO_000300 "500-0001"^^xsd:string .
+
+    this:500-0001_Person a sio:SIO_000498 ;
+        sio:SIO_000671 this:500-0001_Identifier .
+
+    this:500-0001_Timeline a obo:NCIT_C54576,
+            sio:SIO_000417 ;
+        sio:SIO_000332 this:500-0001_Person .
+}
+

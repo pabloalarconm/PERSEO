@@ -1,0 +1,2 @@
+model,processURI,outputURI,attributeURI,valueAttributeIRI,value,datatype,startdate,enddate,pid,chronoid,uniqid,context_id
+Disability,http://purl.obolibrary.org/obo/NCIT_C107391,http://purl.obolibrary.org/obo/NCIT_C25338,http://purl.obolibrary.org/obo/NCIT_C21007,,12.0,xsd:float,2021-11-12,2021-11-12,500-0002,,20221117154928619341,20221117154928621481

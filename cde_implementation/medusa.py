@@ -1,7 +1,7 @@
 import sys
 # from rdflib import Graph, URIRef
 import sys
-from perseo.main import get_files, nt2ttl, uniqid
+from perseo.main import get_files, nt2ttl, uniqid, nt2ttl_quad
 # 
 # from ..pyperseo.perseo.main import get_files , nt2ttl, uniqid
 # from pyperseo.functions import get_files, nt2ttl, uniqid
@@ -25,6 +25,11 @@ elif argv[0] == "nt2ttl":
 
     file = argv[1] + ".nt"
     nt2ttl(file)
+
+elif argv[0] == "quad":
+
+    file = argv[1] + ".nt"
+    nt2ttl_quad(file)
 
 else:
     print("You must provide an argument depending on your choosen functionality, like 'uniqid', 'uniqids' or 'nt2ttl'")

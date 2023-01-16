@@ -9,7 +9,7 @@ with open('requirements.txt') as f:
 
 setup(
     name="pyperseo",
-    version="0.0.9",
+    version="0.1.1",
     packages= ['perseo'],
     author="Pablo Alarcón Moreno",
     author_email="pabloalarconmoreno@gmail.com",
