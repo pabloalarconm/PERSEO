@@ -1,0 +1,2 @@
+model,processURI,outputURI,attributeURI,valueAttributeIRI,valueOutput,datatype,startdate,enddate,pid,context_id,uniqid
+Onset_diagnosis,http://purl.obolibrary.org/obo/NCIT_C142470,http://purl.obolibrary.org/obo/NCIT_C103159,http://purl.obolibrary.org/obo/NCIT_C156420,http://purl.obolibrary.org/obo/NCIT_C93613,2018-08-01,xsd:date,2018-08-01,2018-08-01,500-0003,20230116164336037774,20230116164336034001

@@ -1,0 +1,65 @@
+@prefix ns1: <file:///home/pabloalarconm/Desktop/EJP/PERSEO/cde_implementation/data/triples/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sio: <https://sio.semanticscience.org/resource/> .
+@prefix this: <http://example.org/data/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:onset_symptoms.nt {
+    this:20230116164336037628_Context a obo:NCIT_C25616 ;
+        sio:SIO_000068 this:500-0002_Timeline ;
+        sio:SIO_000300 "20230116164336037628"^^xsd:string ;
+        sio:SIO_000680 this:20230116164336037628_Startdate ;
+        sio:SIO_000681 this:20230116164336037628_Enddate .
+
+    this:20230116164336037628_Enddate a sio:SIO_000032 ;
+        rdfs:label "Onset_symptoms enddate: 2016-01-01"^^xsd:string ;
+        sio:SIO_000300 "2016-01-01"^^xsd:date .
+
+    this:20230116164336037628_Startdate a sio:SIO_000031 ;
+        rdfs:label "Onset_symptoms startdate: 2016-01-01"^^xsd:string ;
+        sio:SIO_000300 "2016-01-01"^^xsd:date .
+
+    this:500-0002_Identifier a sio:SIO_000115 ;
+        sio:SIO_000300 "500-0002"^^xsd:string .
+
+    this:500-0002_Person a sio:SIO_000498 ;
+        sio:SIO_000671 this:500-0002_Identifier .
+
+    this:500-0002_Timeline a obo:NCIT_C54576,
+            sio:SIO_000417 ;
+        sio:SIO_000332 this:500-0002_Person .
+}
+
+this:20230116164336037628_Context {
+    this:500-0002_Entity a sio:SIO_000498 ;
+        rdfs:label "Person"^^xsd:string ;
+        sio:SIO_000008 this:500-0002_20230116164336033854_Attribute ;
+        sio:SIO_000228 this:500-0002_20230116164336033854_Role .
+
+    this:500-0002_ID a sio:SIO_000115 ;
+        rdfs:label "Identifier"^^xsd:string ;
+        sio:SIO_000020 this:500-0002_20230116164336033854_Role ;
+        sio:SIO_000300 "500-0002"^^xsd:string .
+
+    this:500-0002_20230116164336033854_Output a obo:NCIT_C103159,
+            sio:SIO_000015 ;
+        rdfs:label "Onset_symptoms measurement output"^^xsd:string ;
+        sio:SIO_000628 this:500-0002_20230116164336033854_Attribute .
+
+    this:500-0002_20230116164336033854_Process a obo:NCIT_C142470,
+            sio:SIO_000006 ;
+        rdfs:label "Onset_symptoms measurement process"^^xsd:string ;
+        sio:SIO_000229 this:500-0002_20230116164336033854_Output .
+
+    this:500-0002_20230116164336033854_Attribute a obo:NCIT_C124353,
+            obo:NCIT_C93613,
+            sio:SIO_000614 ;
+        rdfs:label "Onset_symptoms attribute"^^xsd:string .
+
+    this:500-0002_20230116164336033854_Role a obo:OBI_0000093,
+            sio:SIO_000016 ;
+        rdfs:label "Patient role"^^xsd:string ;
+        sio:SIO_000356 this:500-0002_20230116164336033854_Process .
+}
+

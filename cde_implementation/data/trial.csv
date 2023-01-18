@@ -1,0 +1,34 @@
+value,datatype,datatype2,pid,context_id,uniqid
+2010-10-05,http://www.w3.org/2001/XMLSchema#date,xsd:date,500-0001,2.02301161705555E+019,2.02301161705555E+019
+Male,http://www.w3.org/2001/XMLSchema#string,xsd:string,500-0001,2.02301161705555E+019,2.02301161705555E+019
+Alive,http://www.w3.org/2001/XMLSchema#string,xsd:string,500-0001,2.02301161705555E+019,2.02301161705555E+019
+2020-01-13,http://www.w3.org/2001/XMLSchema#date,xsd:date,500-0001,2.02301161705555E+019,2.02301161705555E+019
+Pediatric systemic lupus erythematosus,http://www.w3.org/2001/XMLSchema#string,xsd:string,500-0001,2.02301161705555E+019,2.02301161705555E+019
+2011-01-01,http://www.w3.org/2001/XMLSchema#date,xsd:date,500-0001,2.02301161705555E+019,2.02301161705555E+019
+2010-12-10,http://www.w3.org/2001/XMLSchema#date,xsd:date,500-0001,2.02301161705555E+019,2.02301161705555E+019
+NM_001282225.2(ADA2):c.973-2A>G,http://www.w3.org/2001/XMLSchema#string,xsd:string,500-0001,2.02301161705555E+019,2.02301161705555E+019
+HGNC:1839,http://www.w3.org/2001/XMLSchema#string,xsd:string,500-0001,2.02301161705555E+019,2.02301161705555E+019
+607575,http://www.w3.org/2001/XMLSchema#string,xsd:string,500-0001,2.02301161705555E+019,2.02301161705555E+019
+Vasculitis,http://www.w3.org/2001/XMLSchema#date,xsd:date,500-0001,2.02301161705555E+019,2.02301161705555E+019
+Consent to data being shared for clinical care,http://www.w3.org/2001/XMLSchema#string,xsd:string,500-0001,2.02301161705555E+019,2.02301161705555E+019
+Consent to being contacted about research projects,http://www.w3.org/2001/XMLSchema#string,xsd:string,500-0001,2.02301161705555E+019,2.02301161705555E+019
+http://hdl.handle.net/21.12110/1.0102-edc4-f36a,http://www.w3.org/2001/XMLSchema#string,xsd:string,500-0001,2.02301161705555E+019,2.02301161705555E+019
+2010-01-05,http://www.w3.org/2001/XMLSchema#date,xsd:date,500-0002,2.02301161705555E+019,2.02301161705555E+019
+Male,http://www.w3.org/2001/XMLSchema#string,xsd:string,500-0002,2.02301161705555E+019,2.02301161705555E+019
+Alive,http://www.w3.org/2001/XMLSchema#string,xsd:string,500-0002,2.02301161705555E+019,2.02301161705555E+019
+2016-01-01,http://www.w3.org/2001/XMLSchema#date,xsd:date,500-0002,2.02301161705555E+019,2.02301161705555E+019
+2015-01-10,http://www.w3.org/2001/XMLSchema#date,xsd:date,500-0002,2.02301161705555E+019,2.02301161705555E+019
+NM_001282225.2(ADA2):c.973-2A>G,http://www.w3.org/2001/XMLSchema#string,xsd:string,500-0002,2.02301161705555E+019,2.02301161705555E+019
+HGNC:1839,http://www.w3.org/2001/XMLSchema#string,xsd:string,500-0002,2.02301161705555E+019,2.02301161705555E+019
+607575,http://www.w3.org/2001/XMLSchema#string,xsd:string,500-0002,2.02301161705555E+019,2.02301161705555E+019
+Vasculitis,http://www.w3.org/2001/XMLSchema#date,xsd:date,500-0002,2.02301161705555E+019,2.02301161705555E+019
+Consent to data being shared for clinical care,http://www.w3.org/2001/XMLSchema#string,xsd:string,500-0002,2.02301161705555E+019,2.02301161705555E+019
+Consent to being contacted about research projects,http://www.w3.org/2001/XMLSchema#string,xsd:string,500-0002,2.02301161705555E+019,2.02301161705555E+019
+12,http://www.w3.org/2001/XMLSchema#float,xsd:float,500-0002,2.02301161705555E+019,2.02301161705555E+019
+http://hdl.handle.net/21.12110/1.0102-edc4-f36a,http://www.w3.org/2001/XMLSchema#string,xsd:string,500-0002,2.02301161705555E+019,2.02301161705555E+019
+2009-09-05,http://www.w3.org/2001/XMLSchema#date,xsd:date,500-0003,2.02301161705555E+019,2.02301161705555E+019
+Female,http://www.w3.org/2001/XMLSchema#string,xsd:string,500-0003,2.02301161705555E+019,2.02301161705555E+019
+Alive,http://www.w3.org/2001/XMLSchema#string,xsd:string,500-0003,2.02301161705555E+019,2.02301161705555E+019
+2018-06-01,http://www.w3.org/2001/XMLSchema#date,xsd:date,500-0003,2.02301161705555E+019,2.02301161705555E+019
+Cystinuria,http://www.w3.org/2001/XMLSchema#string,xsd:string,500-0003,2.02301161705555E+019,2.02301161705555E+019
+2018-08-01,http://www.w3.org/2001/XMLSchema#date,xsd:date,500-0003,2.02301161705555E+019,2.02301161705555E+019

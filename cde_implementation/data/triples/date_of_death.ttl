@@ -1,0 +1,64 @@
+@prefix ns1: <file:///home/pabloalarconm/Desktop/EJP/PERSEO/cde_implementation/data/triples/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sio: <https://sio.semanticscience.org/resource/> .
+@prefix this: <http://example.org/data/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+this:20230116170555511590_Context {
+    this:500-0005_Entity a sio:SIO_000498 ;
+        rdfs:label "Person"^^xsd:string ;
+        sio:SIO_000008 this:500-0005_20230116170555508864_Attribute ;
+        sio:SIO_000228 this:500-0005_20230116170555508864_Role .
+
+    this:500-0005_ID a sio:SIO_000115 ;
+        rdfs:label "Identifier"^^xsd:string ;
+        sio:SIO_000020 this:500-0005_20230116170555508864_Role ;
+        sio:SIO_000300 "500-0005"^^xsd:string .
+
+    this:500-0005_20230116170555508864_Output a obo:NCIT_C103159,
+            sio:SIO_000015 ;
+        rdfs:label "Date_of_death measurement output"^^xsd:string ;
+        sio:SIO_000628 this:500-0005_20230116170555508864_Attribute .
+
+    this:500-0005_20230116170555508864_Process a obo:NCIT_C142470,
+            sio:SIO_000006 ;
+        rdfs:label "Date_of_death measurement process"^^xsd:string ;
+        sio:SIO_000229 this:500-0005_20230116170555508864_Output .
+
+    this:500-0005_20230116170555508864_Attribute a obo:NCIT_C70810,
+            sio:SIO_000614 ;
+        rdfs:label "Date_of_death attribute"^^xsd:string .
+
+    this:500-0005_20230116170555508864_Role a obo:OBI_0000093,
+            sio:SIO_000016 ;
+        rdfs:label "Patient role"^^xsd:string ;
+        sio:SIO_000356 this:500-0005_20230116170555508864_Process .
+}
+
+ns1:date_of_death.nt {
+    this:20230116170555511590_Context a obo:NCIT_C25616 ;
+        sio:SIO_000068 this:500-0005_Timeline ;
+        sio:SIO_000300 "20230116170555511590"^^xsd:string ;
+        sio:SIO_000680 this:20230116170555511590_Startdate ;
+        sio:SIO_000681 this:20230116170555511590_Enddate .
+
+    this:20230116170555511590_Enddate a sio:SIO_000032 ;
+        rdfs:label "Date_of_death enddate: 2022-01-01"^^xsd:string ;
+        sio:SIO_000300 "2022-01-01"^^xsd:date .
+
+    this:20230116170555511590_Startdate a sio:SIO_000031 ;
+        rdfs:label "Date_of_death startdate: 2022-01-01"^^xsd:string ;
+        sio:SIO_000300 "2022-01-01"^^xsd:date .
+
+    this:500-0005_Identifier a sio:SIO_000115 ;
+        sio:SIO_000300 "500-0005"^^xsd:string .
+
+    this:500-0005_Person a sio:SIO_000498 ;
+        sio:SIO_000671 this:500-0005_Identifier .
+
+    this:500-0005_Timeline a obo:NCIT_C54576,
+            sio:SIO_000417 ;
+        sio:SIO_000332 this:500-0005_Person .
+}
+

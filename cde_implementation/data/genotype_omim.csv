@@ -1,0 +1,2 @@
+model,processURI,outputURI,attributeURI,valueAttributeIRI,valueOutput,datatype,startdate,enddate,pid,context_id,uniqid
+Genotype_OMIM,http://purl.obolibrary.org/obo/NCIT_C15709,http://purl.obolibrary.org/obo/NCIT_C16612,http://edamontology.org/data_1153,https://www.omim.org/entry/607575,607575.0,xsd:string,2020-01-13,2020-01-13,500-0001,20230116164336037537,20230116164336033745

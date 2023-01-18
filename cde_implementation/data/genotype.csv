@@ -1,2 +1,0 @@
-model,processURI,outputURI,attributeURI,valueAttributeIRI,value,datatype,startdate,enddate,pid,chronoid,uniqid,context_id
-Genotype,http://purl.obolibrary.org/obo/NCIT_C15709,http://purl.obolibrary.org/obo/NCIT_C17248,http://edamontology.org/data_1153,https://www.omim.org/entry/607575,NM_001282225.2(ADA2):c.973-2A>G,xsd:string,,,500-0001,,20221117154928619256,20221117154928621397

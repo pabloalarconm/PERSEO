@@ -1,5 +1,4 @@
 @prefix ns1: <file:///home/pabloalarconm/Desktop/EJP/PERSEO/cde_implementation/data/triples/> .
-@prefix ns2: <urn:x-rdflib:> .
 @prefix obo: <http://purl.obolibrary.org/obo/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sio: <https://sio.semanticscience.org/resource/> .

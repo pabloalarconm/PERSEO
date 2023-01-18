@@ -1,5 +1,3 @@
-@prefix ns1: <file:///home/pabloalarconm/Desktop/EJP/PERSEO/cde_implementation/data/triples/> .
-@prefix ns2: <urn:x-rdflib:> .
 @prefix obo: <http://purl.obolibrary.org/obo/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sio: <https://sio.semanticscience.org/resource/> .
@@ -38,29 +36,29 @@ this:20221117154928621366_Context {
         sio:SIO_000356 this:500-0001_20221117154928619224_Process .
 }
 
-ns1:care_pathway.nt {
-    this:20221117154928621366_Context a obo:NCIT_C25616 ;
-        sio:SIO_000068 this:500-0001_Timeline ;
-        sio:SIO_000300 "20221117154928621366"^^xsd:string ;
-        sio:SIO_000680 this:20221117154928621366_Startdate ;
-        sio:SIO_000681 this:20221117154928621366_Enddate .
 
-    this:20221117154928621366_Enddate a sio:SIO_000032 ;
-        rdfs:label "Care_pathway enddate: 2020-01-13"^^xsd:string ;
-        sio:SIO_000300 "2020-01-13"^^xsd:date .
+this:20221117154928621366_Context a obo:NCIT_C25616 ;
+    sio:SIO_000068 this:500-0001_Timeline ;
+    sio:SIO_000300 "20221117154928621366"^^xsd:string ;
+    sio:SIO_000680 this:20221117154928621366_Startdate ;
+    sio:SIO_000681 this:20221117154928621366_Enddate .
 
-    this:20221117154928621366_Startdate a sio:SIO_000031 ;
-        rdfs:label "Care_pathway startdate: 2020-01-13"^^xsd:string ;
-        sio:SIO_000300 "2020-01-13"^^xsd:date .
+this:20221117154928621366_Enddate a sio:SIO_000032 ;
+    rdfs:label "Care_pathway enddate: 2020-01-13"^^xsd:string ;
+    sio:SIO_000300 "2020-01-13"^^xsd:date .
 
-    this:500-0001_Identifier a sio:SIO_000115 ;
-        sio:SIO_000300 "500-0001"^^xsd:string .
+this:20221117154928621366_Startdate a sio:SIO_000031 ;
+    rdfs:label "Care_pathway startdate: 2020-01-13"^^xsd:string ;
+    sio:SIO_000300 "2020-01-13"^^xsd:date .
 
-    this:500-0001_Person a sio:SIO_000498 ;
-        sio:SIO_000671 this:500-0001_Identifier .
+this:500-0001_Identifier a sio:SIO_000115 ;
+    sio:SIO_000300 "500-0001"^^xsd:string .
 
-    this:500-0001_Timeline a obo:NCIT_C54576,
-            sio:SIO_000417 ;
-        sio:SIO_000332 this:500-0001_Person .
-}
+this:500-0001_Person a sio:SIO_000498 ;
+    sio:SIO_000671 this:500-0001_Identifier .
+
+this:500-0001_Timeline a obo:NCIT_C54576,
+        sio:SIO_000417 ;
+    sio:SIO_000332 this:500-0001_Person .
+
 

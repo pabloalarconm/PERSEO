@@ -1,0 +1,3901 @@
+@prefix ns1: <http://example.org/data/2.02301161705555E%> .
+@prefix ns2: <file:///home/pabloalarconm/Desktop/EJP/PERSEO/cde_implementation/data/triples/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sio: <https://sio.semanticscience.org/resource/> .
+@prefix this: <http://example.org/data/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:2B019_Context {
+    this:500-0001_Entity a sio:SIO_000498 ;
+        rdfs:label "Person"^^xsd:string ;
+        sio:SIO_000008 <http://example.org/data/500-0001_2.02301161705555E%2B019_Attribute> ;
+        sio:SIO_000228 <http://example.org/data/500-0001_2.02301161705555E%2B019_Role> .
+
+    this:500-0001_ID a sio:SIO_000115 ;
+        rdfs:label "Identifier"^^xsd:string ;
+        sio:SIO_000020 <http://example.org/data/500-0001_2.02301161705555E%2B019_Role> ;
+        sio:SIO_000300 "500-0001"^^xsd:string .
+
+    this:500-0002_Entity a sio:SIO_000498 ;
+        rdfs:label "Person"^^xsd:string ;
+        sio:SIO_000008 <http://example.org/data/500-0002_2.02301161705555E%2B019_Attribute> ;
+        sio:SIO_000228 <http://example.org/data/500-0002_2.02301161705555E%2B019_Role> .
+
+    this:500-0002_ID a sio:SIO_000115 ;
+        rdfs:label "Identifier"^^xsd:string ;
+        sio:SIO_000020 <http://example.org/data/500-0002_2.02301161705555E%2B019_Role> ;
+        sio:SIO_000300 "500-0002"^^xsd:string .
+
+    this:500-0003_Entity a sio:SIO_000498 ;
+        rdfs:label "Person"^^xsd:string ;
+        sio:SIO_000008 <http://example.org/data/500-0003_2.02301161705555E%2B019_Attribute> ;
+        sio:SIO_000228 <http://example.org/data/500-0003_2.02301161705555E%2B019_Role> .
+
+    this:500-0003_ID a sio:SIO_000115 ;
+        rdfs:label "Identifier"^^xsd:string ;
+        sio:SIO_000020 <http://example.org/data/500-0003_2.02301161705555E%2B019_Role> ;
+        sio:SIO_000300 "500-0003"^^xsd:string .
+
+    this:500-0004_Entity a sio:SIO_000498 ;
+        rdfs:label "Person"^^xsd:string ;
+        sio:SIO_000008 <http://example.org/data/500-0004_2.02301161705555E%2B019_Attribute> ;
+        sio:SIO_000228 <http://example.org/data/500-0004_2.02301161705555E%2B019_Role> .
+
+    this:500-0004_ID a sio:SIO_000115 ;
+        rdfs:label "Identifier"^^xsd:string ;
+        sio:SIO_000020 <http://example.org/data/500-0004_2.02301161705555E%2B019_Role> ;
+        sio:SIO_000300 "500-0004"^^xsd:string .
+
+    this:500-0005_Entity a sio:SIO_000498 ;
+        rdfs:label "Person"^^xsd:string ;
+        sio:SIO_000008 <http://example.org/data/500-0005_2.02301161705555E%2B019_Attribute> ;
+        sio:SIO_000228 <http://example.org/data/500-0005_2.02301161705555E%2B019_Role> .
+
+    this:500-0005_ID a sio:SIO_000115 ;
+        rdfs:label "Identifier"^^xsd:string ;
+        sio:SIO_000020 <http://example.org/data/500-0005_2.02301161705555E%2B019_Role> ;
+        sio:SIO_000300 "500-0005"^^xsd:string .
+
+    this:500-0006_Entity a sio:SIO_000498 ;
+        rdfs:label "Person"^^xsd:string ;
+        sio:SIO_000008 <http://example.org/data/500-0006_2.02301161705555E%2B019_Attribute> ;
+        sio:SIO_000228 <http://example.org/data/500-0006_2.02301161705555E%2B019_Role> .
+
+    this:500-0006_ID a sio:SIO_000115 ;
+        rdfs:label "Identifier"^^xsd:string ;
+        sio:SIO_000020 <http://example.org/data/500-0006_2.02301161705555E%2B019_Role> ;
+        sio:SIO_000300 "500-0006"^^xsd:string .
+
+    this:500-0007_Entity a sio:SIO_000498 ;
+        rdfs:label "Person"^^xsd:string ;
+        sio:SIO_000008 <http://example.org/data/500-0007_2.02301161705555E%2B019_Attribute> ;
+        sio:SIO_000228 <http://example.org/data/500-0007_2.02301161705555E%2B019_Role> .
+
+    this:500-0007_ID a sio:SIO_000115 ;
+        rdfs:label "Identifier"^^xsd:string ;
+        sio:SIO_000020 <http://example.org/data/500-0007_2.02301161705555E%2B019_Role> ;
+        sio:SIO_000300 "500-0007"^^xsd:string .
+
+    this:500-0008_Entity a sio:SIO_000498 ;
+        rdfs:label "Person"^^xsd:string ;
+        sio:SIO_000008 <http://example.org/data/500-0008_2.02301161705555E%2B019_Attribute> ;
+        sio:SIO_000228 <http://example.org/data/500-0008_2.02301161705555E%2B019_Role> .
+
+    this:500-0008_ID a sio:SIO_000115 ;
+        rdfs:label "Identifier"^^xsd:string ;
+        sio:SIO_000020 <http://example.org/data/500-0008_2.02301161705555E%2B019_Role> ;
+        sio:SIO_000300 "500-0008"^^xsd:string .
+
+    this:500-0009_Entity a sio:SIO_000498 ;
+        rdfs:label "Person"^^xsd:string ;
+        sio:SIO_000008 <http://example.org/data/500-0009_2.02301161705555E%2B019_Attribute> ;
+        sio:SIO_000228 <http://example.org/data/500-0009_2.02301161705555E%2B019_Role> .
+
+    this:500-0009_ID a sio:SIO_000115 ;
+        rdfs:label "Identifier"^^xsd:string ;
+        sio:SIO_000020 <http://example.org/data/500-0009_2.02301161705555E%2B019_Role> ;
+        sio:SIO_000300 "500-0009"^^xsd:string .
+
+    this:500-0010_Entity a sio:SIO_000498 ;
+        rdfs:label "Person"^^xsd:string ;
+        sio:SIO_000008 <http://example.org/data/500-0010_2.02301161705555E%2B019_Attribute> ;
+        sio:SIO_000228 <http://example.org/data/500-0010_2.02301161705555E%2B019_Role> .
+
+    this:500-0010_ID a sio:SIO_000115 ;
+        rdfs:label "Identifier"^^xsd:string ;
+        sio:SIO_000020 <http://example.org/data/500-0010_2.02301161705555E%2B019_Role> ;
+        sio:SIO_000300 "500-0010"^^xsd:string .
+
+    this:500-0011_Entity a sio:SIO_000498 ;
+        rdfs:label "Person"^^xsd:string ;
+        sio:SIO_000008 <http://example.org/data/500-0011_2.02301161705555E%2B019_Attribute> ;
+        sio:SIO_000228 <http://example.org/data/500-0011_2.02301161705555E%2B019_Role> .
+
+    this:500-0011_ID a sio:SIO_000115 ;
+        rdfs:label "Identifier"^^xsd:string ;
+        sio:SIO_000020 <http://example.org/data/500-0011_2.02301161705555E%2B019_Role> ;
+        sio:SIO_000300 "500-0011"^^xsd:string .
+
+    this:500-0012_Entity a sio:SIO_000498 ;
+        rdfs:label "Person"^^xsd:string ;
+        sio:SIO_000008 <http://example.org/data/500-0012_2.02301161705555E%2B019_Attribute> ;
+        sio:SIO_000228 <http://example.org/data/500-0012_2.02301161705555E%2B019_Role> .
+
+    this:500-0012_ID a sio:SIO_000115 ;
+        rdfs:label "Identifier"^^xsd:string ;
+        sio:SIO_000020 <http://example.org/data/500-0012_2.02301161705555E%2B019_Role> ;
+        sio:SIO_000300 "500-0012"^^xsd:string .
+
+    this:500-0013_Entity a sio:SIO_000498 ;
+        rdfs:label "Person"^^xsd:string ;
+        sio:SIO_000008 <http://example.org/data/500-0013_2.02301161705555E%2B019_Attribute> ;
+        sio:SIO_000228 <http://example.org/data/500-0013_2.02301161705555E%2B019_Role> .
+
+    this:500-0013_ID a sio:SIO_000115 ;
+        rdfs:label "Identifier"^^xsd:string ;
+        sio:SIO_000020 <http://example.org/data/500-0013_2.02301161705555E%2B019_Role> ;
+        sio:SIO_000300 "500-0013"^^xsd:string .
+
+    this:500-0014_Entity a sio:SIO_000498 ;
+        rdfs:label "Person"^^xsd:string ;
+        sio:SIO_000008 <http://example.org/data/500-0014_2.02301161705555E%2B019_Attribute> ;
+        sio:SIO_000228 <http://example.org/data/500-0014_2.02301161705555E%2B019_Role> .
+
+    this:500-0014_ID a sio:SIO_000115 ;
+        rdfs:label "Identifier"^^xsd:string ;
+        sio:SIO_000020 <http://example.org/data/500-0014_2.02301161705555E%2B019_Role> ;
+        sio:SIO_000300 "500-0014"^^xsd:string .
+
+    this:500-0015_Entity a sio:SIO_000498 ;
+        rdfs:label "Person"^^xsd:string ;
+        sio:SIO_000008 <http://example.org/data/500-0015_2.02301161705555E%2B019_Attribute> ;
+        sio:SIO_000228 <http://example.org/data/500-0015_2.02301161705555E%2B019_Role> .
+
+    this:500-0015_ID a sio:SIO_000115 ;
+        rdfs:label "Identifier"^^xsd:string ;
+        sio:SIO_000020 <http://example.org/data/500-0015_2.02301161705555E%2B019_Role> ;
+        sio:SIO_000300 "500-0015"^^xsd:string .
+
+    this:500-0016_Entity a sio:SIO_000498 ;
+        rdfs:label "Person"^^xsd:string ;
+        sio:SIO_000008 <http://example.org/data/500-0016_2.02301161705555E%2B019_Attribute> ;
+        sio:SIO_000228 <http://example.org/data/500-0016_2.02301161705555E%2B019_Role> .
+
+    this:500-0016_ID a sio:SIO_000115 ;
+        rdfs:label "Identifier"^^xsd:string ;
+        sio:SIO_000020 <http://example.org/data/500-0016_2.02301161705555E%2B019_Role> ;
+        sio:SIO_000300 "500-0016"^^xsd:string .
+
+    this:500-0017_Entity a sio:SIO_000498 ;
+        rdfs:label "Person"^^xsd:string ;
+        sio:SIO_000008 <http://example.org/data/500-0017_2.02301161705555E%2B019_Attribute> ;
+        sio:SIO_000228 <http://example.org/data/500-0017_2.02301161705555E%2B019_Role> .
+
+    this:500-0017_ID a sio:SIO_000115 ;
+        rdfs:label "Identifier"^^xsd:string ;
+        sio:SIO_000020 <http://example.org/data/500-0017_2.02301161705555E%2B019_Role> ;
+        sio:SIO_000300 "500-0017"^^xsd:string .
+
+    this:500-0018_Entity a sio:SIO_000498 ;
+        rdfs:label "Person"^^xsd:string ;
+        sio:SIO_000008 <http://example.org/data/500-0018_2.02301161705555E%2B019_Attribute> ;
+        sio:SIO_000228 <http://example.org/data/500-0018_2.02301161705555E%2B019_Role> .
+
+    this:500-0018_ID a sio:SIO_000115 ;
+        rdfs:label "Identifier"^^xsd:string ;
+        sio:SIO_000020 <http://example.org/data/500-0018_2.02301161705555E%2B019_Role> ;
+        sio:SIO_000300 "500-0018"^^xsd:string .
+
+    this:500-0019_Entity a sio:SIO_000498 ;
+        rdfs:label "Person"^^xsd:string ;
+        sio:SIO_000008 <http://example.org/data/500-0019_2.02301161705555E%2B019_Attribute> ;
+        sio:SIO_000228 <http://example.org/data/500-0019_2.02301161705555E%2B019_Role> .
+
+    this:500-0019_ID a sio:SIO_000115 ;
+        rdfs:label "Identifier"^^xsd:string ;
+        sio:SIO_000020 <http://example.org/data/500-0019_2.02301161705555E%2B019_Role> ;
+        sio:SIO_000300 "500-0019"^^xsd:string .
+
+    this:500-0020_Entity a sio:SIO_000498 ;
+        rdfs:label "Person"^^xsd:string ;
+        sio:SIO_000008 <http://example.org/data/500-0020_2.02301161705555E%2B019_Attribute> ;
+        sio:SIO_000228 <http://example.org/data/500-0020_2.02301161705555E%2B019_Role> .
+
+    this:500-0020_ID a sio:SIO_000115 ;
+        rdfs:label "Identifier"^^xsd:string ;
+        sio:SIO_000020 <http://example.org/data/500-0020_2.02301161705555E%2B019_Role> ;
+        sio:SIO_000300 "500-0020"^^xsd:string .
+
+    this:500-0021_Entity a sio:SIO_000498 ;
+        rdfs:label "Person"^^xsd:string ;
+        sio:SIO_000008 <http://example.org/data/500-0021_2.02301161705555E%2B019_Attribute> ;
+        sio:SIO_000228 <http://example.org/data/500-0021_2.02301161705555E%2B019_Role> .
+
+    this:500-0021_ID a sio:SIO_000115 ;
+        rdfs:label "Identifier"^^xsd:string ;
+        sio:SIO_000020 <http://example.org/data/500-0021_2.02301161705555E%2B019_Role> ;
+        sio:SIO_000300 "500-0021"^^xsd:string .
+
+    this:500-0022_Entity a sio:SIO_000498 ;
+        rdfs:label "Person"^^xsd:string ;
+        sio:SIO_000008 <http://example.org/data/500-0022_2.02301161705555E%2B019_Attribute> ;
+        sio:SIO_000228 <http://example.org/data/500-0022_2.02301161705555E%2B019_Role> .
+
+    this:500-0022_ID a sio:SIO_000115 ;
+        rdfs:label "Identifier"^^xsd:string ;
+        sio:SIO_000020 <http://example.org/data/500-0022_2.02301161705555E%2B019_Role> ;
+        sio:SIO_000300 "500-0022"^^xsd:string .
+
+    this:500-0023_Entity a sio:SIO_000498 ;
+        rdfs:label "Person"^^xsd:string ;
+        sio:SIO_000008 <http://example.org/data/500-0023_2.02301161705555E%2B019_Attribute> ;
+        sio:SIO_000228 <http://example.org/data/500-0023_2.02301161705555E%2B019_Role> .
+
+    this:500-0023_ID a sio:SIO_000115 ;
+        rdfs:label "Identifier"^^xsd:string ;
+        sio:SIO_000020 <http://example.org/data/500-0023_2.02301161705555E%2B019_Role> ;
+        sio:SIO_000300 "500-0023"^^xsd:string .
+
+    this:500-0024_Entity a sio:SIO_000498 ;
+        rdfs:label "Person"^^xsd:string ;
+        sio:SIO_000008 <http://example.org/data/500-0024_2.02301161705555E%2B019_Attribute> ;
+        sio:SIO_000228 <http://example.org/data/500-0024_2.02301161705555E%2B019_Role> .
+
+    this:500-0024_ID a sio:SIO_000115 ;
+        rdfs:label "Identifier"^^xsd:string ;
+        sio:SIO_000020 <http://example.org/data/500-0024_2.02301161705555E%2B019_Role> ;
+        sio:SIO_000300 "500-0024"^^xsd:string .
+
+    this:500-0025_Entity a sio:SIO_000498 ;
+        rdfs:label "Person"^^xsd:string ;
+        sio:SIO_000008 <http://example.org/data/500-0025_2.02301161705555E%2B019_Attribute> ;
+        sio:SIO_000228 <http://example.org/data/500-0025_2.02301161705555E%2B019_Role> .
+
+    this:500-0025_ID a sio:SIO_000115 ;
+        rdfs:label "Identifier"^^xsd:string ;
+        sio:SIO_000020 <http://example.org/data/500-0025_2.02301161705555E%2B019_Role> ;
+        sio:SIO_000300 "500-0025"^^xsd:string .
+
+    this:500-0026_Entity a sio:SIO_000498 ;
+        rdfs:label "Person"^^xsd:string ;
+        sio:SIO_000008 <http://example.org/data/500-0026_2.02301161705555E%2B019_Attribute> ;
+        sio:SIO_000228 <http://example.org/data/500-0026_2.02301161705555E%2B019_Role> .
+
+    this:500-0026_ID a sio:SIO_000115 ;
+        rdfs:label "Identifier"^^xsd:string ;
+        sio:SIO_000020 <http://example.org/data/500-0026_2.02301161705555E%2B019_Role> ;
+        sio:SIO_000300 "500-0026"^^xsd:string .
+
+    this:500-0027_Entity a sio:SIO_000498 ;
+        rdfs:label "Person"^^xsd:string ;
+        sio:SIO_000008 <http://example.org/data/500-0027_2.02301161705555E%2B019_Attribute> ;
+        sio:SIO_000228 <http://example.org/data/500-0027_2.02301161705555E%2B019_Role> .
+
+    this:500-0027_ID a sio:SIO_000115 ;
+        rdfs:label "Identifier"^^xsd:string ;
+        sio:SIO_000020 <http://example.org/data/500-0027_2.02301161705555E%2B019_Role> ;
+        sio:SIO_000300 "500-0027"^^xsd:string .
+
+    this:500-0028_Entity a sio:SIO_000498 ;
+        rdfs:label "Person"^^xsd:string ;
+        sio:SIO_000008 <http://example.org/data/500-0028_2.02301161705555E%2B019_Attribute> ;
+        sio:SIO_000228 <http://example.org/data/500-0028_2.02301161705555E%2B019_Role> .
+
+    this:500-0028_ID a sio:SIO_000115 ;
+        rdfs:label "Identifier"^^xsd:string ;
+        sio:SIO_000020 <http://example.org/data/500-0028_2.02301161705555E%2B019_Role> ;
+        sio:SIO_000300 "500-0028"^^xsd:string .
+
+    this:500-0029_Entity a sio:SIO_000498 ;
+        rdfs:label "Person"^^xsd:string ;
+        sio:SIO_000008 <http://example.org/data/500-0029_2.02301161705555E%2B019_Attribute> ;
+        sio:SIO_000228 <http://example.org/data/500-0029_2.02301161705555E%2B019_Role> .
+
+    this:500-0029_ID a sio:SIO_000115 ;
+        rdfs:label "Identifier"^^xsd:string ;
+        sio:SIO_000020 <http://example.org/data/500-0029_2.02301161705555E%2B019_Role> ;
+        sio:SIO_000300 "500-0029"^^xsd:string .
+
+    this:500-0030_Entity a sio:SIO_000498 ;
+        rdfs:label "Person"^^xsd:string ;
+        sio:SIO_000008 <http://example.org/data/500-0030_2.02301161705555E%2B019_Attribute> ;
+        sio:SIO_000228 <http://example.org/data/500-0030_2.02301161705555E%2B019_Role> .
+
+    this:500-0030_ID a sio:SIO_000115 ;
+        rdfs:label "Identifier"^^xsd:string ;
+        sio:SIO_000020 <http://example.org/data/500-0030_2.02301161705555E%2B019_Role> ;
+        sio:SIO_000300 "500-0030"^^xsd:string .
+
+    this:500-0031_Entity a sio:SIO_000498 ;
+        rdfs:label "Person"^^xsd:string ;
+        sio:SIO_000008 <http://example.org/data/500-0031_2.02301161705555E%2B019_Attribute> ;
+        sio:SIO_000228 <http://example.org/data/500-0031_2.02301161705555E%2B019_Role> .
+
+    this:500-0031_ID a sio:SIO_000115 ;
+        rdfs:label "Identifier"^^xsd:string ;
+        sio:SIO_000020 <http://example.org/data/500-0031_2.02301161705555E%2B019_Role> ;
+        sio:SIO_000300 "500-0031"^^xsd:string .
+
+    <http://example.org/data/500-0001_2.02301161705555E%2B019_Output> a obo:DUO_0000001,
+            obo:NCIT_C103159,
+            obo:NCIT_C115570,
+            obo:NCIT_C125204,
+            obo:NCIT_C16612,
+            obo:NCIT_C17248,
+            obo:NCIT_C25716,
+            obo:OBIB_0000488,
+            <http://www.ebi.ac.uk/efo/EFO_0006921>,
+            sio:SIO_000015 ;
+        rdfs:label "Biobank measurement output"^^xsd:string,
+            "Birthdate measurement output"^^xsd:string,
+            "Care_pathway measurement output"^^xsd:string,
+            "Consent measurement output"^^xsd:string,
+            "Diagnosis measurement output"^^xsd:string,
+            "Genotype_HGNC measurement output"^^xsd:string,
+            "Genotype_HGVS measurement output"^^xsd:string,
+            "Genotype_OMIM measurement output"^^xsd:string,
+            "Onset_diagnosis measurement output"^^xsd:string,
+            "Onset_symptoms measurement output"^^xsd:string,
+            "Phenotype measurement output"^^xsd:string,
+            "Sex measurement output"^^xsd:string,
+            "Status measurement output"^^xsd:string ;
+        sio:SIO_000300 "2010-10-05"^^<file:///data/$(datatype)>,
+            "2010-12-10"^^<file:///data/$(datatype)>,
+            "2011-01-01"^^<file:///data/$(datatype)>,
+            "2020-01-13"^^<file:///data/$(datatype)>,
+            "607575"^^<file:///data/$(datatype)>,
+            "Alive"^^<file:///data/$(datatype)>,
+            "Consent to being contacted about research projects"^^<file:///data/$(datatype)>,
+            "Consent to data being shared for clinical care"^^<file:///data/$(datatype)>,
+            "HGNC:1839"^^<file:///data/$(datatype)>,
+            "Male"^^<file:///data/$(datatype)>,
+            "NM_001282225.2(ADA2):c.973-2A>G"^^<file:///data/$(datatype)>,
+            "Pediatric systemic lupus erythematosus"^^<file:///data/$(datatype)>,
+            "Vasculitis"^^<file:///data/$(datatype)>,
+            "http://hdl.handle.net/21.12110/1.0102-edc4-f36a"^^<file:///data/$(datatype)> ;
+        sio:SIO_000628 <http://example.org/data/500-0001_2.02301161705555E%2B019_Attribute> .
+
+    <http://example.org/data/500-0001_2.02301161705555E%2B019_Process> a obo:NCIT_C142470,
+            obo:NCIT_C15220,
+            obo:NCIT_C15709,
+            obo:NCIT_C159705,
+            obo:NCIT_C25305,
+            obo:OBI_0000810,
+            obo:OMIABIS_0000061,
+            sio:SIO_000006 ;
+        rdfs:label "Biobank measurement process"^^xsd:string,
+            "Birthdate measurement process"^^xsd:string,
+            "Care_pathway measurement process"^^xsd:string,
+            "Consent measurement process"^^xsd:string,
+            "Diagnosis measurement process"^^xsd:string,
+            "Genotype_HGNC measurement process"^^xsd:string,
+            "Genotype_HGVS measurement process"^^xsd:string,
+            "Genotype_OMIM measurement process"^^xsd:string,
+            "Onset_diagnosis measurement process"^^xsd:string,
+            "Onset_symptoms measurement process"^^xsd:string,
+            "Phenotype measurement process"^^xsd:string,
+            "Sex measurement process"^^xsd:string,
+            "Status measurement process"^^xsd:string ;
+        sio:SIO_000229 <http://example.org/data/500-0001_2.02301161705555E%2B019_Output> .
+
+    <http://example.org/data/500-0002_2.02301161705555E%2B019_Output> a obo:DUO_0000001,
+            obo:NCIT_C103159,
+            obo:NCIT_C115570,
+            obo:NCIT_C125204,
+            obo:NCIT_C16612,
+            obo:NCIT_C17248,
+            obo:NCIT_C25338,
+            obo:NCIT_C25716,
+            obo:OBIB_0000488,
+            <http://www.ebi.ac.uk/efo/EFO_0006921>,
+            sio:SIO_000015 ;
+        rdfs:label "Biobank measurement output"^^xsd:string,
+            "Birthdate measurement output"^^xsd:string,
+            "Care_pathway measurement output"^^xsd:string,
+            "Consent measurement output"^^xsd:string,
+            "Disability measurement output"^^xsd:string,
+            "Genotype_HGNC measurement output"^^xsd:string,
+            "Genotype_HGVS measurement output"^^xsd:string,
+            "Genotype_OMIM measurement output"^^xsd:string,
+            "Onset_symptoms measurement output"^^xsd:string,
+            "Phenotype measurement output"^^xsd:string,
+            "Sex measurement output"^^xsd:string,
+            "Status measurement output"^^xsd:string ;
+        sio:SIO_000300 "12"^^<file:///data/$(datatype)>,
+            "2010-01-05"^^<file:///data/$(datatype)>,
+            "2015-01-10"^^<file:///data/$(datatype)>,
+            "2016-01-01"^^<file:///data/$(datatype)>,
+            "607575"^^<file:///data/$(datatype)>,
+            "Alive"^^<file:///data/$(datatype)>,
+            "Consent to being contacted about research projects"^^<file:///data/$(datatype)>,
+            "Consent to data being shared for clinical care"^^<file:///data/$(datatype)>,
+            "HGNC:1839"^^<file:///data/$(datatype)>,
+            "Male"^^<file:///data/$(datatype)>,
+            "NM_001282225.2(ADA2):c.973-2A>G"^^<file:///data/$(datatype)>,
+            "Vasculitis"^^<file:///data/$(datatype)>,
+            "http://hdl.handle.net/21.12110/1.0102-edc4-f36a"^^<file:///data/$(datatype)> ;
+        sio:SIO_000628 <http://example.org/data/500-0002_2.02301161705555E%2B019_Attribute> .
+
+    <http://example.org/data/500-0002_2.02301161705555E%2B019_Process> a obo:NCIT_C107391,
+            obo:NCIT_C142470,
+            obo:NCIT_C15709,
+            obo:NCIT_C159705,
+            obo:NCIT_C25305,
+            obo:OBI_0000810,
+            obo:OMIABIS_0000061,
+            sio:SIO_000006 ;
+        rdfs:label "Biobank measurement process"^^xsd:string,
+            "Birthdate measurement process"^^xsd:string,
+            "Care_pathway measurement process"^^xsd:string,
+            "Consent measurement process"^^xsd:string,
+            "Disability measurement process"^^xsd:string,
+            "Genotype_HGNC measurement process"^^xsd:string,
+            "Genotype_HGVS measurement process"^^xsd:string,
+            "Genotype_OMIM measurement process"^^xsd:string,
+            "Onset_symptoms measurement process"^^xsd:string,
+            "Phenotype measurement process"^^xsd:string,
+            "Sex measurement process"^^xsd:string,
+            "Status measurement process"^^xsd:string ;
+        sio:SIO_000229 <http://example.org/data/500-0002_2.02301161705555E%2B019_Output> .
+
+    <http://example.org/data/500-0003_2.02301161705555E%2B019_Output> a obo:DUO_0000001,
+            obo:NCIT_C103159,
+            obo:NCIT_C115570,
+            obo:NCIT_C125204,
+            obo:NCIT_C16612,
+            obo:NCIT_C17248,
+            obo:NCIT_C25716,
+            obo:OBIB_0000488,
+            <http://www.ebi.ac.uk/efo/EFO_0006921>,
+            sio:SIO_000015 ;
+        rdfs:label "Biobank measurement output"^^xsd:string,
+            "Birthdate measurement output"^^xsd:string,
+            "Care_pathway measurement output"^^xsd:string,
+            "Consent measurement output"^^xsd:string,
+            "Diagnosis measurement output"^^xsd:string,
+            "Genotype_HGNC measurement output"^^xsd:string,
+            "Genotype_HGVS measurement output"^^xsd:string,
+            "Genotype_OMIM measurement output"^^xsd:string,
+            "Onset_diagnosis measurement output"^^xsd:string,
+            "Onset_symptoms measurement output"^^xsd:string,
+            "Phenotype measurement output"^^xsd:string,
+            "Sex measurement output"^^xsd:string,
+            "Status measurement output"^^xsd:string ;
+        sio:SIO_000300 "2009-09-05"^^<file:///data/$(datatype)>,
+            "2018-01-10"^^<file:///data/$(datatype)>,
+            "2018-06-01"^^<file:///data/$(datatype)>,
+            "2018-08-01"^^<file:///data/$(datatype)>,
+            "607575"^^<file:///data/$(datatype)>,
+            "Alive"^^<file:///data/$(datatype)>,
+            "Consent to being contacted about research projects"^^<file:///data/$(datatype)>,
+            "Consent to data being shared for clinical care"^^<file:///data/$(datatype)>,
+            "Cystinuria"^^<file:///data/$(datatype)>,
+            "Female"^^<file:///data/$(datatype)>,
+            "HGNC:1839"^^<file:///data/$(datatype)>,
+            "NM_001282225.2(ADA2):c.973-2A>G"^^<file:///data/$(datatype)>,
+            "Vasculitis"^^<file:///data/$(datatype)>,
+            "http://hdl.handle.net/21.12110/1.0102-edc4-f36a"^^<file:///data/$(datatype)> ;
+        sio:SIO_000628 <http://example.org/data/500-0003_2.02301161705555E%2B019_Attribute> .
+
+    <http://example.org/data/500-0003_2.02301161705555E%2B019_Process> a obo:NCIT_C142470,
+            obo:NCIT_C15220,
+            obo:NCIT_C15709,
+            obo:NCIT_C159705,
+            obo:NCIT_C25305,
+            obo:OBI_0000810,
+            obo:OMIABIS_0000061,
+            sio:SIO_000006 ;
+        rdfs:label "Biobank measurement process"^^xsd:string,
+            "Birthdate measurement process"^^xsd:string,
+            "Care_pathway measurement process"^^xsd:string,
+            "Consent measurement process"^^xsd:string,
+            "Diagnosis measurement process"^^xsd:string,
+            "Genotype_HGNC measurement process"^^xsd:string,
+            "Genotype_HGVS measurement process"^^xsd:string,
+            "Genotype_OMIM measurement process"^^xsd:string,
+            "Onset_diagnosis measurement process"^^xsd:string,
+            "Onset_symptoms measurement process"^^xsd:string,
+            "Phenotype measurement process"^^xsd:string,
+            "Sex measurement process"^^xsd:string,
+            "Status measurement process"^^xsd:string ;
+        sio:SIO_000229 <http://example.org/data/500-0003_2.02301161705555E%2B019_Output> .
+
+    <http://example.org/data/500-0004_2.02301161705555E%2B019_Output> a obo:DUO_0000001,
+            obo:NCIT_C103159,
+            obo:NCIT_C115570,
+            obo:NCIT_C125204,
+            obo:NCIT_C16612,
+            obo:NCIT_C17248,
+            obo:NCIT_C25716,
+            obo:OBIB_0000488,
+            <http://www.ebi.ac.uk/efo/EFO_0006921>,
+            sio:SIO_000015 ;
+        rdfs:label "Biobank measurement output"^^xsd:string,
+            "Birthdate measurement output"^^xsd:string,
+            "Care_pathway measurement output"^^xsd:string,
+            "Consent measurement output"^^xsd:string,
+            "Diagnosis measurement output"^^xsd:string,
+            "Genotype_HGNC measurement output"^^xsd:string,
+            "Genotype_HGVS measurement output"^^xsd:string,
+            "Genotype_OMIM measurement output"^^xsd:string,
+            "Onset_diagnosis measurement output"^^xsd:string,
+            "Onset_symptoms measurement output"^^xsd:string,
+            "Phenotype measurement output"^^xsd:string,
+            "Sex measurement output"^^xsd:string,
+            "Status measurement output"^^xsd:string ;
+        sio:SIO_000300 "2010-10-05"^^<file:///data/$(datatype)>,
+            "2010-12-10"^^<file:///data/$(datatype)>,
+            "2011-01-01"^^<file:///data/$(datatype)>,
+            "2020-01-13"^^<file:///data/$(datatype)>,
+            "607575"^^<file:///data/$(datatype)>,
+            "Alive"^^<file:///data/$(datatype)>,
+            "Autosomal dominant distal renal tubular acidosis"^^<file:///data/$(datatype)>,
+            "Consent to being contacted about research projects"^^<file:///data/$(datatype)>,
+            "Consent to data being shared for clinical care"^^<file:///data/$(datatype)>,
+            "HGNC:1839"^^<file:///data/$(datatype)>,
+            "Male"^^<file:///data/$(datatype)>,
+            "NM_001282225.2(ADA2):c.973-2A>G"^^<file:///data/$(datatype)>,
+            "Vasculitis"^^<file:///data/$(datatype)>,
+            "http://hdl.handle.net/21.12110/1.0102-edc4-f36a"^^<file:///data/$(datatype)> ;
+        sio:SIO_000628 <http://example.org/data/500-0004_2.02301161705555E%2B019_Attribute> .
+
+    <http://example.org/data/500-0004_2.02301161705555E%2B019_Process> a obo:NCIT_C142470,
+            obo:NCIT_C15220,
+            obo:NCIT_C15709,
+            obo:NCIT_C159705,
+            obo:NCIT_C25305,
+            obo:OBI_0000810,
+            obo:OMIABIS_0000061,
+            sio:SIO_000006 ;
+        rdfs:label "Biobank measurement process"^^xsd:string,
+            "Birthdate measurement process"^^xsd:string,
+            "Care_pathway measurement process"^^xsd:string,
+            "Consent measurement process"^^xsd:string,
+            "Diagnosis measurement process"^^xsd:string,
+            "Genotype_HGNC measurement process"^^xsd:string,
+            "Genotype_HGVS measurement process"^^xsd:string,
+            "Genotype_OMIM measurement process"^^xsd:string,
+            "Onset_diagnosis measurement process"^^xsd:string,
+            "Onset_symptoms measurement process"^^xsd:string,
+            "Phenotype measurement process"^^xsd:string,
+            "Sex measurement process"^^xsd:string,
+            "Status measurement process"^^xsd:string ;
+        sio:SIO_000229 <http://example.org/data/500-0004_2.02301161705555E%2B019_Output> .
+
+    <http://example.org/data/500-0005_2.02301161705555E%2B019_Output> a obo:DUO_0000001,
+            obo:NCIT_C103159,
+            obo:NCIT_C115570,
+            obo:NCIT_C125204,
+            obo:NCIT_C16612,
+            obo:NCIT_C17248,
+            obo:NCIT_C25716,
+            obo:OBIB_0000488,
+            <http://www.ebi.ac.uk/efo/EFO_0006921>,
+            sio:SIO_000015 ;
+        rdfs:label "Biobank measurement output"^^xsd:string,
+            "Birthdate measurement output"^^xsd:string,
+            "Care_pathway measurement output"^^xsd:string,
+            "Consent measurement output"^^xsd:string,
+            "Date_of_death measurement output"^^xsd:string,
+            "Diagnosis measurement output"^^xsd:string,
+            "Genotype_HGNC measurement output"^^xsd:string,
+            "Genotype_HGVS measurement output"^^xsd:string,
+            "Genotype_OMIM measurement output"^^xsd:string,
+            "Onset_diagnosis measurement output"^^xsd:string,
+            "Onset_symptoms measurement output"^^xsd:string,
+            "Phenotype measurement output"^^xsd:string,
+            "Sex measurement output"^^xsd:string,
+            "Status measurement output"^^xsd:string ;
+        sio:SIO_000300 "1950-09-05"^^<file:///data/$(datatype)>,
+            "1987-01-01"^^<file:///data/$(datatype)>,
+            "1987-02-01"^^<file:///data/$(datatype)>,
+            "2018-01-10"^^<file:///data/$(datatype)>,
+            "2022-01-01"^^<file:///data/$(datatype)>,
+            "607575"^^<file:///data/$(datatype)>,
+            "Autosomal dominant Alport syndrome"^^<file:///data/$(datatype)>,
+            "Consent to being contacted about research projects"^^<file:///data/$(datatype)>,
+            "Consent to data being shared for clinical care"^^<file:///data/$(datatype)>,
+            "Dead"^^<file:///data/$(datatype)>,
+            "Female"^^<file:///data/$(datatype)>,
+            "HGNC:1839"^^<file:///data/$(datatype)>,
+            "NM_001282225.2(ADA2):c.973-2A>G"^^<file:///data/$(datatype)>,
+            "Vasculitis"^^<file:///data/$(datatype)>,
+            "http://hdl.handle.net/21.12110/1.0102-edc4-f36a"^^<file:///data/$(datatype)> ;
+        sio:SIO_000628 <http://example.org/data/500-0005_2.02301161705555E%2B019_Attribute> .
+
+    <http://example.org/data/500-0005_2.02301161705555E%2B019_Process> a obo:NCIT_C142470,
+            obo:NCIT_C15220,
+            obo:NCIT_C15709,
+            obo:NCIT_C159705,
+            obo:NCIT_C25305,
+            obo:OBI_0000810,
+            obo:OMIABIS_0000061,
+            sio:SIO_000006 ;
+        rdfs:label "Biobank measurement process"^^xsd:string,
+            "Birthdate measurement process"^^xsd:string,
+            "Care_pathway measurement process"^^xsd:string,
+            "Consent measurement process"^^xsd:string,
+            "Date_of_death measurement process"^^xsd:string,
+            "Diagnosis measurement process"^^xsd:string,
+            "Genotype_HGNC measurement process"^^xsd:string,
+            "Genotype_HGVS measurement process"^^xsd:string,
+            "Genotype_OMIM measurement process"^^xsd:string,
+            "Onset_diagnosis measurement process"^^xsd:string,
+            "Onset_symptoms measurement process"^^xsd:string,
+            "Phenotype measurement process"^^xsd:string,
+            "Sex measurement process"^^xsd:string,
+            "Status measurement process"^^xsd:string ;
+        sio:SIO_000229 <http://example.org/data/500-0005_2.02301161705555E%2B019_Output> .
+
+    <http://example.org/data/500-0006_2.02301161705555E%2B019_Output> a obo:DUO_0000001,
+            obo:NCIT_C103159,
+            obo:NCIT_C115570,
+            obo:NCIT_C25338,
+            obo:NCIT_C25716,
+            obo:OBIB_0000488,
+            <http://www.ebi.ac.uk/efo/EFO_0006921>,
+            sio:SIO_000015 ;
+        rdfs:label "Biobank measurement output"^^xsd:string,
+            "Birthdate measurement output"^^xsd:string,
+            "Care_pathway measurement output"^^xsd:string,
+            "Consent measurement output"^^xsd:string,
+            "Diagnosis measurement output"^^xsd:string,
+            "Disability measurement output"^^xsd:string,
+            "Onset_diagnosis measurement output"^^xsd:string,
+            "Onset_symptoms measurement output"^^xsd:string,
+            "Sex measurement output"^^xsd:string,
+            "Status measurement output"^^xsd:string ;
+        sio:SIO_000300 "12"^^<file:///data/$(datatype)>,
+            "1986-10-05"^^<file:///data/$(datatype)>,
+            "2018-01-10"^^<file:///data/$(datatype)>,
+            "2019-01-01"^^<file:///data/$(datatype)>,
+            "2019-02-01"^^<file:///data/$(datatype)>,
+            "Alive"^^<file:///data/$(datatype)>,
+            "Consent to being contacted about research projects"^^<file:///data/$(datatype)>,
+            "Consent to data being shared for clinical care"^^<file:///data/$(datatype)>,
+            "Female"^^<file:///data/$(datatype)>,
+            "Pediatric systemic lupus erythematosus"^^<file:///data/$(datatype)>,
+            "http://hdl.handle.net/21.12110/1.0102-edc4-f36a"^^<file:///data/$(datatype)> ;
+        sio:SIO_000628 <http://example.org/data/500-0006_2.02301161705555E%2B019_Attribute> .
+
+    <http://example.org/data/500-0006_2.02301161705555E%2B019_Process> a obo:NCIT_C107391,
+            obo:NCIT_C142470,
+            obo:NCIT_C15220,
+            obo:NCIT_C159705,
+            obo:OBI_0000810,
+            obo:OMIABIS_0000061,
+            sio:SIO_000006 ;
+        rdfs:label "Biobank measurement process"^^xsd:string,
+            "Birthdate measurement process"^^xsd:string,
+            "Care_pathway measurement process"^^xsd:string,
+            "Consent measurement process"^^xsd:string,
+            "Diagnosis measurement process"^^xsd:string,
+            "Disability measurement process"^^xsd:string,
+            "Onset_diagnosis measurement process"^^xsd:string,
+            "Onset_symptoms measurement process"^^xsd:string,
+            "Sex measurement process"^^xsd:string,
+            "Status measurement process"^^xsd:string ;
+        sio:SIO_000229 <http://example.org/data/500-0006_2.02301161705555E%2B019_Output> .
+
+    <http://example.org/data/500-0007_2.02301161705555E%2B019_Output> a obo:DUO_0000001,
+            obo:NCIT_C103159,
+            obo:NCIT_C115570,
+            obo:NCIT_C125204,
+            obo:NCIT_C16612,
+            obo:NCIT_C17248,
+            obo:NCIT_C25338,
+            obo:NCIT_C25716,
+            obo:OBIB_0000488,
+            <http://www.ebi.ac.uk/efo/EFO_0006921>,
+            sio:SIO_000015 ;
+        rdfs:label "Biobank measurement output"^^xsd:string,
+            "Birthdate measurement output"^^xsd:string,
+            "Care_pathway measurement output"^^xsd:string,
+            "Consent measurement output"^^xsd:string,
+            "Diagnosis measurement output"^^xsd:string,
+            "Disability measurement output"^^xsd:string,
+            "Genotype_HGNC measurement output"^^xsd:string,
+            "Genotype_HGVS measurement output"^^xsd:string,
+            "Genotype_OMIM measurement output"^^xsd:string,
+            "Onset_diagnosis measurement output"^^xsd:string,
+            "Onset_symptoms measurement output"^^xsd:string,
+            "Phenotype measurement output"^^xsd:string,
+            "Sex measurement output"^^xsd:string,
+            "Status measurement output"^^xsd:string ;
+        sio:SIO_000300 "13"^^<file:///data/$(datatype)>,
+            "2002-10-05"^^<file:///data/$(datatype)>,
+            "2015-01-09"^^<file:///data/$(datatype)>,
+            "2016-04-01"^^<file:///data/$(datatype)>,
+            "2018-01-13"^^<file:///data/$(datatype)>,
+            "607575"^^<file:///data/$(datatype)>,
+            "Alive"^^<file:///data/$(datatype)>,
+            "Bartter syndrome"^^<file:///data/$(datatype)>,
+            "Consent to being contacted about research projects"^^<file:///data/$(datatype)>,
+            "Consent to data being shared for clinical care"^^<file:///data/$(datatype)>,
+            "Female"^^<file:///data/$(datatype)>,
+            "HGNC:1839"^^<file:///data/$(datatype)>,
+            "NM_001282225.2(ADA2):c.973-2A>G"^^<file:///data/$(datatype)>,
+            "Vasculitis"^^<file:///data/$(datatype)>,
+            "http://hdl.handle.net/21.12110/1.0102-edc4-f36a"^^<file:///data/$(datatype)> ;
+        sio:SIO_000628 <http://example.org/data/500-0007_2.02301161705555E%2B019_Attribute> .
+
+    <http://example.org/data/500-0007_2.02301161705555E%2B019_Process> a obo:NCIT_C107391,
+            obo:NCIT_C142470,
+            obo:NCIT_C15220,
+            obo:NCIT_C15709,
+            obo:NCIT_C159705,
+            obo:NCIT_C25305,
+            obo:OBI_0000810,
+            obo:OMIABIS_0000061,
+            sio:SIO_000006 ;
+        rdfs:label "Biobank measurement process"^^xsd:string,
+            "Birthdate measurement process"^^xsd:string,
+            "Care_pathway measurement process"^^xsd:string,
+            "Consent measurement process"^^xsd:string,
+            "Diagnosis measurement process"^^xsd:string,
+            "Disability measurement process"^^xsd:string,
+            "Genotype_HGNC measurement process"^^xsd:string,
+            "Genotype_HGVS measurement process"^^xsd:string,
+            "Genotype_OMIM measurement process"^^xsd:string,
+            "Onset_diagnosis measurement process"^^xsd:string,
+            "Onset_symptoms measurement process"^^xsd:string,
+            "Phenotype measurement process"^^xsd:string,
+            "Sex measurement process"^^xsd:string,
+            "Status measurement process"^^xsd:string ;
+        sio:SIO_000229 <http://example.org/data/500-0007_2.02301161705555E%2B019_Output> .
+
+    <http://example.org/data/500-0008_2.02301161705555E%2B019_Output> a obo:DUO_0000001,
+            obo:NCIT_C103159,
+            obo:NCIT_C115570,
+            obo:NCIT_C125204,
+            obo:NCIT_C16612,
+            obo:NCIT_C17248,
+            obo:NCIT_C25338,
+            obo:NCIT_C25716,
+            obo:OBIB_0000488,
+            <http://www.ebi.ac.uk/efo/EFO_0006921>,
+            sio:SIO_000015 ;
+        rdfs:label "Biobank measurement output"^^xsd:string,
+            "Birthdate measurement output"^^xsd:string,
+            "Care_pathway measurement output"^^xsd:string,
+            "Consent measurement output"^^xsd:string,
+            "Diagnosis measurement output"^^xsd:string,
+            "Disability measurement output"^^xsd:string,
+            "Genotype_HGNC measurement output"^^xsd:string,
+            "Genotype_HGVS measurement output"^^xsd:string,
+            "Genotype_OMIM measurement output"^^xsd:string,
+            "Onset_diagnosis measurement output"^^xsd:string,
+            "Onset_symptoms measurement output"^^xsd:string,
+            "Phenotype measurement output"^^xsd:string,
+            "Sex measurement output"^^xsd:string,
+            "Status measurement output"^^xsd:string ;
+        sio:SIO_000300 "12"^^<file:///data/$(datatype)>,
+            "2013-11-05"^^<file:///data/$(datatype)>,
+            "2014-05-12"^^<file:///data/$(datatype)>,
+            "2014-06-12"^^<file:///data/$(datatype)>,
+            "2014-11-06"^^<file:///data/$(datatype)>,
+            "607575"^^<file:///data/$(datatype)>,
+            "Alive"^^<file:///data/$(datatype)>,
+            "Autosomal recessive Alport syndrome"^^<file:///data/$(datatype)>,
+            "Consent to being contacted about research projects"^^<file:///data/$(datatype)>,
+            "Consent to data being shared for clinical care"^^<file:///data/$(datatype)>,
+            "HGNC:1839"^^<file:///data/$(datatype)>,
+            "Male"^^<file:///data/$(datatype)>,
+            "NM_001282225.2(ADA2):c.973-2A>G"^^<file:///data/$(datatype)>,
+            "Vasculitis"^^<file:///data/$(datatype)>,
+            "http://hdl.handle.net/21.12110/1.0102-edc4-f36a"^^<file:///data/$(datatype)> ;
+        sio:SIO_000628 <http://example.org/data/500-0008_2.02301161705555E%2B019_Attribute> .
+
+    <http://example.org/data/500-0008_2.02301161705555E%2B019_Process> a obo:NCIT_C107391,
+            obo:NCIT_C142470,
+            obo:NCIT_C15220,
+            obo:NCIT_C15709,
+            obo:NCIT_C159705,
+            obo:NCIT_C25305,
+            obo:OBI_0000810,
+            obo:OMIABIS_0000061,
+            sio:SIO_000006 ;
+        rdfs:label "Biobank measurement process"^^xsd:string,
+            "Birthdate measurement process"^^xsd:string,
+            "Care_pathway measurement process"^^xsd:string,
+            "Consent measurement process"^^xsd:string,
+            "Diagnosis measurement process"^^xsd:string,
+            "Disability measurement process"^^xsd:string,
+            "Genotype_HGNC measurement process"^^xsd:string,
+            "Genotype_HGVS measurement process"^^xsd:string,
+            "Genotype_OMIM measurement process"^^xsd:string,
+            "Onset_diagnosis measurement process"^^xsd:string,
+            "Onset_symptoms measurement process"^^xsd:string,
+            "Phenotype measurement process"^^xsd:string,
+            "Sex measurement process"^^xsd:string,
+            "Status measurement process"^^xsd:string ;
+        sio:SIO_000229 <http://example.org/data/500-0008_2.02301161705555E%2B019_Output> .
+
+    <http://example.org/data/500-0009_2.02301161705555E%2B019_Output> a obo:DUO_0000001,
+            obo:NCIT_C103159,
+            obo:NCIT_C115570,
+            obo:NCIT_C25338,
+            obo:NCIT_C25716,
+            obo:OBIB_0000488,
+            <http://www.ebi.ac.uk/efo/EFO_0006921>,
+            sio:SIO_000015 ;
+        rdfs:label "Biobank measurement output"^^xsd:string,
+            "Birthdate measurement output"^^xsd:string,
+            "Care_pathway measurement output"^^xsd:string,
+            "Consent measurement output"^^xsd:string,
+            "Diagnosis measurement output"^^xsd:string,
+            "Disability measurement output"^^xsd:string,
+            "Onset_diagnosis measurement output"^^xsd:string,
+            "Onset_symptoms measurement output"^^xsd:string,
+            "Sex measurement output"^^xsd:string,
+            "Status measurement output"^^xsd:string ;
+        sio:SIO_000300 "12"^^<file:///data/$(datatype)>,
+            "2013-11-05"^^<file:///data/$(datatype)>,
+            "2014-05-12"^^<file:///data/$(datatype)>,
+            "2019-02-01"^^<file:///data/$(datatype)>,
+            "2019-11-06"^^<file:///data/$(datatype)>,
+            "Alive"^^<file:///data/$(datatype)>,
+            "Consent to being contacted about research projects"^^<file:///data/$(datatype)>,
+            "Consent to data being shared for clinical care"^^<file:///data/$(datatype)>,
+            "Cystinuria"^^<file:///data/$(datatype)>,
+            "Male"^^<file:///data/$(datatype)>,
+            "http://hdl.handle.net/21.12110/1.0102-edc4-f36a"^^<file:///data/$(datatype)> ;
+        sio:SIO_000628 <http://example.org/data/500-0009_2.02301161705555E%2B019_Attribute> .
+
+    <http://example.org/data/500-0009_2.02301161705555E%2B019_Process> a obo:NCIT_C107391,
+            obo:NCIT_C142470,
+            obo:NCIT_C15220,
+            obo:NCIT_C159705,
+            obo:OBI_0000810,
+            obo:OMIABIS_0000061,
+            sio:SIO_000006 ;
+        rdfs:label "Biobank measurement process"^^xsd:string,
+            "Birthdate measurement process"^^xsd:string,
+            "Care_pathway measurement process"^^xsd:string,
+            "Consent measurement process"^^xsd:string,
+            "Diagnosis measurement process"^^xsd:string,
+            "Disability measurement process"^^xsd:string,
+            "Onset_diagnosis measurement process"^^xsd:string,
+            "Onset_symptoms measurement process"^^xsd:string,
+            "Sex measurement process"^^xsd:string,
+            "Status measurement process"^^xsd:string ;
+        sio:SIO_000229 <http://example.org/data/500-0009_2.02301161705555E%2B019_Output> .
+
+    <http://example.org/data/500-0010_2.02301161705555E%2B019_Output> a obo:DUO_0000001,
+            obo:NCIT_C103159,
+            obo:NCIT_C115570,
+            obo:NCIT_C25338,
+            obo:NCIT_C25716,
+            obo:OBIB_0000488,
+            <http://www.ebi.ac.uk/efo/EFO_0006921>,
+            sio:SIO_000015 ;
+        rdfs:label "Biobank measurement output"^^xsd:string,
+            "Birthdate measurement output"^^xsd:string,
+            "Care_pathway measurement output"^^xsd:string,
+            "Consent measurement output"^^xsd:string,
+            "Diagnosis measurement output"^^xsd:string,
+            "Disability measurement output"^^xsd:string,
+            "Onset_diagnosis measurement output"^^xsd:string,
+            "Onset_symptoms measurement output"^^xsd:string,
+            "Sex measurement output"^^xsd:string,
+            "Status measurement output"^^xsd:string ;
+        sio:SIO_000300 "12"^^<file:///data/$(datatype)>,
+            "2014-03-05"^^<file:///data/$(datatype)>,
+            "2014-05-12"^^<file:///data/$(datatype)>,
+            "2014-08-12"^^<file:///data/$(datatype)>,
+            "2014-11-06"^^<file:///data/$(datatype)>,
+            "Alive"^^<file:///data/$(datatype)>,
+            "Consent to being contacted about research projects"^^<file:///data/$(datatype)>,
+            "Consent to data being shared for clinical care"^^<file:///data/$(datatype)>,
+            "Female"^^<file:///data/$(datatype)>,
+            "Streptococcus pneumoniae-associated hemolytic uremic syndrome"^^<file:///data/$(datatype)>,
+            "http://hdl.handle.net/21.12110/1.0102-edc4-f36a"^^<file:///data/$(datatype)> ;
+        sio:SIO_000628 <http://example.org/data/500-0010_2.02301161705555E%2B019_Attribute> .
+
+    <http://example.org/data/500-0010_2.02301161705555E%2B019_Process> a obo:NCIT_C107391,
+            obo:NCIT_C142470,
+            obo:NCIT_C15220,
+            obo:NCIT_C159705,
+            obo:OBI_0000810,
+            obo:OMIABIS_0000061,
+            sio:SIO_000006 ;
+        rdfs:label "Biobank measurement process"^^xsd:string,
+            "Birthdate measurement process"^^xsd:string,
+            "Care_pathway measurement process"^^xsd:string,
+            "Consent measurement process"^^xsd:string,
+            "Diagnosis measurement process"^^xsd:string,
+            "Disability measurement process"^^xsd:string,
+            "Onset_diagnosis measurement process"^^xsd:string,
+            "Onset_symptoms measurement process"^^xsd:string,
+            "Sex measurement process"^^xsd:string,
+            "Status measurement process"^^xsd:string ;
+        sio:SIO_000229 <http://example.org/data/500-0010_2.02301161705555E%2B019_Output> .
+
+    <http://example.org/data/500-0011_2.02301161705555E%2B019_Output> a obo:DUO_0000001,
+            obo:NCIT_C103159,
+            obo:NCIT_C115570,
+            obo:NCIT_C25716,
+            obo:OBIB_0000488,
+            <http://www.ebi.ac.uk/efo/EFO_0006921>,
+            sio:SIO_000015 ;
+        rdfs:label "Biobank measurement output"^^xsd:string,
+            "Birthdate measurement output"^^xsd:string,
+            "Care_pathway measurement output"^^xsd:string,
+            "Consent measurement output"^^xsd:string,
+            "Diagnosis measurement output"^^xsd:string,
+            "Onset_diagnosis measurement output"^^xsd:string,
+            "Onset_symptoms measurement output"^^xsd:string,
+            "Sex measurement output"^^xsd:string,
+            "Status measurement output"^^xsd:string ;
+        sio:SIO_000300 "2017-11-05"^^<file:///data/$(datatype)>,
+            "2018-05-06"^^<file:///data/$(datatype)>,
+            "2018-12-01"^^<file:///data/$(datatype)>,
+            "2019-03-06"^^<file:///data/$(datatype)>,
+            "Alive"^^<file:///data/$(datatype)>,
+            "Consent to being contacted about research projects"^^<file:///data/$(datatype)>,
+            "Consent to data being shared for clinical care"^^<file:///data/$(datatype)>,
+            "Idiopathic steroid-sensitive nephrotic syndrome"^^<file:///data/$(datatype)>,
+            "Male"^^<file:///data/$(datatype)>,
+            "http://hdl.handle.net/21.12110/1.0102-edc4-f36a"^^<file:///data/$(datatype)> ;
+        sio:SIO_000628 <http://example.org/data/500-0011_2.02301161705555E%2B019_Attribute> .
+
+    <http://example.org/data/500-0011_2.02301161705555E%2B019_Process> a obo:NCIT_C142470,
+            obo:NCIT_C15220,
+            obo:NCIT_C159705,
+            obo:OBI_0000810,
+            obo:OMIABIS_0000061,
+            sio:SIO_000006 ;
+        rdfs:label "Biobank measurement process"^^xsd:string,
+            "Birthdate measurement process"^^xsd:string,
+            "Care_pathway measurement process"^^xsd:string,
+            "Consent measurement process"^^xsd:string,
+            "Diagnosis measurement process"^^xsd:string,
+            "Onset_diagnosis measurement process"^^xsd:string,
+            "Onset_symptoms measurement process"^^xsd:string,
+            "Sex measurement process"^^xsd:string,
+            "Status measurement process"^^xsd:string ;
+        sio:SIO_000229 <http://example.org/data/500-0011_2.02301161705555E%2B019_Output> .
+
+    <http://example.org/data/500-0012_2.02301161705555E%2B019_Output> a obo:DUO_0000001,
+            obo:NCIT_C103159,
+            obo:NCIT_C115570,
+            obo:NCIT_C25716,
+            obo:OBIB_0000488,
+            <http://www.ebi.ac.uk/efo/EFO_0006921>,
+            sio:SIO_000015 ;
+        rdfs:label "Biobank measurement output"^^xsd:string,
+            "Birthdate measurement output"^^xsd:string,
+            "Care_pathway measurement output"^^xsd:string,
+            "Consent measurement output"^^xsd:string,
+            "Diagnosis measurement output"^^xsd:string,
+            "Onset_diagnosis measurement output"^^xsd:string,
+            "Onset_symptoms measurement output"^^xsd:string,
+            "Sex measurement output"^^xsd:string,
+            "Status measurement output"^^xsd:string ;
+        sio:SIO_000300 "2017-11-05"^^<file:///data/$(datatype)>,
+            "2018-05-06"^^<file:///data/$(datatype)>,
+            "2018-12-01"^^<file:///data/$(datatype)>,
+            "2019-03-06"^^<file:///data/$(datatype)>,
+            "Alive"^^<file:///data/$(datatype)>,
+            "Autosomal recessive polycystic kidney disease"^^<file:///data/$(datatype)>,
+            "Consent to being contacted about research projects"^^<file:///data/$(datatype)>,
+            "Consent to data being shared for clinical care"^^<file:///data/$(datatype)>,
+            "Female"^^<file:///data/$(datatype)>,
+            "http://hdl.handle.net/21.12110/1.0102-edc4-f36a"^^<file:///data/$(datatype)> ;
+        sio:SIO_000628 <http://example.org/data/500-0012_2.02301161705555E%2B019_Attribute> .
+
+    <http://example.org/data/500-0012_2.02301161705555E%2B019_Process> a obo:NCIT_C142470,
+            obo:NCIT_C15220,
+            obo:NCIT_C159705,
+            obo:OBI_0000810,
+            obo:OMIABIS_0000061,
+            sio:SIO_000006 ;
+        rdfs:label "Biobank measurement process"^^xsd:string,
+            "Birthdate measurement process"^^xsd:string,
+            "Care_pathway measurement process"^^xsd:string,
+            "Consent measurement process"^^xsd:string,
+            "Diagnosis measurement process"^^xsd:string,
+            "Onset_diagnosis measurement process"^^xsd:string,
+            "Onset_symptoms measurement process"^^xsd:string,
+            "Sex measurement process"^^xsd:string,
+            "Status measurement process"^^xsd:string ;
+        sio:SIO_000229 <http://example.org/data/500-0012_2.02301161705555E%2B019_Output> .
+
+    <http://example.org/data/500-0013_2.02301161705555E%2B019_Output> a obo:DUO_0000001,
+            obo:NCIT_C103159,
+            obo:NCIT_C115570,
+            obo:NCIT_C25716,
+            obo:OBIB_0000488,
+            <http://www.ebi.ac.uk/efo/EFO_0006921>,
+            sio:SIO_000015 ;
+        rdfs:label "Biobank measurement output"^^xsd:string,
+            "Birthdate measurement output"^^xsd:string,
+            "Care_pathway measurement output"^^xsd:string,
+            "Consent measurement output"^^xsd:string,
+            "Diagnosis measurement output"^^xsd:string,
+            "Onset_diagnosis measurement output"^^xsd:string,
+            "Onset_symptoms measurement output"^^xsd:string,
+            "Sex measurement output"^^xsd:string,
+            "Status measurement output"^^xsd:string ;
+        sio:SIO_000300 "1986-10-05"^^<file:///data/$(datatype)>,
+            "1986-12-06"^^<file:///data/$(datatype)>,
+            "2018-01-13"^^<file:///data/$(datatype)>,
+            "2020-02-01"^^<file:///data/$(datatype)>,
+            "Alive"^^<file:///data/$(datatype)>,
+            "Consent to being contacted about research projects"^^<file:///data/$(datatype)>,
+            "Consent to data being shared for clinical care"^^<file:///data/$(datatype)>,
+            "Idiopathic multidrug-resistant nephrotic syndrome"^^<file:///data/$(datatype)>,
+            "Male"^^<file:///data/$(datatype)>,
+            "http://hdl.handle.net/21.12110/1.0102-edc4-f36a"^^<file:///data/$(datatype)> ;
+        sio:SIO_000628 <http://example.org/data/500-0013_2.02301161705555E%2B019_Attribute> .
+
+    <http://example.org/data/500-0013_2.02301161705555E%2B019_Process> a obo:NCIT_C142470,
+            obo:NCIT_C15220,
+            obo:NCIT_C159705,
+            obo:OBI_0000810,
+            obo:OMIABIS_0000061,
+            sio:SIO_000006 ;
+        rdfs:label "Biobank measurement process"^^xsd:string,
+            "Birthdate measurement process"^^xsd:string,
+            "Care_pathway measurement process"^^xsd:string,
+            "Consent measurement process"^^xsd:string,
+            "Diagnosis measurement process"^^xsd:string,
+            "Onset_diagnosis measurement process"^^xsd:string,
+            "Onset_symptoms measurement process"^^xsd:string,
+            "Sex measurement process"^^xsd:string,
+            "Status measurement process"^^xsd:string ;
+        sio:SIO_000229 <http://example.org/data/500-0013_2.02301161705555E%2B019_Output> .
+
+    <http://example.org/data/500-0014_2.02301161705555E%2B019_Output> a obo:DUO_0000001,
+            obo:NCIT_C103159,
+            obo:NCIT_C115570,
+            obo:NCIT_C25716,
+            obo:OBIB_0000488,
+            <http://www.ebi.ac.uk/efo/EFO_0006921>,
+            sio:SIO_000015 ;
+        rdfs:label "Biobank measurement output"^^xsd:string,
+            "Birthdate measurement output"^^xsd:string,
+            "Care_pathway measurement output"^^xsd:string,
+            "Consent measurement output"^^xsd:string,
+            "Diagnosis measurement output"^^xsd:string,
+            "Onset_diagnosis measurement output"^^xsd:string,
+            "Onset_symptoms measurement output"^^xsd:string,
+            "Sex measurement output"^^xsd:string,
+            "Status measurement output"^^xsd:string ;
+        sio:SIO_000300 "2017-11-05"^^<file:///data/$(datatype)>,
+            "2018-05-06"^^<file:///data/$(datatype)>,
+            "2018-12-01"^^<file:///data/$(datatype)>,
+            "2019-03-06"^^<file:///data/$(datatype)>,
+            "Alive"^^<file:///data/$(datatype)>,
+            "Consent to being contacted about research projects"^^<file:///data/$(datatype)>,
+            "Consent to data being shared for clinical care"^^<file:///data/$(datatype)>,
+            "Cystinuria"^^<file:///data/$(datatype)>,
+            "Male"^^<file:///data/$(datatype)>,
+            "http://hdl.handle.net/21.12110/1.0102-edc4-f36a"^^<file:///data/$(datatype)> ;
+        sio:SIO_000628 <http://example.org/data/500-0014_2.02301161705555E%2B019_Attribute> .
+
+    <http://example.org/data/500-0014_2.02301161705555E%2B019_Process> a obo:NCIT_C142470,
+            obo:NCIT_C15220,
+            obo:NCIT_C159705,
+            obo:OBI_0000810,
+            obo:OMIABIS_0000061,
+            sio:SIO_000006 ;
+        rdfs:label "Biobank measurement process"^^xsd:string,
+            "Birthdate measurement process"^^xsd:string,
+            "Care_pathway measurement process"^^xsd:string,
+            "Consent measurement process"^^xsd:string,
+            "Diagnosis measurement process"^^xsd:string,
+            "Onset_diagnosis measurement process"^^xsd:string,
+            "Onset_symptoms measurement process"^^xsd:string,
+            "Sex measurement process"^^xsd:string,
+            "Status measurement process"^^xsd:string ;
+        sio:SIO_000229 <http://example.org/data/500-0014_2.02301161705555E%2B019_Output> .
+
+    <http://example.org/data/500-0015_2.02301161705555E%2B019_Output> a obo:DUO_0000001,
+            obo:NCIT_C103159,
+            obo:NCIT_C115570,
+            obo:NCIT_C25716,
+            obo:OBIB_0000488,
+            <http://www.ebi.ac.uk/efo/EFO_0006921>,
+            sio:SIO_000015 ;
+        rdfs:label "Biobank measurement output"^^xsd:string,
+            "Birthdate measurement output"^^xsd:string,
+            "Care_pathway measurement output"^^xsd:string,
+            "Consent measurement output"^^xsd:string,
+            "Diagnosis measurement output"^^xsd:string,
+            "Onset_diagnosis measurement output"^^xsd:string,
+            "Onset_symptoms measurement output"^^xsd:string,
+            "Sex measurement output"^^xsd:string,
+            "Status measurement output"^^xsd:string ;
+        sio:SIO_000300 "2020-11-05"^^<file:///data/$(datatype)>,
+            "2021-01-01"^^<file:///data/$(datatype)>,
+            "2021-01-11"^^<file:///data/$(datatype)>,
+            "Alive"^^<file:///data/$(datatype)>,
+            "Consent to being contacted about research projects"^^<file:///data/$(datatype)>,
+            "Consent to data being shared for clinical care"^^<file:///data/$(datatype)>,
+            "Female"^^<file:///data/$(datatype)>,
+            "Infantile nephropathic cystinosis"^^<file:///data/$(datatype)>,
+            "http://hdl.handle.net/21.12110/1.0102-edc4-f36a"^^<file:///data/$(datatype)> ;
+        sio:SIO_000628 <http://example.org/data/500-0015_2.02301161705555E%2B019_Attribute> .
+
+    <http://example.org/data/500-0015_2.02301161705555E%2B019_Process> a obo:NCIT_C142470,
+            obo:NCIT_C15220,
+            obo:NCIT_C159705,
+            obo:OBI_0000810,
+            obo:OMIABIS_0000061,
+            sio:SIO_000006 ;
+        rdfs:label "Biobank measurement process"^^xsd:string,
+            "Birthdate measurement process"^^xsd:string,
+            "Care_pathway measurement process"^^xsd:string,
+            "Consent measurement process"^^xsd:string,
+            "Diagnosis measurement process"^^xsd:string,
+            "Onset_diagnosis measurement process"^^xsd:string,
+            "Onset_symptoms measurement process"^^xsd:string,
+            "Sex measurement process"^^xsd:string,
+            "Status measurement process"^^xsd:string ;
+        sio:SIO_000229 <http://example.org/data/500-0015_2.02301161705555E%2B019_Output> .
+
+    <http://example.org/data/500-0016_2.02301161705555E%2B019_Output> a obo:DUO_0000001,
+            obo:NCIT_C103159,
+            obo:NCIT_C115570,
+            obo:NCIT_C25716,
+            obo:OBIB_0000488,
+            <http://www.ebi.ac.uk/efo/EFO_0006921>,
+            sio:SIO_000015 ;
+        rdfs:label "Biobank measurement output"^^xsd:string,
+            "Birthdate measurement output"^^xsd:string,
+            "Care_pathway measurement output"^^xsd:string,
+            "Consent measurement output"^^xsd:string,
+            "Diagnosis measurement output"^^xsd:string,
+            "Onset_diagnosis measurement output"^^xsd:string,
+            "Onset_symptoms measurement output"^^xsd:string,
+            "Sex measurement output"^^xsd:string,
+            "Status measurement output"^^xsd:string ;
+        sio:SIO_000300 "2020-02-05"^^<file:///data/$(datatype)>,
+            "2020-03-03"^^<file:///data/$(datatype)>,
+            "2020-04-01"^^<file:///data/$(datatype)>,
+            "Alive"^^<file:///data/$(datatype)>,
+            "Consent to being contacted about research projects"^^<file:///data/$(datatype)>,
+            "Consent to data being shared for clinical care"^^<file:///data/$(datatype)>,
+            "Male"^^<file:///data/$(datatype)>,
+            "Oculocerebrorenal syndrome of Lowe"^^<file:///data/$(datatype)>,
+            "http://hdl.handle.net/21.12110/1.0102-edc4-f36a"^^<file:///data/$(datatype)> ;
+        sio:SIO_000628 <http://example.org/data/500-0016_2.02301161705555E%2B019_Attribute> .
+
+    <http://example.org/data/500-0016_2.02301161705555E%2B019_Process> a obo:NCIT_C142470,
+            obo:NCIT_C15220,
+            obo:NCIT_C159705,
+            obo:OBI_0000810,
+            obo:OMIABIS_0000061,
+            sio:SIO_000006 ;
+        rdfs:label "Biobank measurement process"^^xsd:string,
+            "Birthdate measurement process"^^xsd:string,
+            "Care_pathway measurement process"^^xsd:string,
+            "Consent measurement process"^^xsd:string,
+            "Diagnosis measurement process"^^xsd:string,
+            "Onset_diagnosis measurement process"^^xsd:string,
+            "Onset_symptoms measurement process"^^xsd:string,
+            "Sex measurement process"^^xsd:string,
+            "Status measurement process"^^xsd:string ;
+        sio:SIO_000229 <http://example.org/data/500-0016_2.02301161705555E%2B019_Output> .
+
+    <http://example.org/data/500-0017_2.02301161705555E%2B019_Output> a obo:DUO_0000001,
+            obo:NCIT_C103159,
+            obo:NCIT_C115570,
+            obo:NCIT_C25716,
+            obo:OBIB_0000488,
+            <http://www.ebi.ac.uk/efo/EFO_0006921>,
+            sio:SIO_000015 ;
+        rdfs:label "Biobank measurement output"^^xsd:string,
+            "Birthdate measurement output"^^xsd:string,
+            "Care_pathway measurement output"^^xsd:string,
+            "Consent measurement output"^^xsd:string,
+            "Diagnosis measurement output"^^xsd:string,
+            "Onset_diagnosis measurement output"^^xsd:string,
+            "Onset_symptoms measurement output"^^xsd:string,
+            "Sex measurement output"^^xsd:string,
+            "Status measurement output"^^xsd:string ;
+        sio:SIO_000300 "2010-10-05"^^<file:///data/$(datatype)>,
+            "2014-05-05"^^<file:///data/$(datatype)>,
+            "2014-08-12"^^<file:///data/$(datatype)>,
+            "2014-11-06"^^<file:///data/$(datatype)>,
+            "Alive"^^<file:///data/$(datatype)>,
+            "Cat-eye syndrome"^^<file:///data/$(datatype)>,
+            "Consent to being contacted about research projects"^^<file:///data/$(datatype)>,
+            "Consent to data being shared for clinical care"^^<file:///data/$(datatype)>,
+            "Male"^^<file:///data/$(datatype)>,
+            "http://hdl.handle.net/21.12110/1.0102-edc4-f36a"^^<file:///data/$(datatype)> ;
+        sio:SIO_000628 <http://example.org/data/500-0017_2.02301161705555E%2B019_Attribute> .
+
+    <http://example.org/data/500-0017_2.02301161705555E%2B019_Process> a obo:NCIT_C142470,
+            obo:NCIT_C15220,
+            obo:NCIT_C159705,
+            obo:OBI_0000810,
+            obo:OMIABIS_0000061,
+            sio:SIO_000006 ;
+        rdfs:label "Biobank measurement process"^^xsd:string,
+            "Birthdate measurement process"^^xsd:string,
+            "Care_pathway measurement process"^^xsd:string,
+            "Consent measurement process"^^xsd:string,
+            "Diagnosis measurement process"^^xsd:string,
+            "Onset_diagnosis measurement process"^^xsd:string,
+            "Onset_symptoms measurement process"^^xsd:string,
+            "Sex measurement process"^^xsd:string,
+            "Status measurement process"^^xsd:string ;
+        sio:SIO_000229 <http://example.org/data/500-0017_2.02301161705555E%2B019_Output> .
+
+    <http://example.org/data/500-0018_2.02301161705555E%2B019_Output> a obo:DUO_0000001,
+            obo:NCIT_C103159,
+            obo:NCIT_C115570,
+            obo:NCIT_C25338,
+            obo:NCIT_C25716,
+            obo:OBIB_0000488,
+            <http://www.ebi.ac.uk/efo/EFO_0006921>,
+            sio:SIO_000015 ;
+        rdfs:label "Biobank measurement output"^^xsd:string,
+            "Birthdate measurement output"^^xsd:string,
+            "Care_pathway measurement output"^^xsd:string,
+            "Consent measurement output"^^xsd:string,
+            "Diagnosis measurement output"^^xsd:string,
+            "Disability measurement output"^^xsd:string,
+            "Onset_diagnosis measurement output"^^xsd:string,
+            "Onset_symptoms measurement output"^^xsd:string,
+            "Sex measurement output"^^xsd:string,
+            "Status measurement output"^^xsd:string ;
+        sio:SIO_000300 "12"^^<file:///data/$(datatype)>,
+            "1987-11-05"^^<file:///data/$(datatype)>,
+            "2014-05-05"^^<file:///data/$(datatype)>,
+            "2014-08-12"^^<file:///data/$(datatype)>,
+            "2014-11-06"^^<file:///data/$(datatype)>,
+            "Alive"^^<file:///data/$(datatype)>,
+            "Congenital nephrotic syndrome Finnish type"^^<file:///data/$(datatype)>,
+            "Consent to being contacted about research projects"^^<file:///data/$(datatype)>,
+            "Consent to data being shared for clinical care"^^<file:///data/$(datatype)>,
+            "Male"^^<file:///data/$(datatype)>,
+            "http://hdl.handle.net/21.12110/1.0102-edc4-f36a"^^<file:///data/$(datatype)> ;
+        sio:SIO_000628 <http://example.org/data/500-0018_2.02301161705555E%2B019_Attribute> .
+
+    <http://example.org/data/500-0018_2.02301161705555E%2B019_Process> a obo:NCIT_C107391,
+            obo:NCIT_C142470,
+            obo:NCIT_C15220,
+            obo:NCIT_C159705,
+            obo:OBI_0000810,
+            obo:OMIABIS_0000061,
+            sio:SIO_000006 ;
+        rdfs:label "Biobank measurement process"^^xsd:string,
+            "Birthdate measurement process"^^xsd:string,
+            "Care_pathway measurement process"^^xsd:string,
+            "Consent measurement process"^^xsd:string,
+            "Diagnosis measurement process"^^xsd:string,
+            "Disability measurement process"^^xsd:string,
+            "Onset_diagnosis measurement process"^^xsd:string,
+            "Onset_symptoms measurement process"^^xsd:string,
+            "Sex measurement process"^^xsd:string,
+            "Status measurement process"^^xsd:string ;
+        sio:SIO_000229 <http://example.org/data/500-0018_2.02301161705555E%2B019_Output> .
+
+    <http://example.org/data/500-0019_2.02301161705555E%2B019_Output> a obo:DUO_0000001,
+            obo:NCIT_C103159,
+            obo:NCIT_C115570,
+            obo:NCIT_C25716,
+            obo:OBIB_0000488,
+            <http://www.ebi.ac.uk/efo/EFO_0006921>,
+            sio:SIO_000015 ;
+        rdfs:label "Biobank measurement output"^^xsd:string,
+            "Birthdate measurement output"^^xsd:string,
+            "Care_pathway measurement output"^^xsd:string,
+            "Consent measurement output"^^xsd:string,
+            "Diagnosis measurement output"^^xsd:string,
+            "Onset_diagnosis measurement output"^^xsd:string,
+            "Onset_symptoms measurement output"^^xsd:string,
+            "Sex measurement output"^^xsd:string,
+            "Status measurement output"^^xsd:string ;
+        sio:SIO_000300 "2013-11-05"^^<file:///data/$(datatype)>,
+            "2014-05-05"^^<file:///data/$(datatype)>,
+            "2014-08-12"^^<file:///data/$(datatype)>,
+            "2014-11-06"^^<file:///data/$(datatype)>,
+            "Alive"^^<file:///data/$(datatype)>,
+            "Consent to being contacted about research projects"^^<file:///data/$(datatype)>,
+            "Consent to data being shared for clinical care"^^<file:///data/$(datatype)>,
+            "Infantile nephronophthisis"^^<file:///data/$(datatype)>,
+            "Male"^^<file:///data/$(datatype)>,
+            "http://hdl.handle.net/21.12110/1.0102-edc4-f36a"^^<file:///data/$(datatype)> ;
+        sio:SIO_000628 <http://example.org/data/500-0019_2.02301161705555E%2B019_Attribute> .
+
+    <http://example.org/data/500-0019_2.02301161705555E%2B019_Process> a obo:NCIT_C142470,
+            obo:NCIT_C15220,
+            obo:NCIT_C159705,
+            obo:OBI_0000810,
+            obo:OMIABIS_0000061,
+            sio:SIO_000006 ;
+        rdfs:label "Biobank measurement process"^^xsd:string,
+            "Birthdate measurement process"^^xsd:string,
+            "Care_pathway measurement process"^^xsd:string,
+            "Consent measurement process"^^xsd:string,
+            "Diagnosis measurement process"^^xsd:string,
+            "Onset_diagnosis measurement process"^^xsd:string,
+            "Onset_symptoms measurement process"^^xsd:string,
+            "Sex measurement process"^^xsd:string,
+            "Status measurement process"^^xsd:string ;
+        sio:SIO_000229 <http://example.org/data/500-0019_2.02301161705555E%2B019_Output> .
+
+    <http://example.org/data/500-0020_2.02301161705555E%2B019_Output> a obo:DUO_0000001,
+            obo:NCIT_C103159,
+            obo:NCIT_C115570,
+            obo:NCIT_C25716,
+            obo:OBIB_0000488,
+            <http://www.ebi.ac.uk/efo/EFO_0006921>,
+            sio:SIO_000015 ;
+        rdfs:label "Biobank measurement output"^^xsd:string,
+            "Birthdate measurement output"^^xsd:string,
+            "Care_pathway measurement output"^^xsd:string,
+            "Consent measurement output"^^xsd:string,
+            "Diagnosis measurement output"^^xsd:string,
+            "Onset_diagnosis measurement output"^^xsd:string,
+            "Onset_symptoms measurement output"^^xsd:string,
+            "Sex measurement output"^^xsd:string,
+            "Status measurement output"^^xsd:string ;
+        sio:SIO_000300 "2013-11-05"^^<file:///data/$(datatype)>,
+            "2014-05-05"^^<file:///data/$(datatype)>,
+            "2014-08-12"^^<file:///data/$(datatype)>,
+            "2014-11-06"^^<file:///data/$(datatype)>,
+            "Alive"^^<file:///data/$(datatype)>,
+            "Consent to being contacted about research projects"^^<file:///data/$(datatype)>,
+            "Consent to data being shared for clinical care"^^<file:///data/$(datatype)>,
+            "Cystinuria"^^<file:///data/$(datatype)>,
+            "Male"^^<file:///data/$(datatype)>,
+            "http://hdl.handle.net/21.12110/1.0102-edc4-f36a"^^<file:///data/$(datatype)> ;
+        sio:SIO_000628 <http://example.org/data/500-0020_2.02301161705555E%2B019_Attribute> .
+
+    <http://example.org/data/500-0020_2.02301161705555E%2B019_Process> a obo:NCIT_C142470,
+            obo:NCIT_C15220,
+            obo:NCIT_C159705,
+            obo:OBI_0000810,
+            obo:OMIABIS_0000061,
+            sio:SIO_000006 ;
+        rdfs:label "Biobank measurement process"^^xsd:string,
+            "Birthdate measurement process"^^xsd:string,
+            "Care_pathway measurement process"^^xsd:string,
+            "Consent measurement process"^^xsd:string,
+            "Diagnosis measurement process"^^xsd:string,
+            "Onset_diagnosis measurement process"^^xsd:string,
+            "Onset_symptoms measurement process"^^xsd:string,
+            "Sex measurement process"^^xsd:string,
+            "Status measurement process"^^xsd:string ;
+        sio:SIO_000229 <http://example.org/data/500-0020_2.02301161705555E%2B019_Output> .
+
+    <http://example.org/data/500-0021_2.02301161705555E%2B019_Output> a obo:DUO_0000001,
+            obo:NCIT_C103159,
+            obo:NCIT_C115570,
+            obo:NCIT_C125204,
+            obo:NCIT_C16612,
+            obo:NCIT_C17248,
+            obo:NCIT_C25338,
+            obo:NCIT_C25716,
+            obo:OBIB_0000488,
+            <http://www.ebi.ac.uk/efo/EFO_0006921>,
+            sio:SIO_000015 ;
+        rdfs:label "Biobank measurement output"^^xsd:string,
+            "Birthdate measurement output"^^xsd:string,
+            "Care_pathway measurement output"^^xsd:string,
+            "Consent measurement output"^^xsd:string,
+            "Diagnosis measurement output"^^xsd:string,
+            "Disability measurement output"^^xsd:string,
+            "Genotype_HGNC measurement output"^^xsd:string,
+            "Genotype_HGVS measurement output"^^xsd:string,
+            "Genotype_OMIM measurement output"^^xsd:string,
+            "Onset_diagnosis measurement output"^^xsd:string,
+            "Onset_symptoms measurement output"^^xsd:string,
+            "Phenotype measurement output"^^xsd:string,
+            "Sex measurement output"^^xsd:string,
+            "Status measurement output"^^xsd:string ;
+        sio:SIO_000300 "12"^^<file:///data/$(datatype)>,
+            "2013-11-05"^^<file:///data/$(datatype)>,
+            "2014-05-05"^^<file:///data/$(datatype)>,
+            "2014-08-12"^^<file:///data/$(datatype)>,
+            "2014-11-06"^^<file:///data/$(datatype)>,
+            "607575"^^<file:///data/$(datatype)>,
+            "Alive"^^<file:///data/$(datatype)>,
+            "Consent to being contacted about research projects"^^<file:///data/$(datatype)>,
+            "Consent to data being shared for clinical care"^^<file:///data/$(datatype)>,
+            "HGNC:1839"^^<file:///data/$(datatype)>,
+            "Infantile nephropathic cystinosis"^^<file:///data/$(datatype)>,
+            "Male"^^<file:///data/$(datatype)>,
+            "NM_001282225.2(ADA2):c.973-2A>G"^^<file:///data/$(datatype)>,
+            "Vasculitis"^^<file:///data/$(datatype)>,
+            "http://hdl.handle.net/21.12110/1.0102-edc4-f36a"^^<file:///data/$(datatype)> ;
+        sio:SIO_000628 <http://example.org/data/500-0021_2.02301161705555E%2B019_Attribute> .
+
+    <http://example.org/data/500-0021_2.02301161705555E%2B019_Process> a obo:NCIT_C107391,
+            obo:NCIT_C142470,
+            obo:NCIT_C15220,
+            obo:NCIT_C15709,
+            obo:NCIT_C159705,
+            obo:NCIT_C25305,
+            obo:OBI_0000810,
+            obo:OMIABIS_0000061,
+            sio:SIO_000006 ;
+        rdfs:label "Biobank measurement process"^^xsd:string,
+            "Birthdate measurement process"^^xsd:string,
+            "Care_pathway measurement process"^^xsd:string,
+            "Consent measurement process"^^xsd:string,
+            "Diagnosis measurement process"^^xsd:string,
+            "Disability measurement process"^^xsd:string,
+            "Genotype_HGNC measurement process"^^xsd:string,
+            "Genotype_HGVS measurement process"^^xsd:string,
+            "Genotype_OMIM measurement process"^^xsd:string,
+            "Onset_diagnosis measurement process"^^xsd:string,
+            "Onset_symptoms measurement process"^^xsd:string,
+            "Phenotype measurement process"^^xsd:string,
+            "Sex measurement process"^^xsd:string,
+            "Status measurement process"^^xsd:string ;
+        sio:SIO_000229 <http://example.org/data/500-0021_2.02301161705555E%2B019_Output> .
+
+    <http://example.org/data/500-0022_2.02301161705555E%2B019_Output> a obo:DUO_0000001,
+            obo:NCIT_C103159,
+            obo:NCIT_C115570,
+            obo:NCIT_C125204,
+            obo:NCIT_C16612,
+            obo:NCIT_C17248,
+            obo:NCIT_C25338,
+            obo:NCIT_C25716,
+            obo:OBIB_0000488,
+            <http://www.ebi.ac.uk/efo/EFO_0006921>,
+            sio:SIO_000015 ;
+        rdfs:label "Biobank measurement output"^^xsd:string,
+            "Birthdate measurement output"^^xsd:string,
+            "Care_pathway measurement output"^^xsd:string,
+            "Consent measurement output"^^xsd:string,
+            "Date_of_death measurement output"^^xsd:string,
+            "Diagnosis measurement output"^^xsd:string,
+            "Disability measurement output"^^xsd:string,
+            "Genotype_HGNC measurement output"^^xsd:string,
+            "Genotype_HGVS measurement output"^^xsd:string,
+            "Genotype_OMIM measurement output"^^xsd:string,
+            "Onset_diagnosis measurement output"^^xsd:string,
+            "Onset_symptoms measurement output"^^xsd:string,
+            "Phenotype measurement output"^^xsd:string,
+            "Sex measurement output"^^xsd:string,
+            "Status measurement output"^^xsd:string ;
+        sio:SIO_000300 "12"^^<file:///data/$(datatype)>,
+            "1987-11-05"^^<file:///data/$(datatype)>,
+            "1989-05-05"^^<file:///data/$(datatype)>,
+            "1991-04-11"^^<file:///data/$(datatype)>,
+            "1993-05-11"^^<file:///data/$(datatype)>,
+            "2022-05-11"^^<file:///data/$(datatype)>,
+            "607575"^^<file:///data/$(datatype)>,
+            "Consent to being contacted about research projects"^^<file:///data/$(datatype)>,
+            "Consent to data being shared for clinical care"^^<file:///data/$(datatype)>,
+            "Dead"^^<file:///data/$(datatype)>,
+            "Female"^^<file:///data/$(datatype)>,
+            "HGNC:1839"^^<file:///data/$(datatype)>,
+            "NM_001282225.2(ADA2):c.973-2A>G"^^<file:///data/$(datatype)>,
+            "Oculocerebrorenal syndrome of Lowe"^^<file:///data/$(datatype)>,
+            "Vasculitis"^^<file:///data/$(datatype)>,
+            "http://hdl.handle.net/21.12110/1.0102-edc4-f36a"^^<file:///data/$(datatype)> ;
+        sio:SIO_000628 <http://example.org/data/500-0022_2.02301161705555E%2B019_Attribute> .
+
+    <http://example.org/data/500-0022_2.02301161705555E%2B019_Process> a obo:NCIT_C107391,
+            obo:NCIT_C142470,
+            obo:NCIT_C15220,
+            obo:NCIT_C15709,
+            obo:NCIT_C159705,
+            obo:NCIT_C25305,
+            obo:OBI_0000810,
+            obo:OMIABIS_0000061,
+            sio:SIO_000006 ;
+        rdfs:label "Biobank measurement process"^^xsd:string,
+            "Birthdate measurement process"^^xsd:string,
+            "Care_pathway measurement process"^^xsd:string,
+            "Consent measurement process"^^xsd:string,
+            "Date_of_death measurement process"^^xsd:string,
+            "Diagnosis measurement process"^^xsd:string,
+            "Disability measurement process"^^xsd:string,
+            "Genotype_HGNC measurement process"^^xsd:string,
+            "Genotype_HGVS measurement process"^^xsd:string,
+            "Genotype_OMIM measurement process"^^xsd:string,
+            "Onset_diagnosis measurement process"^^xsd:string,
+            "Onset_symptoms measurement process"^^xsd:string,
+            "Phenotype measurement process"^^xsd:string,
+            "Sex measurement process"^^xsd:string,
+            "Status measurement process"^^xsd:string ;
+        sio:SIO_000229 <http://example.org/data/500-0022_2.02301161705555E%2B019_Output> .
+
+    <http://example.org/data/500-0023_2.02301161705555E%2B019_Output> a obo:DUO_0000001,
+            obo:NCIT_C103159,
+            obo:NCIT_C115570,
+            obo:NCIT_C125204,
+            obo:NCIT_C16612,
+            obo:NCIT_C17248,
+            obo:NCIT_C25716,
+            obo:OBIB_0000488,
+            <http://www.ebi.ac.uk/efo/EFO_0006921>,
+            sio:SIO_000015 ;
+        rdfs:label "Biobank measurement output"^^xsd:string,
+            "Birthdate measurement output"^^xsd:string,
+            "Care_pathway measurement output"^^xsd:string,
+            "Consent measurement output"^^xsd:string,
+            "Diagnosis measurement output"^^xsd:string,
+            "Genotype_HGNC measurement output"^^xsd:string,
+            "Genotype_HGVS measurement output"^^xsd:string,
+            "Genotype_OMIM measurement output"^^xsd:string,
+            "Onset_diagnosis measurement output"^^xsd:string,
+            "Onset_symptoms measurement output"^^xsd:string,
+            "Phenotype measurement output"^^xsd:string,
+            "Sex measurement output"^^xsd:string,
+            "Status measurement output"^^xsd:string ;
+        sio:SIO_000300 "2013-11-05"^^<file:///data/$(datatype)>,
+            "2014-05-05"^^<file:///data/$(datatype)>,
+            "2014-08-12"^^<file:///data/$(datatype)>,
+            "2014-11-06"^^<file:///data/$(datatype)>,
+            "607575"^^<file:///data/$(datatype)>,
+            "Alive"^^<file:///data/$(datatype)>,
+            "Bardet-Biedl syndrome"^^<file:///data/$(datatype)>,
+            "Consent to being contacted about research projects"^^<file:///data/$(datatype)>,
+            "Consent to data being shared for clinical care"^^<file:///data/$(datatype)>,
+            "HGNC:1839"^^<file:///data/$(datatype)>,
+            "Male"^^<file:///data/$(datatype)>,
+            "NM_001282225.2(ADA2):c.973-2A>G"^^<file:///data/$(datatype)>,
+            "Vasculitis"^^<file:///data/$(datatype)>,
+            "http://hdl.handle.net/21.12110/1.0102-edc4-f36a"^^<file:///data/$(datatype)> ;
+        sio:SIO_000628 <http://example.org/data/500-0023_2.02301161705555E%2B019_Attribute> .
+
+    <http://example.org/data/500-0023_2.02301161705555E%2B019_Process> a obo:NCIT_C142470,
+            obo:NCIT_C15220,
+            obo:NCIT_C15709,
+            obo:NCIT_C159705,
+            obo:NCIT_C25305,
+            obo:OBI_0000810,
+            obo:OMIABIS_0000061,
+            sio:SIO_000006 ;
+        rdfs:label "Biobank measurement process"^^xsd:string,
+            "Birthdate measurement process"^^xsd:string,
+            "Care_pathway measurement process"^^xsd:string,
+            "Consent measurement process"^^xsd:string,
+            "Diagnosis measurement process"^^xsd:string,
+            "Genotype_HGNC measurement process"^^xsd:string,
+            "Genotype_HGVS measurement process"^^xsd:string,
+            "Genotype_OMIM measurement process"^^xsd:string,
+            "Onset_diagnosis measurement process"^^xsd:string,
+            "Onset_symptoms measurement process"^^xsd:string,
+            "Phenotype measurement process"^^xsd:string,
+            "Sex measurement process"^^xsd:string,
+            "Status measurement process"^^xsd:string ;
+        sio:SIO_000229 <http://example.org/data/500-0023_2.02301161705555E%2B019_Output> .
+
+    <http://example.org/data/500-0024_2.02301161705555E%2B019_Output> a obo:DUO_0000001,
+            obo:NCIT_C103159,
+            obo:NCIT_C115570,
+            obo:NCIT_C25716,
+            obo:OBIB_0000488,
+            <http://www.ebi.ac.uk/efo/EFO_0006921>,
+            sio:SIO_000015 ;
+        rdfs:label "Biobank measurement output"^^xsd:string,
+            "Birthdate measurement output"^^xsd:string,
+            "Care_pathway measurement output"^^xsd:string,
+            "Consent measurement output"^^xsd:string,
+            "Diagnosis measurement output"^^xsd:string,
+            "Onset_diagnosis measurement output"^^xsd:string,
+            "Onset_symptoms measurement output"^^xsd:string,
+            "Sex measurement output"^^xsd:string,
+            "Status measurement output"^^xsd:string ;
+        sio:SIO_000300 "1986-10-05"^^<file:///data/$(datatype)>,
+            "2000-10-05"^^<file:///data/$(datatype)>,
+            "2000-10-10"^^<file:///data/$(datatype)>,
+            "2000-12-10"^^<file:///data/$(datatype)>,
+            "Alive"^^<file:///data/$(datatype)>,
+            "Autosomal dominant polycystic kidney disease"^^<file:///data/$(datatype)>,
+            "Consent to being contacted about research projects"^^<file:///data/$(datatype)>,
+            "Consent to data being shared for clinical care"^^<file:///data/$(datatype)>,
+            "Female"^^<file:///data/$(datatype)>,
+            "http://hdl.handle.net/21.12110/1.0102-edc4-f36a"^^<file:///data/$(datatype)> ;
+        sio:SIO_000628 <http://example.org/data/500-0024_2.02301161705555E%2B019_Attribute> .
+
+    <http://example.org/data/500-0024_2.02301161705555E%2B019_Process> a obo:NCIT_C142470,
+            obo:NCIT_C15220,
+            obo:NCIT_C159705,
+            obo:OBI_0000810,
+            obo:OMIABIS_0000061,
+            sio:SIO_000006 ;
+        rdfs:label "Biobank measurement process"^^xsd:string,
+            "Birthdate measurement process"^^xsd:string,
+            "Care_pathway measurement process"^^xsd:string,
+            "Consent measurement process"^^xsd:string,
+            "Diagnosis measurement process"^^xsd:string,
+            "Onset_diagnosis measurement process"^^xsd:string,
+            "Onset_symptoms measurement process"^^xsd:string,
+            "Sex measurement process"^^xsd:string,
+            "Status measurement process"^^xsd:string ;
+        sio:SIO_000229 <http://example.org/data/500-0024_2.02301161705555E%2B019_Output> .
+
+    <http://example.org/data/500-0025_2.02301161705555E%2B019_Output> a obo:NCIT_C103159,
+            obo:NCIT_C25716,
+            <http://www.ebi.ac.uk/efo/EFO_0006921>,
+            sio:SIO_000015 ;
+        rdfs:label "Birthdate measurement output"^^xsd:string,
+            "Care_pathway measurement output"^^xsd:string,
+            "Diagnosis measurement output"^^xsd:string,
+            "Onset_diagnosis measurement output"^^xsd:string,
+            "Onset_symptoms measurement output"^^xsd:string,
+            "Sex measurement output"^^xsd:string,
+            "Status measurement output"^^xsd:string ;
+        sio:SIO_000300 "2016-11-05"^^<file:///data/$(datatype)>,
+            "2017-05-05"^^<file:///data/$(datatype)>,
+            "2017-05-12"^^<file:///data/$(datatype)>,
+            "2019-11-06"^^<file:///data/$(datatype)>,
+            "Alive"^^<file:///data/$(datatype)>,
+            "Autosomal dominant polycystic kidney disease"^^<file:///data/$(datatype)>,
+            "Male"^^<file:///data/$(datatype)> ;
+        sio:SIO_000628 <http://example.org/data/500-0025_2.02301161705555E%2B019_Attribute> .
+
+    <http://example.org/data/500-0025_2.02301161705555E%2B019_Process> a obo:NCIT_C142470,
+            obo:NCIT_C15220,
+            obo:NCIT_C159705,
+            sio:SIO_000006 ;
+        rdfs:label "Birthdate measurement process"^^xsd:string,
+            "Care_pathway measurement process"^^xsd:string,
+            "Diagnosis measurement process"^^xsd:string,
+            "Onset_diagnosis measurement process"^^xsd:string,
+            "Onset_symptoms measurement process"^^xsd:string,
+            "Sex measurement process"^^xsd:string,
+            "Status measurement process"^^xsd:string ;
+        sio:SIO_000229 <http://example.org/data/500-0025_2.02301161705555E%2B019_Output> .
+
+    <http://example.org/data/500-0026_2.02301161705555E%2B019_Output> a obo:DUO_0000001,
+            obo:NCIT_C103159,
+            obo:NCIT_C115570,
+            obo:NCIT_C25716,
+            obo:OBIB_0000488,
+            <http://www.ebi.ac.uk/efo/EFO_0006921>,
+            sio:SIO_000015 ;
+        rdfs:label "Biobank measurement output"^^xsd:string,
+            "Birthdate measurement output"^^xsd:string,
+            "Care_pathway measurement output"^^xsd:string,
+            "Consent measurement output"^^xsd:string,
+            "Diagnosis measurement output"^^xsd:string,
+            "Onset_diagnosis measurement output"^^xsd:string,
+            "Onset_symptoms measurement output"^^xsd:string,
+            "Sex measurement output"^^xsd:string,
+            "Status measurement output"^^xsd:string ;
+        sio:SIO_000300 "2004-06-05"^^<file:///data/$(datatype)>,
+            "2010-07-05"^^<file:///data/$(datatype)>,
+            "2010-07-07"^^<file:///data/$(datatype)>,
+            "Alive"^^<file:///data/$(datatype)>,
+            "Consent to being contacted about research projects"^^<file:///data/$(datatype)>,
+            "Consent to data being shared for clinical care"^^<file:///data/$(datatype)>,
+            "Dent disease type 1"^^<file:///data/$(datatype)>,
+            "Female"^^<file:///data/$(datatype)>,
+            "http://hdl.handle.net/21.12110/1.0102-edc4-f36a"^^<file:///data/$(datatype)> ;
+        sio:SIO_000628 <http://example.org/data/500-0026_2.02301161705555E%2B019_Attribute> .
+
+    <http://example.org/data/500-0026_2.02301161705555E%2B019_Process> a obo:NCIT_C142470,
+            obo:NCIT_C15220,
+            obo:NCIT_C159705,
+            obo:OBI_0000810,
+            obo:OMIABIS_0000061,
+            sio:SIO_000006 ;
+        rdfs:label "Biobank measurement process"^^xsd:string,
+            "Birthdate measurement process"^^xsd:string,
+            "Care_pathway measurement process"^^xsd:string,
+            "Consent measurement process"^^xsd:string,
+            "Diagnosis measurement process"^^xsd:string,
+            "Onset_diagnosis measurement process"^^xsd:string,
+            "Onset_symptoms measurement process"^^xsd:string,
+            "Sex measurement process"^^xsd:string,
+            "Status measurement process"^^xsd:string ;
+        sio:SIO_000229 <http://example.org/data/500-0026_2.02301161705555E%2B019_Output> .
+
+    <http://example.org/data/500-0027_2.02301161705555E%2B019_Output> a obo:DUO_0000001,
+            obo:NCIT_C103159,
+            obo:NCIT_C115570,
+            obo:NCIT_C25716,
+            obo:OBIB_0000488,
+            <http://www.ebi.ac.uk/efo/EFO_0006921>,
+            sio:SIO_000015 ;
+        rdfs:label "Biobank measurement output"^^xsd:string,
+            "Birthdate measurement output"^^xsd:string,
+            "Care_pathway measurement output"^^xsd:string,
+            "Consent measurement output"^^xsd:string,
+            "Diagnosis measurement output"^^xsd:string,
+            "Onset_diagnosis measurement output"^^xsd:string,
+            "Onset_symptoms measurement output"^^xsd:string,
+            "Sex measurement output"^^xsd:string,
+            "Status measurement output"^^xsd:string ;
+        sio:SIO_000300 "1986-10-05"^^<file:///data/$(datatype)>,
+            "2000-10-05"^^<file:///data/$(datatype)>,
+            "2000-10-10"^^<file:///data/$(datatype)>,
+            "2000-12-10"^^<file:///data/$(datatype)>,
+            "Alive"^^<file:///data/$(datatype)>,
+            "Consent to being contacted about research projects"^^<file:///data/$(datatype)>,
+            "Consent to data being shared for clinical care"^^<file:///data/$(datatype)>,
+            "Male"^^<file:///data/$(datatype)>,
+            "Oligomeganephronia"^^<file:///data/$(datatype)>,
+            "http://hdl.handle.net/21.12110/1.0102-edc4-f36a"^^<file:///data/$(datatype)> ;
+        sio:SIO_000628 <http://example.org/data/500-0027_2.02301161705555E%2B019_Attribute> .
+
+    <http://example.org/data/500-0027_2.02301161705555E%2B019_Process> a obo:NCIT_C142470,
+            obo:NCIT_C15220,
+            obo:NCIT_C159705,
+            obo:OBI_0000810,
+            obo:OMIABIS_0000061,
+            sio:SIO_000006 ;
+        rdfs:label "Biobank measurement process"^^xsd:string,
+            "Birthdate measurement process"^^xsd:string,
+            "Care_pathway measurement process"^^xsd:string,
+            "Consent measurement process"^^xsd:string,
+            "Diagnosis measurement process"^^xsd:string,
+            "Onset_diagnosis measurement process"^^xsd:string,
+            "Onset_symptoms measurement process"^^xsd:string,
+            "Sex measurement process"^^xsd:string,
+            "Status measurement process"^^xsd:string ;
+        sio:SIO_000229 <http://example.org/data/500-0027_2.02301161705555E%2B019_Output> .
+
+    <http://example.org/data/500-0028_2.02301161705555E%2B019_Output> a obo:DUO_0000001,
+            obo:NCIT_C103159,
+            obo:NCIT_C115570,
+            obo:NCIT_C25716,
+            obo:OBIB_0000488,
+            <http://www.ebi.ac.uk/efo/EFO_0006921>,
+            sio:SIO_000015 ;
+        rdfs:label "Biobank measurement output"^^xsd:string,
+            "Birthdate measurement output"^^xsd:string,
+            "Care_pathway measurement output"^^xsd:string,
+            "Consent measurement output"^^xsd:string,
+            "Diagnosis measurement output"^^xsd:string,
+            "Onset_diagnosis measurement output"^^xsd:string,
+            "Onset_symptoms measurement output"^^xsd:string,
+            "Sex measurement output"^^xsd:string,
+            "Status measurement output"^^xsd:string ;
+        sio:SIO_000300 "2021-11-05"^^<file:///data/$(datatype)>,
+            "2022-03-05"^^<file:///data/$(datatype)>,
+            "2022-04-12"^^<file:///data/$(datatype)>,
+            "Alive"^^<file:///data/$(datatype)>,
+            "Consent to being contacted about research projects"^^<file:///data/$(datatype)>,
+            "Consent to data being shared for clinical care"^^<file:///data/$(datatype)>,
+            "Cystinuria"^^<file:///data/$(datatype)>,
+            "Male"^^<file:///data/$(datatype)>,
+            "http://hdl.handle.net/21.12110/1.0102-edc4-f36a"^^<file:///data/$(datatype)> ;
+        sio:SIO_000628 <http://example.org/data/500-0028_2.02301161705555E%2B019_Attribute> .
+
+    <http://example.org/data/500-0028_2.02301161705555E%2B019_Process> a obo:NCIT_C142470,
+            obo:NCIT_C15220,
+            obo:NCIT_C159705,
+            obo:OBI_0000810,
+            obo:OMIABIS_0000061,
+            sio:SIO_000006 ;
+        rdfs:label "Biobank measurement process"^^xsd:string,
+            "Birthdate measurement process"^^xsd:string,
+            "Care_pathway measurement process"^^xsd:string,
+            "Consent measurement process"^^xsd:string,
+            "Diagnosis measurement process"^^xsd:string,
+            "Onset_diagnosis measurement process"^^xsd:string,
+            "Onset_symptoms measurement process"^^xsd:string,
+            "Sex measurement process"^^xsd:string,
+            "Status measurement process"^^xsd:string ;
+        sio:SIO_000229 <http://example.org/data/500-0028_2.02301161705555E%2B019_Output> .
+
+    <http://example.org/data/500-0029_2.02301161705555E%2B019_Output> a obo:DUO_0000001,
+            obo:NCIT_C103159,
+            obo:NCIT_C115570,
+            obo:NCIT_C25716,
+            obo:OBIB_0000488,
+            <http://www.ebi.ac.uk/efo/EFO_0006921>,
+            sio:SIO_000015 ;
+        rdfs:label "Biobank measurement output"^^xsd:string,
+            "Birthdate measurement output"^^xsd:string,
+            "Care_pathway measurement output"^^xsd:string,
+            "Consent measurement output"^^xsd:string,
+            "Diagnosis measurement output"^^xsd:string,
+            "Onset_diagnosis measurement output"^^xsd:string,
+            "Onset_symptoms measurement output"^^xsd:string,
+            "Sex measurement output"^^xsd:string,
+            "Status measurement output"^^xsd:string ;
+        sio:SIO_000300 "2013-11-05"^^<file:///data/$(datatype)>,
+            "2014-05-05"^^<file:///data/$(datatype)>,
+            "2014-05-12"^^<file:///data/$(datatype)>,
+            "2014-11-06"^^<file:///data/$(datatype)>,
+            "Alive"^^<file:///data/$(datatype)>,
+            "Consent to being contacted about research projects"^^<file:///data/$(datatype)>,
+            "Consent to data being shared for clinical care"^^<file:///data/$(datatype)>,
+            "Male"^^<file:///data/$(datatype)>,
+            "Shiga toxin-associated hemolytic uremic syndrome"^^<file:///data/$(datatype)>,
+            "http://hdl.handle.net/21.12110/1.0102-edc4-f36a"^^<file:///data/$(datatype)> ;
+        sio:SIO_000628 <http://example.org/data/500-0029_2.02301161705555E%2B019_Attribute> .
+
+    <http://example.org/data/500-0029_2.02301161705555E%2B019_Process> a obo:NCIT_C142470,
+            obo:NCIT_C15220,
+            obo:NCIT_C159705,
+            obo:OBI_0000810,
+            obo:OMIABIS_0000061,
+            sio:SIO_000006 ;
+        rdfs:label "Biobank measurement process"^^xsd:string,
+            "Birthdate measurement process"^^xsd:string,
+            "Care_pathway measurement process"^^xsd:string,
+            "Consent measurement process"^^xsd:string,
+            "Diagnosis measurement process"^^xsd:string,
+            "Onset_diagnosis measurement process"^^xsd:string,
+            "Onset_symptoms measurement process"^^xsd:string,
+            "Sex measurement process"^^xsd:string,
+            "Status measurement process"^^xsd:string ;
+        sio:SIO_000229 <http://example.org/data/500-0029_2.02301161705555E%2B019_Output> .
+
+    <http://example.org/data/500-0030_2.02301161705555E%2B019_Output> a obo:DUO_0000001,
+            obo:NCIT_C103159,
+            obo:NCIT_C115570,
+            obo:NCIT_C25716,
+            obo:OBIB_0000488,
+            <http://www.ebi.ac.uk/efo/EFO_0006921>,
+            sio:SIO_000015 ;
+        rdfs:label "Biobank measurement output"^^xsd:string,
+            "Birthdate measurement output"^^xsd:string,
+            "Care_pathway measurement output"^^xsd:string,
+            "Consent measurement output"^^xsd:string,
+            "Date_of_death measurement output"^^xsd:string,
+            "Diagnosis measurement output"^^xsd:string,
+            "Onset_diagnosis measurement output"^^xsd:string,
+            "Onset_symptoms measurement output"^^xsd:string,
+            "Sex measurement output"^^xsd:string,
+            "Status measurement output"^^xsd:string ;
+        sio:SIO_000300 "1973-10-05"^^<file:///data/$(datatype)>,
+            "1974-11-05"^^<file:///data/$(datatype)>,
+            "1975-07-01"^^<file:///data/$(datatype)>,
+            "1985-07-01"^^<file:///data/$(datatype)>,
+            "2022-07-01"^^<file:///data/$(datatype)>,
+            "Consent to being contacted about research projects"^^<file:///data/$(datatype)>,
+            "Consent to data being shared for clinical care"^^<file:///data/$(datatype)>,
+            "Dead"^^<file:///data/$(datatype)>,
+            "Infantile nephropathic cystinosis"^^<file:///data/$(datatype)>,
+            "Male"^^<file:///data/$(datatype)>,
+            "http://hdl.handle.net/21.12110/1.0102-edc4-f36a"^^<file:///data/$(datatype)> ;
+        sio:SIO_000628 <http://example.org/data/500-0030_2.02301161705555E%2B019_Attribute> .
+
+    <http://example.org/data/500-0030_2.02301161705555E%2B019_Process> a obo:NCIT_C142470,
+            obo:NCIT_C15220,
+            obo:NCIT_C159705,
+            obo:OBI_0000810,
+            obo:OMIABIS_0000061,
+            sio:SIO_000006 ;
+        rdfs:label "Biobank measurement process"^^xsd:string,
+            "Birthdate measurement process"^^xsd:string,
+            "Care_pathway measurement process"^^xsd:string,
+            "Consent measurement process"^^xsd:string,
+            "Date_of_death measurement process"^^xsd:string,
+            "Diagnosis measurement process"^^xsd:string,
+            "Onset_diagnosis measurement process"^^xsd:string,
+            "Onset_symptoms measurement process"^^xsd:string,
+            "Sex measurement process"^^xsd:string,
+            "Status measurement process"^^xsd:string ;
+        sio:SIO_000229 <http://example.org/data/500-0030_2.02301161705555E%2B019_Output> .
+
+    <http://example.org/data/500-0031_2.02301161705555E%2B019_Output> a obo:DUO_0000001,
+            obo:NCIT_C103159,
+            obo:NCIT_C115570,
+            obo:NCIT_C125204,
+            obo:NCIT_C16612,
+            obo:NCIT_C17248,
+            obo:NCIT_C25716,
+            obo:OBIB_0000488,
+            <http://www.ebi.ac.uk/efo/EFO_0006921>,
+            sio:SIO_000015 ;
+        rdfs:label "Biobank measurement output"^^xsd:string,
+            "Birthdate measurement output"^^xsd:string,
+            "Care_pathway measurement output"^^xsd:string,
+            "Consent measurement output"^^xsd:string,
+            "Genotype_HGNC measurement output"^^xsd:string,
+            "Genotype_HGVS measurement output"^^xsd:string,
+            "Genotype_OMIM measurement output"^^xsd:string,
+            "Phenotype measurement output"^^xsd:string,
+            "Sex measurement output"^^xsd:string,
+            "Status measurement output"^^xsd:string ;
+        sio:SIO_000300 "2013-02-05"^^<file:///data/$(datatype)>,
+            "2014-05-12"^^<file:///data/$(datatype)>,
+            "607575"^^<file:///data/$(datatype)>,
+            "Alive"^^<file:///data/$(datatype)>,
+            "Consent to being contacted about research projects"^^<file:///data/$(datatype)>,
+            "Consent to data being shared for clinical care"^^<file:///data/$(datatype)>,
+            "HGNC:1839"^^<file:///data/$(datatype)>,
+            "Male"^^<file:///data/$(datatype)>,
+            "NM_001282225.2(ADA2):c.973-2A>G"^^<file:///data/$(datatype)>,
+            "Vasculitis"^^<file:///data/$(datatype)>,
+            "http://hdl.handle.net/21.12110/1.0102-edc4-f36a"^^<file:///data/$(datatype)> ;
+        sio:SIO_000628 <http://example.org/data/500-0031_2.02301161705555E%2B019_Attribute> .
+
+    <http://example.org/data/500-0031_2.02301161705555E%2B019_Process> a obo:NCIT_C142470,
+            obo:NCIT_C15709,
+            obo:NCIT_C159705,
+            obo:NCIT_C25305,
+            obo:OBI_0000810,
+            obo:OMIABIS_0000061,
+            sio:SIO_000006 ;
+        rdfs:label "Biobank measurement process"^^xsd:string,
+            "Birthdate measurement process"^^xsd:string,
+            "Care_pathway measurement process"^^xsd:string,
+            "Consent measurement process"^^xsd:string,
+            "Genotype_HGNC measurement process"^^xsd:string,
+            "Genotype_HGVS measurement process"^^xsd:string,
+            "Genotype_OMIM measurement process"^^xsd:string,
+            "Phenotype measurement process"^^xsd:string,
+            "Sex measurement process"^^xsd:string,
+            "Status measurement process"^^xsd:string ;
+        sio:SIO_000229 <http://example.org/data/500-0031_2.02301161705555E%2B019_Output> .
+
+    <http://example.org/data/500-0001_2.02301161705555E%2B019_Attribute> a <http://edamontology.org/data_1153>,
+            <http://edamontology.org/data_2127>,
+            <http://edamontology.org/data_2298>,
+            obo:HP_0002633,
+            obo:NCIT_C124353,
+            obo:NCIT_C156420,
+            obo:NCIT_C164021,
+            obo:NCIT_C166244,
+            obo:NCIT_C20197,
+            obo:NCIT_C25429,
+            obo:NCIT_C25460,
+            obo:NCIT_C28421,
+            obo:NCIT_C2991,
+            obo:NCIT_C68615,
+            obo:NCIT_C93613,
+            <http://semanticscience.org/resource/SIO_010056>,
+            <http://semanticscience.org/resource/SIO_010058>,
+            <http://www.orpha.net/ORDO/Orphanet_93552>,
+            <https://bioregistry.io/HGNC:1839>,
+            sio:SIO_000614,
+            <https://www.ncbi.nlm.nih.gov/clinvar/RCV000652057/>,
+            <https://www.omim.org/entry/607575> ;
+        rdfs:label "Biobank attribute"^^xsd:string,
+            "Birthdate attribute"^^xsd:string,
+            "Care_pathway attribute"^^xsd:string,
+            "Consent attribute"^^xsd:string,
+            "Diagnosis attribute"^^xsd:string,
+            "Genotype_HGNC attribute"^^xsd:string,
+            "Genotype_HGVS attribute"^^xsd:string,
+            "Genotype_OMIM attribute"^^xsd:string,
+            "Onset_diagnosis attribute"^^xsd:string,
+            "Onset_symptoms attribute"^^xsd:string,
+            "Phenotype attribute"^^xsd:string,
+            "Sex attribute"^^xsd:string,
+            "Status attribute"^^xsd:string .
+
+    <http://example.org/data/500-0001_2.02301161705555E%2B019_Role> a obo:OBI_0000093,
+            sio:SIO_000016 ;
+        rdfs:label "Patient role"^^xsd:string ;
+        sio:SIO_000356 <http://example.org/data/500-0001_2.02301161705555E%2B019_Process> .
+
+    <http://example.org/data/500-0002_2.02301161705555E%2B019_Attribute> a <http://edamontology.org/data_1153>,
+            <http://edamontology.org/data_2127>,
+            <http://edamontology.org/data_2298>,
+            obo:HP_0002633,
+            obo:NCIT_C124353,
+            obo:NCIT_C164021,
+            obo:NCIT_C166244,
+            obo:NCIT_C20197,
+            obo:NCIT_C21007,
+            obo:NCIT_C25429,
+            obo:NCIT_C25460,
+            obo:NCIT_C28421,
+            obo:NCIT_C68615,
+            obo:NCIT_C93613,
+            <http://semanticscience.org/resource/SIO_010056>,
+            <http://semanticscience.org/resource/SIO_010058>,
+            <https://bioregistry.io/HGNC:1839>,
+            sio:SIO_000614,
+            <https://www.ncbi.nlm.nih.gov/clinvar/RCV000652057/>,
+            <https://www.omim.org/entry/607575> ;
+        rdfs:label "Biobank attribute"^^xsd:string,
+            "Birthdate attribute"^^xsd:string,
+            "Care_pathway attribute"^^xsd:string,
+            "Consent attribute"^^xsd:string,
+            "Disability attribute"^^xsd:string,
+            "Genotype_HGNC attribute"^^xsd:string,
+            "Genotype_HGVS attribute"^^xsd:string,
+            "Genotype_OMIM attribute"^^xsd:string,
+            "Onset_symptoms attribute"^^xsd:string,
+            "Phenotype attribute"^^xsd:string,
+            "Sex attribute"^^xsd:string,
+            "Status attribute"^^xsd:string .
+
+    <http://example.org/data/500-0002_2.02301161705555E%2B019_Role> a obo:OBI_0000093,
+            sio:SIO_000016 ;
+        rdfs:label "Patient role"^^xsd:string ;
+        sio:SIO_000356 <http://example.org/data/500-0002_2.02301161705555E%2B019_Process> .
+
+    <http://example.org/data/500-0003_2.02301161705555E%2B019_Attribute> a <http://edamontology.org/data_1153>,
+            <http://edamontology.org/data_2127>,
+            <http://edamontology.org/data_2298>,
+            obo:HP_0002633,
+            obo:NCIT_C124353,
+            obo:NCIT_C156420,
+            obo:NCIT_C164021,
+            obo:NCIT_C16576,
+            obo:NCIT_C166244,
+            obo:NCIT_C25429,
+            obo:NCIT_C25460,
+            obo:NCIT_C28421,
+            obo:NCIT_C2991,
+            obo:NCIT_C68615,
+            obo:NCIT_C93613,
+            <http://semanticscience.org/resource/SIO_010056>,
+            <http://semanticscience.org/resource/SIO_010058>,
+            <http://www.orpha.net/ORDO/Orphanet_214>,
+            <https://bioregistry.io/HGNC:1839>,
+            sio:SIO_000614,
+            <https://www.ncbi.nlm.nih.gov/clinvar/RCV000652057/>,
+            <https://www.omim.org/entry/607575> ;
+        rdfs:label "Biobank attribute"^^xsd:string,
+            "Birthdate attribute"^^xsd:string,
+            "Care_pathway attribute"^^xsd:string,
+            "Consent attribute"^^xsd:string,
+            "Diagnosis attribute"^^xsd:string,
+            "Genotype_HGNC attribute"^^xsd:string,
+            "Genotype_HGVS attribute"^^xsd:string,
+            "Genotype_OMIM attribute"^^xsd:string,
+            "Onset_diagnosis attribute"^^xsd:string,
+            "Onset_symptoms attribute"^^xsd:string,
+            "Phenotype attribute"^^xsd:string,
+            "Sex attribute"^^xsd:string,
+            "Status attribute"^^xsd:string .
+
+    <http://example.org/data/500-0003_2.02301161705555E%2B019_Role> a obo:OBI_0000093,
+            sio:SIO_000016 ;
+        rdfs:label "Patient role"^^xsd:string ;
+        sio:SIO_000356 <http://example.org/data/500-0003_2.02301161705555E%2B019_Process> .
+
+    <http://example.org/data/500-0004_2.02301161705555E%2B019_Attribute> a <http://edamontology.org/data_1153>,
+            <http://edamontology.org/data_2127>,
+            <http://edamontology.org/data_2298>,
+            obo:HP_0002633,
+            obo:NCIT_C124353,
+            obo:NCIT_C156420,
+            obo:NCIT_C164021,
+            obo:NCIT_C166244,
+            obo:NCIT_C20197,
+            obo:NCIT_C25429,
+            obo:NCIT_C25460,
+            obo:NCIT_C28421,
+            obo:NCIT_C2991,
+            obo:NCIT_C68615,
+            obo:NCIT_C93613,
+            <http://semanticscience.org/resource/SIO_010056>,
+            <http://semanticscience.org/resource/SIO_010058>,
+            <http://www.orpha.net/ORDO/Orphanet_93608>,
+            <https://bioregistry.io/HGNC:1839>,
+            sio:SIO_000614,
+            <https://www.ncbi.nlm.nih.gov/clinvar/RCV000652057/>,
+            <https://www.omim.org/entry/607575> ;
+        rdfs:label "Biobank attribute"^^xsd:string,
+            "Birthdate attribute"^^xsd:string,
+            "Care_pathway attribute"^^xsd:string,
+            "Consent attribute"^^xsd:string,
+            "Diagnosis attribute"^^xsd:string,
+            "Genotype_HGNC attribute"^^xsd:string,
+            "Genotype_HGVS attribute"^^xsd:string,
+            "Genotype_OMIM attribute"^^xsd:string,
+            "Onset_diagnosis attribute"^^xsd:string,
+            "Onset_symptoms attribute"^^xsd:string,
+            "Phenotype attribute"^^xsd:string,
+            "Sex attribute"^^xsd:string,
+            "Status attribute"^^xsd:string .
+
+    <http://example.org/data/500-0004_2.02301161705555E%2B019_Role> a obo:OBI_0000093,
+            sio:SIO_000016 ;
+        rdfs:label "Patient role"^^xsd:string ;
+        sio:SIO_000356 <http://example.org/data/500-0004_2.02301161705555E%2B019_Process> .
+
+    <http://example.org/data/500-0005_2.02301161705555E%2B019_Attribute> a <http://edamontology.org/data_1153>,
+            <http://edamontology.org/data_2127>,
+            <http://edamontology.org/data_2298>,
+            obo:HP_0002633,
+            obo:NCIT_C124353,
+            obo:NCIT_C156420,
+            obo:NCIT_C164021,
+            obo:NCIT_C16576,
+            obo:NCIT_C166244,
+            obo:NCIT_C25429,
+            obo:NCIT_C25460,
+            obo:NCIT_C28421,
+            obo:NCIT_C2991,
+            obo:NCIT_C68615,
+            obo:NCIT_C70810,
+            obo:NCIT_C93613,
+            <http://semanticscience.org/resource/SIO_010056>,
+            <http://semanticscience.org/resource/SIO_010059>,
+            <http://www.orpha.net/ORDO/Orphanet_88918>,
+            <https://bioregistry.io/HGNC:1839>,
+            sio:SIO_000614,
+            <https://www.ncbi.nlm.nih.gov/clinvar/RCV000652057/>,
+            <https://www.omim.org/entry/607575> ;
+        rdfs:label "Biobank attribute"^^xsd:string,
+            "Birthdate attribute"^^xsd:string,
+            "Care_pathway attribute"^^xsd:string,
+            "Consent attribute"^^xsd:string,
+            "Date_of_death attribute"^^xsd:string,
+            "Diagnosis attribute"^^xsd:string,
+            "Genotype_HGNC attribute"^^xsd:string,
+            "Genotype_HGVS attribute"^^xsd:string,
+            "Genotype_OMIM attribute"^^xsd:string,
+            "Onset_diagnosis attribute"^^xsd:string,
+            "Onset_symptoms attribute"^^xsd:string,
+            "Phenotype attribute"^^xsd:string,
+            "Sex attribute"^^xsd:string,
+            "Status attribute"^^xsd:string .
+
+    <http://example.org/data/500-0005_2.02301161705555E%2B019_Role> a obo:OBI_0000093,
+            sio:SIO_000016 ;
+        rdfs:label "Patient role"^^xsd:string ;
+        sio:SIO_000356 <http://example.org/data/500-0005_2.02301161705555E%2B019_Process> .
+
+    <http://example.org/data/500-0006_2.02301161705555E%2B019_Attribute> a obo:NCIT_C124353,
+            obo:NCIT_C156420,
+            obo:NCIT_C164021,
+            obo:NCIT_C16576,
+            obo:NCIT_C166244,
+            obo:NCIT_C21007,
+            obo:NCIT_C25429,
+            obo:NCIT_C25460,
+            obo:NCIT_C28421,
+            obo:NCIT_C2991,
+            obo:NCIT_C68615,
+            obo:NCIT_C93613,
+            <http://semanticscience.org/resource/SIO_010058>,
+            <http://www.orpha.net/ORDO/Orphanet_93552>,
+            sio:SIO_000614 ;
+        rdfs:label "Biobank attribute"^^xsd:string,
+            "Birthdate attribute"^^xsd:string,
+            "Care_pathway attribute"^^xsd:string,
+            "Consent attribute"^^xsd:string,
+            "Diagnosis attribute"^^xsd:string,
+            "Disability attribute"^^xsd:string,
+            "Onset_diagnosis attribute"^^xsd:string,
+            "Onset_symptoms attribute"^^xsd:string,
+            "Sex attribute"^^xsd:string,
+            "Status attribute"^^xsd:string .
+
+    <http://example.org/data/500-0006_2.02301161705555E%2B019_Role> a obo:OBI_0000093,
+            sio:SIO_000016 ;
+        rdfs:label "Patient role"^^xsd:string ;
+        sio:SIO_000356 <http://example.org/data/500-0006_2.02301161705555E%2B019_Process> .
+
+    <http://example.org/data/500-0007_2.02301161705555E%2B019_Attribute> a <http://edamontology.org/data_1153>,
+            <http://edamontology.org/data_2127>,
+            <http://edamontology.org/data_2298>,
+            obo:HP_0002633,
+            obo:NCIT_C124353,
+            obo:NCIT_C156420,
+            obo:NCIT_C164021,
+            obo:NCIT_C16576,
+            obo:NCIT_C166244,
+            obo:NCIT_C21007,
+            obo:NCIT_C25429,
+            obo:NCIT_C25460,
+            obo:NCIT_C28421,
+            obo:NCIT_C2991,
+            obo:NCIT_C68615,
+            obo:NCIT_C93613,
+            <http://semanticscience.org/resource/SIO_010056>,
+            <http://semanticscience.org/resource/SIO_010058>,
+            <http://www.orpha.net/ORDO/Orphanet_112>,
+            <https://bioregistry.io/HGNC:1839>,
+            sio:SIO_000614,
+            <https://www.ncbi.nlm.nih.gov/clinvar/RCV000652057/>,
+            <https://www.omim.org/entry/607575> ;
+        rdfs:label "Biobank attribute"^^xsd:string,
+            "Birthdate attribute"^^xsd:string,
+            "Care_pathway attribute"^^xsd:string,
+            "Consent attribute"^^xsd:string,
+            "Diagnosis attribute"^^xsd:string,
+            "Disability attribute"^^xsd:string,
+            "Genotype_HGNC attribute"^^xsd:string,
+            "Genotype_HGVS attribute"^^xsd:string,
+            "Genotype_OMIM attribute"^^xsd:string,
+            "Onset_diagnosis attribute"^^xsd:string,
+            "Onset_symptoms attribute"^^xsd:string,
+            "Phenotype attribute"^^xsd:string,
+            "Sex attribute"^^xsd:string,
+            "Status attribute"^^xsd:string .
+
+    <http://example.org/data/500-0007_2.02301161705555E%2B019_Role> a obo:OBI_0000093,
+            sio:SIO_000016 ;
+        rdfs:label "Patient role"^^xsd:string ;
+        sio:SIO_000356 <http://example.org/data/500-0007_2.02301161705555E%2B019_Process> .
+
+    <http://example.org/data/500-0008_2.02301161705555E%2B019_Attribute> a <http://edamontology.org/data_1153>,
+            <http://edamontology.org/data_2127>,
+            <http://edamontology.org/data_2298>,
+            obo:HP_0002633,
+            obo:NCIT_C124353,
+            obo:NCIT_C156420,
+            obo:NCIT_C164021,
+            obo:NCIT_C166244,
+            obo:NCIT_C20197,
+            obo:NCIT_C21007,
+            obo:NCIT_C25429,
+            obo:NCIT_C25460,
+            obo:NCIT_C28421,
+            obo:NCIT_C2991,
+            obo:NCIT_C68615,
+            obo:NCIT_C93613,
+            <http://semanticscience.org/resource/SIO_010056>,
+            <http://semanticscience.org/resource/SIO_010058>,
+            <http://www.orpha.net/ORDO/Orphanet_88919>,
+            <https://bioregistry.io/HGNC:1839>,
+            sio:SIO_000614,
+            <https://www.ncbi.nlm.nih.gov/clinvar/RCV000652057/>,
+            <https://www.omim.org/entry/607575> ;
+        rdfs:label "Biobank attribute"^^xsd:string,
+            "Birthdate attribute"^^xsd:string,
+            "Care_pathway attribute"^^xsd:string,
+            "Consent attribute"^^xsd:string,
+            "Diagnosis attribute"^^xsd:string,
+            "Disability attribute"^^xsd:string,
+            "Genotype_HGNC attribute"^^xsd:string,
+            "Genotype_HGVS attribute"^^xsd:string,
+            "Genotype_OMIM attribute"^^xsd:string,
+            "Onset_diagnosis attribute"^^xsd:string,
+            "Onset_symptoms attribute"^^xsd:string,
+            "Phenotype attribute"^^xsd:string,
+            "Sex attribute"^^xsd:string,
+            "Status attribute"^^xsd:string .
+
+    <http://example.org/data/500-0008_2.02301161705555E%2B019_Role> a obo:OBI_0000093,
+            sio:SIO_000016 ;
+        rdfs:label "Patient role"^^xsd:string ;
+        sio:SIO_000356 <http://example.org/data/500-0008_2.02301161705555E%2B019_Process> .
+
+    <http://example.org/data/500-0009_2.02301161705555E%2B019_Attribute> a obo:NCIT_C124353,
+            obo:NCIT_C156420,
+            obo:NCIT_C164021,
+            obo:NCIT_C166244,
+            obo:NCIT_C20197,
+            obo:NCIT_C21007,
+            obo:NCIT_C25429,
+            obo:NCIT_C25460,
+            obo:NCIT_C28421,
+            obo:NCIT_C2991,
+            obo:NCIT_C68615,
+            obo:NCIT_C93613,
+            <http://semanticscience.org/resource/SIO_010058>,
+            <http://www.orpha.net/ORDO/Orphanet_214>,
+            sio:SIO_000614 ;
+        rdfs:label "Biobank attribute"^^xsd:string,
+            "Birthdate attribute"^^xsd:string,
+            "Care_pathway attribute"^^xsd:string,
+            "Consent attribute"^^xsd:string,
+            "Diagnosis attribute"^^xsd:string,
+            "Disability attribute"^^xsd:string,
+            "Onset_diagnosis attribute"^^xsd:string,
+            "Onset_symptoms attribute"^^xsd:string,
+            "Sex attribute"^^xsd:string,
+            "Status attribute"^^xsd:string .
+
+    <http://example.org/data/500-0009_2.02301161705555E%2B019_Role> a obo:OBI_0000093,
+            sio:SIO_000016 ;
+        rdfs:label "Patient role"^^xsd:string ;
+        sio:SIO_000356 <http://example.org/data/500-0009_2.02301161705555E%2B019_Process> .
+
+    <http://example.org/data/500-0010_2.02301161705555E%2B019_Attribute> a obo:NCIT_C124353,
+            obo:NCIT_C156420,
+            obo:NCIT_C164021,
+            obo:NCIT_C16576,
+            obo:NCIT_C166244,
+            obo:NCIT_C21007,
+            obo:NCIT_C25429,
+            obo:NCIT_C25460,
+            obo:NCIT_C28421,
+            obo:NCIT_C2991,
+            obo:NCIT_C68615,
+            obo:NCIT_C93613,
+            <http://semanticscience.org/resource/SIO_010058>,
+            <http://www.orpha.net/ORDO/Orphanet_544493>,
+            sio:SIO_000614 ;
+        rdfs:label "Biobank attribute"^^xsd:string,
+            "Birthdate attribute"^^xsd:string,
+            "Care_pathway attribute"^^xsd:string,
+            "Consent attribute"^^xsd:string,
+            "Diagnosis attribute"^^xsd:string,
+            "Disability attribute"^^xsd:string,
+            "Onset_diagnosis attribute"^^xsd:string,
+            "Onset_symptoms attribute"^^xsd:string,
+            "Sex attribute"^^xsd:string,
+            "Status attribute"^^xsd:string .
+
+    <http://example.org/data/500-0010_2.02301161705555E%2B019_Role> a obo:OBI_0000093,
+            sio:SIO_000016 ;
+        rdfs:label "Patient role"^^xsd:string ;
+        sio:SIO_000356 <http://example.org/data/500-0010_2.02301161705555E%2B019_Process> .
+
+    <http://example.org/data/500-0011_2.02301161705555E%2B019_Attribute> a obo:NCIT_C124353,
+            obo:NCIT_C156420,
+            obo:NCIT_C164021,
+            obo:NCIT_C166244,
+            obo:NCIT_C20197,
+            obo:NCIT_C25429,
+            obo:NCIT_C25460,
+            obo:NCIT_C28421,
+            obo:NCIT_C2991,
+            obo:NCIT_C68615,
+            obo:NCIT_C93613,
+            <http://semanticscience.org/resource/SIO_010058>,
+            <http://www.orpha.net/ORDO/Orphanet_69061>,
+            sio:SIO_000614 ;
+        rdfs:label "Biobank attribute"^^xsd:string,
+            "Birthdate attribute"^^xsd:string,
+            "Care_pathway attribute"^^xsd:string,
+            "Consent attribute"^^xsd:string,
+            "Diagnosis attribute"^^xsd:string,
+            "Onset_diagnosis attribute"^^xsd:string,
+            "Onset_symptoms attribute"^^xsd:string,
+            "Sex attribute"^^xsd:string,
+            "Status attribute"^^xsd:string .
+
+    <http://example.org/data/500-0011_2.02301161705555E%2B019_Role> a obo:OBI_0000093,
+            sio:SIO_000016 ;
+        rdfs:label "Patient role"^^xsd:string ;
+        sio:SIO_000356 <http://example.org/data/500-0011_2.02301161705555E%2B019_Process> .
+
+    <http://example.org/data/500-0012_2.02301161705555E%2B019_Attribute> a obo:NCIT_C124353,
+            obo:NCIT_C156420,
+            obo:NCIT_C164021,
+            obo:NCIT_C16576,
+            obo:NCIT_C166244,
+            obo:NCIT_C25429,
+            obo:NCIT_C25460,
+            obo:NCIT_C28421,
+            obo:NCIT_C2991,
+            obo:NCIT_C68615,
+            obo:NCIT_C93613,
+            <http://semanticscience.org/resource/SIO_010058>,
+            <http://www.orpha.net/ORDO/Orphanet_731>,
+            sio:SIO_000614 ;
+        rdfs:label "Biobank attribute"^^xsd:string,
+            "Birthdate attribute"^^xsd:string,
+            "Care_pathway attribute"^^xsd:string,
+            "Consent attribute"^^xsd:string,
+            "Diagnosis attribute"^^xsd:string,
+            "Onset_diagnosis attribute"^^xsd:string,
+            "Onset_symptoms attribute"^^xsd:string,
+            "Sex attribute"^^xsd:string,
+            "Status attribute"^^xsd:string .
+
+    <http://example.org/data/500-0012_2.02301161705555E%2B019_Role> a obo:OBI_0000093,
+            sio:SIO_000016 ;
+        rdfs:label "Patient role"^^xsd:string ;
+        sio:SIO_000356 <http://example.org/data/500-0012_2.02301161705555E%2B019_Process> .
+
+    <http://example.org/data/500-0013_2.02301161705555E%2B019_Attribute> a obo:NCIT_C124353,
+            obo:NCIT_C156420,
+            obo:NCIT_C164021,
+            obo:NCIT_C166244,
+            obo:NCIT_C20197,
+            obo:NCIT_C25429,
+            obo:NCIT_C25460,
+            obo:NCIT_C28421,
+            obo:NCIT_C2991,
+            obo:NCIT_C68615,
+            obo:NCIT_C93613,
+            <http://semanticscience.org/resource/SIO_010058>,
+            <http://www.orpha.net/ORDO/Orphanet_567550>,
+            sio:SIO_000614 ;
+        rdfs:label "Biobank attribute"^^xsd:string,
+            "Birthdate attribute"^^xsd:string,
+            "Care_pathway attribute"^^xsd:string,
+            "Consent attribute"^^xsd:string,
+            "Diagnosis attribute"^^xsd:string,
+            "Onset_diagnosis attribute"^^xsd:string,
+            "Onset_symptoms attribute"^^xsd:string,
+            "Sex attribute"^^xsd:string,
+            "Status attribute"^^xsd:string .
+
+    <http://example.org/data/500-0013_2.02301161705555E%2B019_Role> a obo:OBI_0000093,
+            sio:SIO_000016 ;
+        rdfs:label "Patient role"^^xsd:string ;
+        sio:SIO_000356 <http://example.org/data/500-0013_2.02301161705555E%2B019_Process> .
+
+    <http://example.org/data/500-0014_2.02301161705555E%2B019_Attribute> a obo:NCIT_C124353,
+            obo:NCIT_C156420,
+            obo:NCIT_C164021,
+            obo:NCIT_C166244,
+            obo:NCIT_C20197,
+            obo:NCIT_C25429,
+            obo:NCIT_C25460,
+            obo:NCIT_C28421,
+            obo:NCIT_C2991,
+            obo:NCIT_C68615,
+            obo:NCIT_C93613,
+            <http://semanticscience.org/resource/SIO_010058>,
+            <http://www.orpha.net/ORDO/Orphanet_214>,
+            sio:SIO_000614 ;
+        rdfs:label "Biobank attribute"^^xsd:string,
+            "Birthdate attribute"^^xsd:string,
+            "Care_pathway attribute"^^xsd:string,
+            "Consent attribute"^^xsd:string,
+            "Diagnosis attribute"^^xsd:string,
+            "Onset_diagnosis attribute"^^xsd:string,
+            "Onset_symptoms attribute"^^xsd:string,
+            "Sex attribute"^^xsd:string,
+            "Status attribute"^^xsd:string .
+
+    <http://example.org/data/500-0014_2.02301161705555E%2B019_Role> a obo:OBI_0000093,
+            sio:SIO_000016 ;
+        rdfs:label "Patient role"^^xsd:string ;
+        sio:SIO_000356 <http://example.org/data/500-0014_2.02301161705555E%2B019_Process> .
+
+    <http://example.org/data/500-0015_2.02301161705555E%2B019_Attribute> a obo:NCIT_C124353,
+            obo:NCIT_C156420,
+            obo:NCIT_C164021,
+            obo:NCIT_C16576,
+            obo:NCIT_C166244,
+            obo:NCIT_C25429,
+            obo:NCIT_C25460,
+            obo:NCIT_C28421,
+            obo:NCIT_C2991,
+            obo:NCIT_C68615,
+            obo:NCIT_C93613,
+            <http://semanticscience.org/resource/SIO_010058>,
+            <http://www.orpha.net/ORDO/Orphanet_411629>,
+            sio:SIO_000614 ;
+        rdfs:label "Biobank attribute"^^xsd:string,
+            "Birthdate attribute"^^xsd:string,
+            "Care_pathway attribute"^^xsd:string,
+            "Consent attribute"^^xsd:string,
+            "Diagnosis attribute"^^xsd:string,
+            "Onset_diagnosis attribute"^^xsd:string,
+            "Onset_symptoms attribute"^^xsd:string,
+            "Sex attribute"^^xsd:string,
+            "Status attribute"^^xsd:string .
+
+    <http://example.org/data/500-0015_2.02301161705555E%2B019_Role> a obo:OBI_0000093,
+            sio:SIO_000016 ;
+        rdfs:label "Patient role"^^xsd:string ;
+        sio:SIO_000356 <http://example.org/data/500-0015_2.02301161705555E%2B019_Process> .
+
+    <http://example.org/data/500-0016_2.02301161705555E%2B019_Attribute> a obo:NCIT_C124353,
+            obo:NCIT_C156420,
+            obo:NCIT_C164021,
+            obo:NCIT_C166244,
+            obo:NCIT_C20197,
+            obo:NCIT_C25429,
+            obo:NCIT_C25460,
+            obo:NCIT_C28421,
+            obo:NCIT_C2991,
+            obo:NCIT_C68615,
+            obo:NCIT_C93613,
+            <http://semanticscience.org/resource/SIO_010058>,
+            <http://www.orpha.net/ORDO/Orphanet_534>,
+            sio:SIO_000614 ;
+        rdfs:label "Biobank attribute"^^xsd:string,
+            "Birthdate attribute"^^xsd:string,
+            "Care_pathway attribute"^^xsd:string,
+            "Consent attribute"^^xsd:string,
+            "Diagnosis attribute"^^xsd:string,
+            "Onset_diagnosis attribute"^^xsd:string,
+            "Onset_symptoms attribute"^^xsd:string,
+            "Sex attribute"^^xsd:string,
+            "Status attribute"^^xsd:string .
+
+    <http://example.org/data/500-0016_2.02301161705555E%2B019_Role> a obo:OBI_0000093,
+            sio:SIO_000016 ;
+        rdfs:label "Patient role"^^xsd:string ;
+        sio:SIO_000356 <http://example.org/data/500-0016_2.02301161705555E%2B019_Process> .
+
+    <http://example.org/data/500-0017_2.02301161705555E%2B019_Attribute> a obo:NCIT_C124353,
+            obo:NCIT_C156420,
+            obo:NCIT_C164021,
+            obo:NCIT_C166244,
+            obo:NCIT_C20197,
+            obo:NCIT_C25429,
+            obo:NCIT_C25460,
+            obo:NCIT_C28421,
+            obo:NCIT_C2991,
+            obo:NCIT_C68615,
+            obo:NCIT_C93613,
+            <http://semanticscience.org/resource/SIO_010058>,
+            <http://www.orpha.net/ORDO/Orphanet_195>,
+            sio:SIO_000614 ;
+        rdfs:label "Biobank attribute"^^xsd:string,
+            "Birthdate attribute"^^xsd:string,
+            "Care_pathway attribute"^^xsd:string,
+            "Consent attribute"^^xsd:string,
+            "Diagnosis attribute"^^xsd:string,
+            "Onset_diagnosis attribute"^^xsd:string,
+            "Onset_symptoms attribute"^^xsd:string,
+            "Sex attribute"^^xsd:string,
+            "Status attribute"^^xsd:string .
+
+    <http://example.org/data/500-0017_2.02301161705555E%2B019_Role> a obo:OBI_0000093,
+            sio:SIO_000016 ;
+        rdfs:label "Patient role"^^xsd:string ;
+        sio:SIO_000356 <http://example.org/data/500-0017_2.02301161705555E%2B019_Process> .
+
+    <http://example.org/data/500-0018_2.02301161705555E%2B019_Attribute> a obo:NCIT_C124353,
+            obo:NCIT_C156420,
+            obo:NCIT_C164021,
+            obo:NCIT_C166244,
+            obo:NCIT_C20197,
+            obo:NCIT_C21007,
+            obo:NCIT_C25429,
+            obo:NCIT_C25460,
+            obo:NCIT_C28421,
+            obo:NCIT_C2991,
+            obo:NCIT_C68615,
+            obo:NCIT_C93613,
+            <http://semanticscience.org/resource/SIO_010058>,
+            <http://www.orpha.net/ORDO/Orphanet_839>,
+            sio:SIO_000614 ;
+        rdfs:label "Biobank attribute"^^xsd:string,
+            "Birthdate attribute"^^xsd:string,
+            "Care_pathway attribute"^^xsd:string,
+            "Consent attribute"^^xsd:string,
+            "Diagnosis attribute"^^xsd:string,
+            "Disability attribute"^^xsd:string,
+            "Onset_diagnosis attribute"^^xsd:string,
+            "Onset_symptoms attribute"^^xsd:string,
+            "Sex attribute"^^xsd:string,
+            "Status attribute"^^xsd:string .
+
+    <http://example.org/data/500-0018_2.02301161705555E%2B019_Role> a obo:OBI_0000093,
+            sio:SIO_000016 ;
+        rdfs:label "Patient role"^^xsd:string ;
+        sio:SIO_000356 <http://example.org/data/500-0018_2.02301161705555E%2B019_Process> .
+
+    <http://example.org/data/500-0019_2.02301161705555E%2B019_Attribute> a obo:NCIT_C124353,
+            obo:NCIT_C156420,
+            obo:NCIT_C164021,
+            obo:NCIT_C166244,
+            obo:NCIT_C20197,
+            obo:NCIT_C25429,
+            obo:NCIT_C25460,
+            obo:NCIT_C28421,
+            obo:NCIT_C2991,
+            obo:NCIT_C68615,
+            obo:NCIT_C93613,
+            <http://semanticscience.org/resource/SIO_010058>,
+            <http://www.orpha.net/ORDO/Orphanet_93591>,
+            sio:SIO_000614 ;
+        rdfs:label "Biobank attribute"^^xsd:string,
+            "Birthdate attribute"^^xsd:string,
+            "Care_pathway attribute"^^xsd:string,
+            "Consent attribute"^^xsd:string,
+            "Diagnosis attribute"^^xsd:string,
+            "Onset_diagnosis attribute"^^xsd:string,
+            "Onset_symptoms attribute"^^xsd:string,
+            "Sex attribute"^^xsd:string,
+            "Status attribute"^^xsd:string .
+
+    <http://example.org/data/500-0019_2.02301161705555E%2B019_Role> a obo:OBI_0000093,
+            sio:SIO_000016 ;
+        rdfs:label "Patient role"^^xsd:string ;
+        sio:SIO_000356 <http://example.org/data/500-0019_2.02301161705555E%2B019_Process> .
+
+    <http://example.org/data/500-0020_2.02301161705555E%2B019_Attribute> a obo:NCIT_C124353,
+            obo:NCIT_C156420,
+            obo:NCIT_C164021,
+            obo:NCIT_C166244,
+            obo:NCIT_C20197,
+            obo:NCIT_C25429,
+            obo:NCIT_C25460,
+            obo:NCIT_C28421,
+            obo:NCIT_C2991,
+            obo:NCIT_C68615,
+            obo:NCIT_C93613,
+            <http://semanticscience.org/resource/SIO_010058>,
+            <http://www.orpha.net/ORDO/Orphanet_214>,
+            sio:SIO_000614 ;
+        rdfs:label "Biobank attribute"^^xsd:string,
+            "Birthdate attribute"^^xsd:string,
+            "Care_pathway attribute"^^xsd:string,
+            "Consent attribute"^^xsd:string,
+            "Diagnosis attribute"^^xsd:string,
+            "Onset_diagnosis attribute"^^xsd:string,
+            "Onset_symptoms attribute"^^xsd:string,
+            "Sex attribute"^^xsd:string,
+            "Status attribute"^^xsd:string .
+
+    <http://example.org/data/500-0020_2.02301161705555E%2B019_Role> a obo:OBI_0000093,
+            sio:SIO_000016 ;
+        rdfs:label "Patient role"^^xsd:string ;
+        sio:SIO_000356 <http://example.org/data/500-0020_2.02301161705555E%2B019_Process> .
+
+    <http://example.org/data/500-0021_2.02301161705555E%2B019_Attribute> a <http://edamontology.org/data_1153>,
+            <http://edamontology.org/data_2127>,
+            <http://edamontology.org/data_2298>,
+            obo:HP_0002633,
+            obo:NCIT_C124353,
+            obo:NCIT_C156420,
+            obo:NCIT_C164021,
+            obo:NCIT_C166244,
+            obo:NCIT_C20197,
+            obo:NCIT_C21007,
+            obo:NCIT_C25429,
+            obo:NCIT_C25460,
+            obo:NCIT_C28421,
+            obo:NCIT_C2991,
+            obo:NCIT_C68615,
+            obo:NCIT_C93613,
+            <http://semanticscience.org/resource/SIO_010056>,
+            <http://semanticscience.org/resource/SIO_010058>,
+            <http://www.orpha.net/ORDO/Orphanet_411629>,
+            <https://bioregistry.io/HGNC:1839>,
+            sio:SIO_000614,
+            <https://www.ncbi.nlm.nih.gov/clinvar/RCV000652057/>,
+            <https://www.omim.org/entry/607575> ;
+        rdfs:label "Biobank attribute"^^xsd:string,
+            "Birthdate attribute"^^xsd:string,
+            "Care_pathway attribute"^^xsd:string,
+            "Consent attribute"^^xsd:string,
+            "Diagnosis attribute"^^xsd:string,
+            "Disability attribute"^^xsd:string,
+            "Genotype_HGNC attribute"^^xsd:string,
+            "Genotype_HGVS attribute"^^xsd:string,
+            "Genotype_OMIM attribute"^^xsd:string,
+            "Onset_diagnosis attribute"^^xsd:string,
+            "Onset_symptoms attribute"^^xsd:string,
+            "Phenotype attribute"^^xsd:string,
+            "Sex attribute"^^xsd:string,
+            "Status attribute"^^xsd:string .
+
+    <http://example.org/data/500-0021_2.02301161705555E%2B019_Role> a obo:OBI_0000093,
+            sio:SIO_000016 ;
+        rdfs:label "Patient role"^^xsd:string ;
+        sio:SIO_000356 <http://example.org/data/500-0021_2.02301161705555E%2B019_Process> .
+
+    <http://example.org/data/500-0022_2.02301161705555E%2B019_Attribute> a <http://edamontology.org/data_1153>,
+            <http://edamontology.org/data_2127>,
+            <http://edamontology.org/data_2298>,
+            obo:HP_0002633,
+            obo:NCIT_C124353,
+            obo:NCIT_C156420,
+            obo:NCIT_C164021,
+            obo:NCIT_C16576,
+            obo:NCIT_C166244,
+            obo:NCIT_C21007,
+            obo:NCIT_C25429,
+            obo:NCIT_C25460,
+            obo:NCIT_C28421,
+            obo:NCIT_C2991,
+            obo:NCIT_C68615,
+            obo:NCIT_C70810,
+            obo:NCIT_C93613,
+            <http://semanticscience.org/resource/SIO_010056>,
+            <http://semanticscience.org/resource/SIO_010059>,
+            <http://www.orpha.net/ORDO/Orphanet_534>,
+            <https://bioregistry.io/HGNC:1839>,
+            sio:SIO_000614,
+            <https://www.ncbi.nlm.nih.gov/clinvar/RCV000652057/>,
+            <https://www.omim.org/entry/607575> ;
+        rdfs:label "Biobank attribute"^^xsd:string,
+            "Birthdate attribute"^^xsd:string,
+            "Care_pathway attribute"^^xsd:string,
+            "Consent attribute"^^xsd:string,
+            "Date_of_death attribute"^^xsd:string,
+            "Diagnosis attribute"^^xsd:string,
+            "Disability attribute"^^xsd:string,
+            "Genotype_HGNC attribute"^^xsd:string,
+            "Genotype_HGVS attribute"^^xsd:string,
+            "Genotype_OMIM attribute"^^xsd:string,
+            "Onset_diagnosis attribute"^^xsd:string,
+            "Onset_symptoms attribute"^^xsd:string,
+            "Phenotype attribute"^^xsd:string,
+            "Sex attribute"^^xsd:string,
+            "Status attribute"^^xsd:string .
+
+    <http://example.org/data/500-0022_2.02301161705555E%2B019_Role> a obo:OBI_0000093,
+            sio:SIO_000016 ;
+        rdfs:label "Patient role"^^xsd:string ;
+        sio:SIO_000356 <http://example.org/data/500-0022_2.02301161705555E%2B019_Process> .
+
+    <http://example.org/data/500-0023_2.02301161705555E%2B019_Attribute> a <http://edamontology.org/data_1153>,
+            <http://edamontology.org/data_2127>,
+            <http://edamontology.org/data_2298>,
+            obo:HP_0002633,
+            obo:NCIT_C124353,
+            obo:NCIT_C156420,
+            obo:NCIT_C164021,
+            obo:NCIT_C166244,
+            obo:NCIT_C20197,
+            obo:NCIT_C25429,
+            obo:NCIT_C25460,
+            obo:NCIT_C28421,
+            obo:NCIT_C2991,
+            obo:NCIT_C68615,
+            obo:NCIT_C93613,
+            <http://semanticscience.org/resource/SIO_010056>,
+            <http://semanticscience.org/resource/SIO_010058>,
+            <http://www.orpha.net/ORDO/Orphanet_110>,
+            <https://bioregistry.io/HGNC:1839>,
+            sio:SIO_000614,
+            <https://www.ncbi.nlm.nih.gov/clinvar/RCV000652057/>,
+            <https://www.omim.org/entry/607575> ;
+        rdfs:label "Biobank attribute"^^xsd:string,
+            "Birthdate attribute"^^xsd:string,
+            "Care_pathway attribute"^^xsd:string,
+            "Consent attribute"^^xsd:string,
+            "Diagnosis attribute"^^xsd:string,
+            "Genotype_HGNC attribute"^^xsd:string,
+            "Genotype_HGVS attribute"^^xsd:string,
+            "Genotype_OMIM attribute"^^xsd:string,
+            "Onset_diagnosis attribute"^^xsd:string,
+            "Onset_symptoms attribute"^^xsd:string,
+            "Phenotype attribute"^^xsd:string,
+            "Sex attribute"^^xsd:string,
+            "Status attribute"^^xsd:string .
+
+    <http://example.org/data/500-0023_2.02301161705555E%2B019_Role> a obo:OBI_0000093,
+            sio:SIO_000016 ;
+        rdfs:label "Patient role"^^xsd:string ;
+        sio:SIO_000356 <http://example.org/data/500-0023_2.02301161705555E%2B019_Process> .
+
+    <http://example.org/data/500-0024_2.02301161705555E%2B019_Attribute> a obo:NCIT_C124353,
+            obo:NCIT_C156420,
+            obo:NCIT_C164021,
+            obo:NCIT_C16576,
+            obo:NCIT_C166244,
+            obo:NCIT_C25429,
+            obo:NCIT_C25460,
+            obo:NCIT_C28421,
+            obo:NCIT_C2991,
+            obo:NCIT_C68615,
+            obo:NCIT_C93613,
+            <http://semanticscience.org/resource/SIO_010058>,
+            <http://www.orpha.net/ORDO/Orphanet_730>,
+            sio:SIO_000614 ;
+        rdfs:label "Biobank attribute"^^xsd:string,
+            "Birthdate attribute"^^xsd:string,
+            "Care_pathway attribute"^^xsd:string,
+            "Consent attribute"^^xsd:string,
+            "Diagnosis attribute"^^xsd:string,
+            "Onset_diagnosis attribute"^^xsd:string,
+            "Onset_symptoms attribute"^^xsd:string,
+            "Sex attribute"^^xsd:string,
+            "Status attribute"^^xsd:string .
+
+    <http://example.org/data/500-0024_2.02301161705555E%2B019_Role> a obo:OBI_0000093,
+            sio:SIO_000016 ;
+        rdfs:label "Patient role"^^xsd:string ;
+        sio:SIO_000356 <http://example.org/data/500-0024_2.02301161705555E%2B019_Process> .
+
+    <http://example.org/data/500-0025_2.02301161705555E%2B019_Attribute> a obo:NCIT_C124353,
+            obo:NCIT_C156420,
+            obo:NCIT_C164021,
+            obo:NCIT_C166244,
+            obo:NCIT_C20197,
+            obo:NCIT_C28421,
+            obo:NCIT_C2991,
+            obo:NCIT_C68615,
+            obo:NCIT_C93613,
+            <http://semanticscience.org/resource/SIO_010058>,
+            <http://www.orpha.net/ORDO/Orphanet_730>,
+            sio:SIO_000614 ;
+        rdfs:label "Birthdate attribute"^^xsd:string,
+            "Care_pathway attribute"^^xsd:string,
+            "Diagnosis attribute"^^xsd:string,
+            "Onset_diagnosis attribute"^^xsd:string,
+            "Onset_symptoms attribute"^^xsd:string,
+            "Sex attribute"^^xsd:string,
+            "Status attribute"^^xsd:string .
+
+    <http://example.org/data/500-0025_2.02301161705555E%2B019_Role> a obo:OBI_0000093,
+            sio:SIO_000016 ;
+        rdfs:label "Patient role"^^xsd:string ;
+        sio:SIO_000356 <http://example.org/data/500-0025_2.02301161705555E%2B019_Process> .
+
+    <http://example.org/data/500-0026_2.02301161705555E%2B019_Attribute> a obo:NCIT_C124353,
+            obo:NCIT_C156420,
+            obo:NCIT_C164021,
+            obo:NCIT_C16576,
+            obo:NCIT_C166244,
+            obo:NCIT_C25429,
+            obo:NCIT_C25460,
+            obo:NCIT_C28421,
+            obo:NCIT_C2991,
+            obo:NCIT_C68615,
+            obo:NCIT_C93613,
+            <http://semanticscience.org/resource/SIO_010058>,
+            <http://www.orpha.net/ORDO/Orphanet_93622>,
+            sio:SIO_000614 ;
+        rdfs:label "Biobank attribute"^^xsd:string,
+            "Birthdate attribute"^^xsd:string,
+            "Care_pathway attribute"^^xsd:string,
+            "Consent attribute"^^xsd:string,
+            "Diagnosis attribute"^^xsd:string,
+            "Onset_diagnosis attribute"^^xsd:string,
+            "Onset_symptoms attribute"^^xsd:string,
+            "Sex attribute"^^xsd:string,
+            "Status attribute"^^xsd:string .
+
+    <http://example.org/data/500-0026_2.02301161705555E%2B019_Role> a obo:OBI_0000093,
+            sio:SIO_000016 ;
+        rdfs:label "Patient role"^^xsd:string ;
+        sio:SIO_000356 <http://example.org/data/500-0026_2.02301161705555E%2B019_Process> .
+
+    <http://example.org/data/500-0027_2.02301161705555E%2B019_Attribute> a obo:NCIT_C124353,
+            obo:NCIT_C156420,
+            obo:NCIT_C164021,
+            obo:NCIT_C166244,
+            obo:NCIT_C20197,
+            obo:NCIT_C25429,
+            obo:NCIT_C25460,
+            obo:NCIT_C28421,
+            obo:NCIT_C2991,
+            obo:NCIT_C68615,
+            obo:NCIT_C93613,
+            <http://semanticscience.org/resource/SIO_010058>,
+            <http://www.orpha.net/ORDO/Orphanet_2260>,
+            sio:SIO_000614 ;
+        rdfs:label "Biobank attribute"^^xsd:string,
+            "Birthdate attribute"^^xsd:string,
+            "Care_pathway attribute"^^xsd:string,
+            "Consent attribute"^^xsd:string,
+            "Diagnosis attribute"^^xsd:string,
+            "Onset_diagnosis attribute"^^xsd:string,
+            "Onset_symptoms attribute"^^xsd:string,
+            "Sex attribute"^^xsd:string,
+            "Status attribute"^^xsd:string .
+
+    <http://example.org/data/500-0027_2.02301161705555E%2B019_Role> a obo:OBI_0000093,
+            sio:SIO_000016 ;
+        rdfs:label "Patient role"^^xsd:string ;
+        sio:SIO_000356 <http://example.org/data/500-0027_2.02301161705555E%2B019_Process> .
+
+    <http://example.org/data/500-0028_2.02301161705555E%2B019_Attribute> a obo:NCIT_C124353,
+            obo:NCIT_C156420,
+            obo:NCIT_C164021,
+            obo:NCIT_C166244,
+            obo:NCIT_C20197,
+            obo:NCIT_C25429,
+            obo:NCIT_C25460,
+            obo:NCIT_C28421,
+            obo:NCIT_C2991,
+            obo:NCIT_C68615,
+            obo:NCIT_C93613,
+            <http://semanticscience.org/resource/SIO_010058>,
+            <http://www.orpha.net/ORDO/Orphanet_214>,
+            sio:SIO_000614 ;
+        rdfs:label "Biobank attribute"^^xsd:string,
+            "Birthdate attribute"^^xsd:string,
+            "Care_pathway attribute"^^xsd:string,
+            "Consent attribute"^^xsd:string,
+            "Diagnosis attribute"^^xsd:string,
+            "Onset_diagnosis attribute"^^xsd:string,
+            "Onset_symptoms attribute"^^xsd:string,
+            "Sex attribute"^^xsd:string,
+            "Status attribute"^^xsd:string .
+
+    <http://example.org/data/500-0028_2.02301161705555E%2B019_Role> a obo:OBI_0000093,
+            sio:SIO_000016 ;
+        rdfs:label "Patient role"^^xsd:string ;
+        sio:SIO_000356 <http://example.org/data/500-0028_2.02301161705555E%2B019_Process> .
+
+    <http://example.org/data/500-0029_2.02301161705555E%2B019_Attribute> a obo:NCIT_C124353,
+            obo:NCIT_C156420,
+            obo:NCIT_C164021,
+            obo:NCIT_C166244,
+            obo:NCIT_C20197,
+            obo:NCIT_C25429,
+            obo:NCIT_C25460,
+            obo:NCIT_C28421,
+            obo:NCIT_C2991,
+            obo:NCIT_C68615,
+            obo:NCIT_C93613,
+            <http://semanticscience.org/resource/SIO_010058>,
+            <http://www.orpha.net/ORDO/Orphanet_90038>,
+            sio:SIO_000614 ;
+        rdfs:label "Biobank attribute"^^xsd:string,
+            "Birthdate attribute"^^xsd:string,
+            "Care_pathway attribute"^^xsd:string,
+            "Consent attribute"^^xsd:string,
+            "Diagnosis attribute"^^xsd:string,
+            "Onset_diagnosis attribute"^^xsd:string,
+            "Onset_symptoms attribute"^^xsd:string,
+            "Sex attribute"^^xsd:string,
+            "Status attribute"^^xsd:string .
+
+    <http://example.org/data/500-0029_2.02301161705555E%2B019_Role> a obo:OBI_0000093,
+            sio:SIO_000016 ;
+        rdfs:label "Patient role"^^xsd:string ;
+        sio:SIO_000356 <http://example.org/data/500-0029_2.02301161705555E%2B019_Process> .
+
+    <http://example.org/data/500-0030_2.02301161705555E%2B019_Attribute> a obo:NCIT_C124353,
+            obo:NCIT_C156420,
+            obo:NCIT_C164021,
+            obo:NCIT_C166244,
+            obo:NCIT_C20197,
+            obo:NCIT_C25429,
+            obo:NCIT_C25460,
+            obo:NCIT_C28421,
+            obo:NCIT_C2991,
+            obo:NCIT_C68615,
+            obo:NCIT_C70810,
+            obo:NCIT_C93613,
+            <http://semanticscience.org/resource/SIO_010059>,
+            <http://www.orpha.net/ORDO/Orphanet_411629>,
+            sio:SIO_000614 ;
+        rdfs:label "Biobank attribute"^^xsd:string,
+            "Birthdate attribute"^^xsd:string,
+            "Care_pathway attribute"^^xsd:string,
+            "Consent attribute"^^xsd:string,
+            "Date_of_death attribute"^^xsd:string,
+            "Diagnosis attribute"^^xsd:string,
+            "Onset_diagnosis attribute"^^xsd:string,
+            "Onset_symptoms attribute"^^xsd:string,
+            "Sex attribute"^^xsd:string,
+            "Status attribute"^^xsd:string .
+
+    <http://example.org/data/500-0030_2.02301161705555E%2B019_Role> a obo:OBI_0000093,
+            sio:SIO_000016 ;
+        rdfs:label "Patient role"^^xsd:string ;
+        sio:SIO_000356 <http://example.org/data/500-0030_2.02301161705555E%2B019_Process> .
+
+    <http://example.org/data/500-0031_2.02301161705555E%2B019_Attribute> a <http://edamontology.org/data_1153>,
+            <http://edamontology.org/data_2127>,
+            <http://edamontology.org/data_2298>,
+            obo:HP_0002633,
+            obo:NCIT_C164021,
+            obo:NCIT_C166244,
+            obo:NCIT_C20197,
+            obo:NCIT_C25429,
+            obo:NCIT_C25460,
+            obo:NCIT_C28421,
+            obo:NCIT_C68615,
+            <http://semanticscience.org/resource/SIO_010056>,
+            <http://semanticscience.org/resource/SIO_010058>,
+            <https://bioregistry.io/HGNC:1839>,
+            sio:SIO_000614,
+            <https://www.ncbi.nlm.nih.gov/clinvar/RCV000652057/>,
+            <https://www.omim.org/entry/607575> ;
+        rdfs:label "Biobank attribute"^^xsd:string,
+            "Birthdate attribute"^^xsd:string,
+            "Care_pathway attribute"^^xsd:string,
+            "Consent attribute"^^xsd:string,
+            "Genotype_HGNC attribute"^^xsd:string,
+            "Genotype_HGVS attribute"^^xsd:string,
+            "Genotype_OMIM attribute"^^xsd:string,
+            "Phenotype attribute"^^xsd:string,
+            "Sex attribute"^^xsd:string,
+            "Status attribute"^^xsd:string .
+
+    <http://example.org/data/500-0031_2.02301161705555E%2B019_Role> a obo:OBI_0000093,
+            sio:SIO_000016 ;
+        rdfs:label "Patient role"^^xsd:string ;
+        sio:SIO_000356 <http://example.org/data/500-0031_2.02301161705555E%2B019_Process> .
+}
+
+ns2:CDE.nt {
+    ns1:2B019_Context a obo:NCIT_C25616 ;
+        sio:SIO_000068 this:500-0001_Timeline,
+            this:500-0002_Timeline,
+            this:500-0003_Timeline,
+            this:500-0004_Timeline,
+            this:500-0005_Timeline,
+            this:500-0006_Timeline,
+            this:500-0007_Timeline,
+            this:500-0008_Timeline,
+            this:500-0009_Timeline,
+            this:500-0010_Timeline,
+            this:500-0011_Timeline,
+            this:500-0012_Timeline,
+            this:500-0013_Timeline,
+            this:500-0014_Timeline,
+            this:500-0015_Timeline,
+            this:500-0016_Timeline,
+            this:500-0017_Timeline,
+            this:500-0018_Timeline,
+            this:500-0019_Timeline,
+            this:500-0020_Timeline,
+            this:500-0021_Timeline,
+            this:500-0022_Timeline,
+            this:500-0023_Timeline,
+            this:500-0024_Timeline,
+            this:500-0025_Timeline,
+            this:500-0026_Timeline,
+            this:500-0027_Timeline,
+            this:500-0028_Timeline,
+            this:500-0029_Timeline,
+            this:500-0030_Timeline,
+            this:500-0031_Timeline ;
+        sio:SIO_000300 "2.02301161705555E+019"^^xsd:string ;
+        sio:SIO_000680 ns1:2B019_Startdate ;
+        sio:SIO_000681 ns1:2B019_Enddate .
+
+    ns1:2B019_Enddate a sio:SIO_000032 ;
+        rdfs:label "Biobank enddate: 1975-07-01"^^xsd:string,
+            "Biobank enddate: 2018-10-13"^^xsd:string,
+            "Biobank enddate: 2018-11-07"^^xsd:string,
+            "Biobank enddate: 2019-01-01"^^xsd:string,
+            "Biobank enddate: 2019-03-12"^^xsd:string,
+            "Biobank enddate: 2020-01-13"^^xsd:string,
+            "Biobank enddate: 2020-01-18"^^xsd:string,
+            "Biobank enddate: 2020-10-11"^^xsd:string,
+            "Biobank enddate: 2021-01-11"^^xsd:string,
+            "Biobank enddate: 2021-05-01"^^xsd:string,
+            "Biobank enddate: 2022-02-16"^^xsd:string,
+            "Biobank enddate: 2022-03-15"^^xsd:string,
+            "Biobank enddate: 2022-03-16"^^xsd:string,
+            "Biobank enddate: 2022-04-12"^^xsd:string,
+            "Birthdate enddate: 1975-07-01"^^xsd:string,
+            "Birthdate enddate: 1987-01-01"^^xsd:string,
+            "Birthdate enddate: 1993-05-11"^^xsd:string,
+            "Birthdate enddate: 2000-10-10"^^xsd:string,
+            "Birthdate enddate: 2010-07-07"^^xsd:string,
+            "Birthdate enddate: 2014-05-12"^^xsd:string,
+            "Birthdate enddate: 2014-06-12"^^xsd:string,
+            "Birthdate enddate: 2014-08-12"^^xsd:string,
+            "Birthdate enddate: 2016-01-01"^^xsd:string,
+            "Birthdate enddate: 2017-05-12"^^xsd:string,
+            "Birthdate enddate: 2018-01-13"^^xsd:string,
+            "Birthdate enddate: 2018-06-01"^^xsd:string,
+            "Birthdate enddate: 2018-12-01"^^xsd:string,
+            "Birthdate enddate: 2019-01-01"^^xsd:string,
+            "Birthdate enddate: 2019-02-01"^^xsd:string,
+            "Birthdate enddate: 2020-01-13"^^xsd:string,
+            "Birthdate enddate: 2020-04-01"^^xsd:string,
+            "Birthdate enddate: 2021-01-11"^^xsd:string,
+            "Birthdate enddate: 2022-04-12"^^xsd:string,
+            "Care_pathway enddate: 1975-07-01"^^xsd:string,
+            "Care_pathway enddate: 1987-01-01"^^xsd:string,
+            "Care_pathway enddate: 1993-05-11"^^xsd:string,
+            "Care_pathway enddate: 2000-10-10"^^xsd:string,
+            "Care_pathway enddate: 2010-07-07"^^xsd:string,
+            "Care_pathway enddate: 2014-05-12"^^xsd:string,
+            "Care_pathway enddate: 2014-06-12"^^xsd:string,
+            "Care_pathway enddate: 2014-08-12"^^xsd:string,
+            "Care_pathway enddate: 2016-01-01"^^xsd:string,
+            "Care_pathway enddate: 2017-05-12"^^xsd:string,
+            "Care_pathway enddate: 2018-01-13"^^xsd:string,
+            "Care_pathway enddate: 2018-06-01"^^xsd:string,
+            "Care_pathway enddate: 2018-12-01"^^xsd:string,
+            "Care_pathway enddate: 2019-01-01"^^xsd:string,
+            "Care_pathway enddate: 2019-02-01"^^xsd:string,
+            "Care_pathway enddate: 2020-01-13"^^xsd:string,
+            "Care_pathway enddate: 2020-04-01"^^xsd:string,
+            "Care_pathway enddate: 2021-01-11"^^xsd:string,
+            "Care_pathway enddate: 2022-04-12"^^xsd:string,
+            "Consent enddate: 1975-07-01"^^xsd:string,
+            "Consent enddate: 2018-10-13"^^xsd:string,
+            "Consent enddate: 2018-11-07"^^xsd:string,
+            "Consent enddate: 2019-01-01"^^xsd:string,
+            "Consent enddate: 2019-03-12"^^xsd:string,
+            "Consent enddate: 2020-01-13"^^xsd:string,
+            "Consent enddate: 2020-01-18"^^xsd:string,
+            "Consent enddate: 2020-10-11"^^xsd:string,
+            "Consent enddate: 2021-01-11"^^xsd:string,
+            "Consent enddate: 2021-05-01"^^xsd:string,
+            "Consent enddate: 2022-02-16"^^xsd:string,
+            "Consent enddate: 2022-03-15"^^xsd:string,
+            "Consent enddate: 2022-03-16"^^xsd:string,
+            "Consent enddate: 2022-04-12"^^xsd:string,
+            "Date_of_death enddate: 2022-01-01"^^xsd:string,
+            "Date_of_death enddate: 2022-05-11"^^xsd:string,
+            "Date_of_death enddate: 2022-07-01"^^xsd:string,
+            "Diagnosis enddate: 1985-07-01"^^xsd:string,
+            "Diagnosis enddate: 1987-02-01"^^xsd:string,
+            "Diagnosis enddate: 1991-04-11"^^xsd:string,
+            "Diagnosis enddate: 2000-12-10"^^xsd:string,
+            "Diagnosis enddate: 2010-07-07"^^xsd:string,
+            "Diagnosis enddate: 2011-01-01"^^xsd:string,
+            "Diagnosis enddate: 2014-11-06"^^xsd:string,
+            "Diagnosis enddate: 2016-04-01"^^xsd:string,
+            "Diagnosis enddate: 2018-08-01"^^xsd:string,
+            "Diagnosis enddate: 2019-02-01"^^xsd:string,
+            "Diagnosis enddate: 2019-03-06"^^xsd:string,
+            "Diagnosis enddate: 2019-11-06"^^xsd:string,
+            "Diagnosis enddate: 2020-02-01"^^xsd:string,
+            "Diagnosis enddate: 2020-04-01"^^xsd:string,
+            "Diagnosis enddate: 2021-01-11"^^xsd:string,
+            "Diagnosis enddate: 2022-04-12"^^xsd:string,
+            "Disability enddate: 2021-11-12"^^xsd:string,
+            "Disability enddate: 2021-11-16"^^xsd:string,
+            "Disability enddate: 2021-11-17"^^xsd:string,
+            "Disability enddate: 2021-11-18"^^xsd:string,
+            "Disability enddate: 2021-11-19"^^xsd:string,
+            "Disability enddate: 2021-11-20"^^xsd:string,
+            "Disability enddate: 2021-11-28"^^xsd:string,
+            "Disability enddate: 2021-12-01"^^xsd:string,
+            "Disability enddate: 2021-12-02"^^xsd:string,
+            "Genotype_HGNC enddate: 1987-01-01"^^xsd:string,
+            "Genotype_HGNC enddate: 1993-05-11"^^xsd:string,
+            "Genotype_HGNC enddate: 2014-05-12"^^xsd:string,
+            "Genotype_HGNC enddate: 2014-06-12"^^xsd:string,
+            "Genotype_HGNC enddate: 2014-08-12"^^xsd:string,
+            "Genotype_HGNC enddate: 2016-01-01"^^xsd:string,
+            "Genotype_HGNC enddate: 2018-01-13"^^xsd:string,
+            "Genotype_HGNC enddate: 2018-06-01"^^xsd:string,
+            "Genotype_HGNC enddate: 2020-01-13"^^xsd:string,
+            "Genotype_HGVS enddate: 1987-01-01"^^xsd:string,
+            "Genotype_HGVS enddate: 1993-05-11"^^xsd:string,
+            "Genotype_HGVS enddate: 2014-05-12"^^xsd:string,
+            "Genotype_HGVS enddate: 2014-06-12"^^xsd:string,
+            "Genotype_HGVS enddate: 2014-08-12"^^xsd:string,
+            "Genotype_HGVS enddate: 2016-01-01"^^xsd:string,
+            "Genotype_HGVS enddate: 2018-01-13"^^xsd:string,
+            "Genotype_HGVS enddate: 2018-06-01"^^xsd:string,
+            "Genotype_HGVS enddate: 2020-01-13"^^xsd:string,
+            "Genotype_OMIM enddate: 1987-01-01"^^xsd:string,
+            "Genotype_OMIM enddate: 1993-05-11"^^xsd:string,
+            "Genotype_OMIM enddate: 2014-05-12"^^xsd:string,
+            "Genotype_OMIM enddate: 2014-06-12"^^xsd:string,
+            "Genotype_OMIM enddate: 2014-08-12"^^xsd:string,
+            "Genotype_OMIM enddate: 2016-01-01"^^xsd:string,
+            "Genotype_OMIM enddate: 2018-01-13"^^xsd:string,
+            "Genotype_OMIM enddate: 2018-06-01"^^xsd:string,
+            "Genotype_OMIM enddate: 2020-01-13"^^xsd:string,
+            "Onset_diagnosis enddate: 1985-07-01"^^xsd:string,
+            "Onset_diagnosis enddate: 1987-02-01"^^xsd:string,
+            "Onset_diagnosis enddate: 1991-04-11"^^xsd:string,
+            "Onset_diagnosis enddate: 2000-12-10"^^xsd:string,
+            "Onset_diagnosis enddate: 2010-07-07"^^xsd:string,
+            "Onset_diagnosis enddate: 2011-01-01"^^xsd:string,
+            "Onset_diagnosis enddate: 2014-11-06"^^xsd:string,
+            "Onset_diagnosis enddate: 2016-04-01"^^xsd:string,
+            "Onset_diagnosis enddate: 2018-08-01"^^xsd:string,
+            "Onset_diagnosis enddate: 2019-02-01"^^xsd:string,
+            "Onset_diagnosis enddate: 2019-03-06"^^xsd:string,
+            "Onset_diagnosis enddate: 2019-11-06"^^xsd:string,
+            "Onset_diagnosis enddate: 2020-02-01"^^xsd:string,
+            "Onset_diagnosis enddate: 2020-04-01"^^xsd:string,
+            "Onset_diagnosis enddate: 2021-01-11"^^xsd:string,
+            "Onset_diagnosis enddate: 2022-04-12"^^xsd:string,
+            "Onset_symptoms enddate: 1975-07-01"^^xsd:string,
+            "Onset_symptoms enddate: 1987-01-01"^^xsd:string,
+            "Onset_symptoms enddate: 1993-05-11"^^xsd:string,
+            "Onset_symptoms enddate: 2000-10-10"^^xsd:string,
+            "Onset_symptoms enddate: 2010-07-07"^^xsd:string,
+            "Onset_symptoms enddate: 2014-05-12"^^xsd:string,
+            "Onset_symptoms enddate: 2014-06-12"^^xsd:string,
+            "Onset_symptoms enddate: 2014-08-12"^^xsd:string,
+            "Onset_symptoms enddate: 2016-01-01"^^xsd:string,
+            "Onset_symptoms enddate: 2017-05-12"^^xsd:string,
+            "Onset_symptoms enddate: 2018-01-13"^^xsd:string,
+            "Onset_symptoms enddate: 2018-06-01"^^xsd:string,
+            "Onset_symptoms enddate: 2018-12-01"^^xsd:string,
+            "Onset_symptoms enddate: 2019-01-01"^^xsd:string,
+            "Onset_symptoms enddate: 2019-02-01"^^xsd:string,
+            "Onset_symptoms enddate: 2020-01-13"^^xsd:string,
+            "Onset_symptoms enddate: 2020-04-01"^^xsd:string,
+            "Onset_symptoms enddate: 2021-01-11"^^xsd:string,
+            "Onset_symptoms enddate: 2022-04-12"^^xsd:string,
+            "Phenotype enddate: 1987-01-01"^^xsd:string,
+            "Phenotype enddate: 1993-05-11"^^xsd:string,
+            "Phenotype enddate: 2014-05-12"^^xsd:string,
+            "Phenotype enddate: 2014-06-12"^^xsd:string,
+            "Phenotype enddate: 2014-08-12"^^xsd:string,
+            "Phenotype enddate: 2016-01-01"^^xsd:string,
+            "Phenotype enddate: 2018-01-13"^^xsd:string,
+            "Phenotype enddate: 2018-06-01"^^xsd:string,
+            "Phenotype enddate: 2020-01-13"^^xsd:string,
+            "Sex enddate: 1975-07-01"^^xsd:string,
+            "Sex enddate: 1987-01-01"^^xsd:string,
+            "Sex enddate: 1993-05-11"^^xsd:string,
+            "Sex enddate: 2000-10-10"^^xsd:string,
+            "Sex enddate: 2010-07-07"^^xsd:string,
+            "Sex enddate: 2014-05-12"^^xsd:string,
+            "Sex enddate: 2014-06-12"^^xsd:string,
+            "Sex enddate: 2014-08-12"^^xsd:string,
+            "Sex enddate: 2016-01-01"^^xsd:string,
+            "Sex enddate: 2017-05-12"^^xsd:string,
+            "Sex enddate: 2018-01-13"^^xsd:string,
+            "Sex enddate: 2018-06-01"^^xsd:string,
+            "Sex enddate: 2018-12-01"^^xsd:string,
+            "Sex enddate: 2019-01-01"^^xsd:string,
+            "Sex enddate: 2019-02-01"^^xsd:string,
+            "Sex enddate: 2020-01-13"^^xsd:string,
+            "Sex enddate: 2020-04-01"^^xsd:string,
+            "Sex enddate: 2021-01-11"^^xsd:string,
+            "Sex enddate: 2022-04-12"^^xsd:string,
+            "Status enddate: 2022-01-01"^^xsd:string,
+            "Status enddate: 2022-01-02"^^xsd:string,
+            "Status enddate: 2022-01-03"^^xsd:string,
+            "Status enddate: 2022-01-04"^^xsd:string,
+            "Status enddate: 2022-01-05"^^xsd:string,
+            "Status enddate: 2022-01-06"^^xsd:string,
+            "Status enddate: 2022-01-07"^^xsd:string,
+            "Status enddate: 2022-01-08"^^xsd:string,
+            "Status enddate: 2022-01-09"^^xsd:string,
+            "Status enddate: 2022-01-10"^^xsd:string,
+            "Status enddate: 2022-01-11"^^xsd:string,
+            "Status enddate: 2022-01-12"^^xsd:string,
+            "Status enddate: 2022-01-13"^^xsd:string,
+            "Status enddate: 2022-01-14"^^xsd:string,
+            "Status enddate: 2022-01-15"^^xsd:string,
+            "Status enddate: 2022-01-16"^^xsd:string,
+            "Status enddate: 2022-01-17"^^xsd:string,
+            "Status enddate: 2022-05-11"^^xsd:string,
+            "Status enddate: 2022-05-12"^^xsd:string,
+            "Status enddate: 2022-05-13"^^xsd:string,
+            "Status enddate: 2022-05-14"^^xsd:string,
+            "Status enddate: 2022-05-15"^^xsd:string,
+            "Status enddate: 2022-05-16"^^xsd:string,
+            "Status enddate: 2022-05-17"^^xsd:string,
+            "Status enddate: 2022-05-18"^^xsd:string,
+            "Status enddate: 2022-07-01"^^xsd:string,
+            "Status enddate: 2022-07-02"^^xsd:string,
+            "Status enddate: 2022-07-03"^^xsd:string,
+            "Status enddate: 2022-07-04"^^xsd:string,
+            "Status enddate: 2022-07-05"^^xsd:string,
+            "Status enddate: 2022-07-09"^^xsd:string ;
+        sio:SIO_000300 "1975-07-01"^^xsd:date,
+            "1985-07-01"^^xsd:date,
+            "1987-01-01"^^xsd:date,
+            "1987-02-01"^^xsd:date,
+            "1991-04-11"^^xsd:date,
+            "1993-05-11"^^xsd:date,
+            "2000-10-10"^^xsd:date,
+            "2000-12-10"^^xsd:date,
+            "2010-07-07"^^xsd:date,
+            "2011-01-01"^^xsd:date,
+            "2014-05-12"^^xsd:date,
+            "2014-06-12"^^xsd:date,
+            "2014-08-12"^^xsd:date,
+            "2014-11-06"^^xsd:date,
+            "2016-01-01"^^xsd:date,
+            "2016-04-01"^^xsd:date,
+            "2017-05-12"^^xsd:date,
+            "2018-01-13"^^xsd:date,
+            "2018-06-01"^^xsd:date,
+            "2018-08-01"^^xsd:date,
+            "2018-10-13"^^xsd:date,
+            "2018-11-07"^^xsd:date,
+            "2018-12-01"^^xsd:date,
+            "2019-01-01"^^xsd:date,
+            "2019-02-01"^^xsd:date,
+            "2019-03-06"^^xsd:date,
+            "2019-03-12"^^xsd:date,
+            "2019-11-06"^^xsd:date,
+            "2020-01-13"^^xsd:date,
+            "2020-01-18"^^xsd:date,
+            "2020-02-01"^^xsd:date,
+            "2020-04-01"^^xsd:date,
+            "2020-10-11"^^xsd:date,
+            "2021-01-11"^^xsd:date,
+            "2021-05-01"^^xsd:date,
+            "2021-11-12"^^xsd:date,
+            "2021-11-16"^^xsd:date,
+            "2021-11-17"^^xsd:date,
+            "2021-11-18"^^xsd:date,
+            "2021-11-19"^^xsd:date,
+            "2021-11-20"^^xsd:date,
+            "2021-11-28"^^xsd:date,
+            "2021-12-01"^^xsd:date,
+            "2021-12-02"^^xsd:date,
+            "2022-01-01"^^xsd:date,
+            "2022-01-02"^^xsd:date,
+            "2022-01-03"^^xsd:date,
+            "2022-01-04"^^xsd:date,
+            "2022-01-05"^^xsd:date,
+            "2022-01-06"^^xsd:date,
+            "2022-01-07"^^xsd:date,
+            "2022-01-08"^^xsd:date,
+            "2022-01-09"^^xsd:date,
+            "2022-01-10"^^xsd:date,
+            "2022-01-11"^^xsd:date,
+            "2022-01-12"^^xsd:date,
+            "2022-01-13"^^xsd:date,
+            "2022-01-14"^^xsd:date,
+            "2022-01-15"^^xsd:date,
+            "2022-01-16"^^xsd:date,
+            "2022-01-17"^^xsd:date,
+            "2022-02-16"^^xsd:date,
+            "2022-03-15"^^xsd:date,
+            "2022-03-16"^^xsd:date,
+            "2022-04-12"^^xsd:date,
+            "2022-05-11"^^xsd:date,
+            "2022-05-12"^^xsd:date,
+            "2022-05-13"^^xsd:date,
+            "2022-05-14"^^xsd:date,
+            "2022-05-15"^^xsd:date,
+            "2022-05-16"^^xsd:date,
+            "2022-05-17"^^xsd:date,
+            "2022-05-18"^^xsd:date,
+            "2022-07-01"^^xsd:date,
+            "2022-07-02"^^xsd:date,
+            "2022-07-03"^^xsd:date,
+            "2022-07-04"^^xsd:date,
+            "2022-07-05"^^xsd:date,
+            "2022-07-09"^^xsd:date .
+
+    ns1:2B019_Startdate a sio:SIO_000031 ;
+        rdfs:label "Biobank startdate: 1975-07-01"^^xsd:string,
+            "Biobank startdate: 2018-10-13"^^xsd:string,
+            "Biobank startdate: 2018-11-07"^^xsd:string,
+            "Biobank startdate: 2019-01-01"^^xsd:string,
+            "Biobank startdate: 2019-03-12"^^xsd:string,
+            "Biobank startdate: 2020-01-13"^^xsd:string,
+            "Biobank startdate: 2020-01-18"^^xsd:string,
+            "Biobank startdate: 2020-10-11"^^xsd:string,
+            "Biobank startdate: 2021-01-11"^^xsd:string,
+            "Biobank startdate: 2021-05-01"^^xsd:string,
+            "Biobank startdate: 2022-02-16"^^xsd:string,
+            "Biobank startdate: 2022-03-15"^^xsd:string,
+            "Biobank startdate: 2022-03-16"^^xsd:string,
+            "Biobank startdate: 2022-04-12"^^xsd:string,
+            "Birthdate startdate: 1975-07-01"^^xsd:string,
+            "Birthdate startdate: 1987-01-01"^^xsd:string,
+            "Birthdate startdate: 1993-05-11"^^xsd:string,
+            "Birthdate startdate: 2000-10-10"^^xsd:string,
+            "Birthdate startdate: 2010-07-07"^^xsd:string,
+            "Birthdate startdate: 2014-05-12"^^xsd:string,
+            "Birthdate startdate: 2014-06-12"^^xsd:string,
+            "Birthdate startdate: 2014-08-12"^^xsd:string,
+            "Birthdate startdate: 2016-01-01"^^xsd:string,
+            "Birthdate startdate: 2017-05-12"^^xsd:string,
+            "Birthdate startdate: 2018-01-13"^^xsd:string,
+            "Birthdate startdate: 2018-06-01"^^xsd:string,
+            "Birthdate startdate: 2018-12-01"^^xsd:string,
+            "Birthdate startdate: 2019-01-01"^^xsd:string,
+            "Birthdate startdate: 2019-02-01"^^xsd:string,
+            "Birthdate startdate: 2020-01-13"^^xsd:string,
+            "Birthdate startdate: 2020-04-01"^^xsd:string,
+            "Birthdate startdate: 2021-01-11"^^xsd:string,
+            "Birthdate startdate: 2022-04-12"^^xsd:string,
+            "Care_pathway startdate: 1975-07-01"^^xsd:string,
+            "Care_pathway startdate: 1987-01-01"^^xsd:string,
+            "Care_pathway startdate: 1993-05-11"^^xsd:string,
+            "Care_pathway startdate: 2000-10-10"^^xsd:string,
+            "Care_pathway startdate: 2010-07-07"^^xsd:string,
+            "Care_pathway startdate: 2014-05-12"^^xsd:string,
+            "Care_pathway startdate: 2014-06-12"^^xsd:string,
+            "Care_pathway startdate: 2014-08-12"^^xsd:string,
+            "Care_pathway startdate: 2016-01-01"^^xsd:string,
+            "Care_pathway startdate: 2017-05-12"^^xsd:string,
+            "Care_pathway startdate: 2018-01-13"^^xsd:string,
+            "Care_pathway startdate: 2018-06-01"^^xsd:string,
+            "Care_pathway startdate: 2018-12-01"^^xsd:string,
+            "Care_pathway startdate: 2019-01-01"^^xsd:string,
+            "Care_pathway startdate: 2019-02-01"^^xsd:string,
+            "Care_pathway startdate: 2020-01-13"^^xsd:string,
+            "Care_pathway startdate: 2020-04-01"^^xsd:string,
+            "Care_pathway startdate: 2021-01-11"^^xsd:string,
+            "Care_pathway startdate: 2022-04-12"^^xsd:string,
+            "Consent startdate: 1975-07-01"^^xsd:string,
+            "Consent startdate: 2018-10-13"^^xsd:string,
+            "Consent startdate: 2018-11-07"^^xsd:string,
+            "Consent startdate: 2019-01-01"^^xsd:string,
+            "Consent startdate: 2019-03-12"^^xsd:string,
+            "Consent startdate: 2020-01-13"^^xsd:string,
+            "Consent startdate: 2020-01-18"^^xsd:string,
+            "Consent startdate: 2020-10-11"^^xsd:string,
+            "Consent startdate: 2021-01-11"^^xsd:string,
+            "Consent startdate: 2021-05-01"^^xsd:string,
+            "Consent startdate: 2022-02-16"^^xsd:string,
+            "Consent startdate: 2022-03-15"^^xsd:string,
+            "Consent startdate: 2022-03-16"^^xsd:string,
+            "Consent startdate: 2022-04-12"^^xsd:string,
+            "Date_of_death startdate: 2022-01-01"^^xsd:string,
+            "Date_of_death startdate: 2022-05-11"^^xsd:string,
+            "Date_of_death startdate: 2022-07-01"^^xsd:string,
+            "Diagnosis startdate: 1985-07-01"^^xsd:string,
+            "Diagnosis startdate: 1987-02-01"^^xsd:string,
+            "Diagnosis startdate: 1991-04-11"^^xsd:string,
+            "Diagnosis startdate: 2000-12-10"^^xsd:string,
+            "Diagnosis startdate: 2010-07-07"^^xsd:string,
+            "Diagnosis startdate: 2011-01-01"^^xsd:string,
+            "Diagnosis startdate: 2014-11-06"^^xsd:string,
+            "Diagnosis startdate: 2016-04-01"^^xsd:string,
+            "Diagnosis startdate: 2018-08-01"^^xsd:string,
+            "Diagnosis startdate: 2019-02-01"^^xsd:string,
+            "Diagnosis startdate: 2019-03-06"^^xsd:string,
+            "Diagnosis startdate: 2019-11-06"^^xsd:string,
+            "Diagnosis startdate: 2020-02-01"^^xsd:string,
+            "Diagnosis startdate: 2020-04-01"^^xsd:string,
+            "Diagnosis startdate: 2021-01-11"^^xsd:string,
+            "Diagnosis startdate: 2022-04-12"^^xsd:string,
+            "Disability startdate: 2021-11-12"^^xsd:string,
+            "Disability startdate: 2021-11-16"^^xsd:string,
+            "Disability startdate: 2021-11-17"^^xsd:string,
+            "Disability startdate: 2021-11-18"^^xsd:string,
+            "Disability startdate: 2021-11-19"^^xsd:string,
+            "Disability startdate: 2021-11-20"^^xsd:string,
+            "Disability startdate: 2021-11-28"^^xsd:string,
+            "Disability startdate: 2021-12-01"^^xsd:string,
+            "Disability startdate: 2021-12-02"^^xsd:string,
+            "Genotype_HGNC startdate: 1987-01-01"^^xsd:string,
+            "Genotype_HGNC startdate: 1993-05-11"^^xsd:string,
+            "Genotype_HGNC startdate: 2014-05-12"^^xsd:string,
+            "Genotype_HGNC startdate: 2014-06-12"^^xsd:string,
+            "Genotype_HGNC startdate: 2014-08-12"^^xsd:string,
+            "Genotype_HGNC startdate: 2016-01-01"^^xsd:string,
+            "Genotype_HGNC startdate: 2018-01-13"^^xsd:string,
+            "Genotype_HGNC startdate: 2018-06-01"^^xsd:string,
+            "Genotype_HGNC startdate: 2020-01-13"^^xsd:string,
+            "Genotype_HGVS startdate: 1987-01-01"^^xsd:string,
+            "Genotype_HGVS startdate: 1993-05-11"^^xsd:string,
+            "Genotype_HGVS startdate: 2014-05-12"^^xsd:string,
+            "Genotype_HGVS startdate: 2014-06-12"^^xsd:string,
+            "Genotype_HGVS startdate: 2014-08-12"^^xsd:string,
+            "Genotype_HGVS startdate: 2016-01-01"^^xsd:string,
+            "Genotype_HGVS startdate: 2018-01-13"^^xsd:string,
+            "Genotype_HGVS startdate: 2018-06-01"^^xsd:string,
+            "Genotype_HGVS startdate: 2020-01-13"^^xsd:string,
+            "Genotype_OMIM startdate: 1987-01-01"^^xsd:string,
+            "Genotype_OMIM startdate: 1993-05-11"^^xsd:string,
+            "Genotype_OMIM startdate: 2014-05-12"^^xsd:string,
+            "Genotype_OMIM startdate: 2014-06-12"^^xsd:string,
+            "Genotype_OMIM startdate: 2014-08-12"^^xsd:string,
+            "Genotype_OMIM startdate: 2016-01-01"^^xsd:string,
+            "Genotype_OMIM startdate: 2018-01-13"^^xsd:string,
+            "Genotype_OMIM startdate: 2018-06-01"^^xsd:string,
+            "Genotype_OMIM startdate: 2020-01-13"^^xsd:string,
+            "Onset_diagnosis startdate: 1985-07-01"^^xsd:string,
+            "Onset_diagnosis startdate: 1987-02-01"^^xsd:string,
+            "Onset_diagnosis startdate: 1991-04-11"^^xsd:string,
+            "Onset_diagnosis startdate: 2000-12-10"^^xsd:string,
+            "Onset_diagnosis startdate: 2010-07-07"^^xsd:string,
+            "Onset_diagnosis startdate: 2011-01-01"^^xsd:string,
+            "Onset_diagnosis startdate: 2014-11-06"^^xsd:string,
+            "Onset_diagnosis startdate: 2016-04-01"^^xsd:string,
+            "Onset_diagnosis startdate: 2018-08-01"^^xsd:string,
+            "Onset_diagnosis startdate: 2019-02-01"^^xsd:string,
+            "Onset_diagnosis startdate: 2019-03-06"^^xsd:string,
+            "Onset_diagnosis startdate: 2019-11-06"^^xsd:string,
+            "Onset_diagnosis startdate: 2020-02-01"^^xsd:string,
+            "Onset_diagnosis startdate: 2020-04-01"^^xsd:string,
+            "Onset_diagnosis startdate: 2021-01-11"^^xsd:string,
+            "Onset_diagnosis startdate: 2022-04-12"^^xsd:string,
+            "Onset_symptoms startdate: 1975-07-01"^^xsd:string,
+            "Onset_symptoms startdate: 1987-01-01"^^xsd:string,
+            "Onset_symptoms startdate: 1993-05-11"^^xsd:string,
+            "Onset_symptoms startdate: 2000-10-10"^^xsd:string,
+            "Onset_symptoms startdate: 2010-07-07"^^xsd:string,
+            "Onset_symptoms startdate: 2014-05-12"^^xsd:string,
+            "Onset_symptoms startdate: 2014-06-12"^^xsd:string,
+            "Onset_symptoms startdate: 2014-08-12"^^xsd:string,
+            "Onset_symptoms startdate: 2016-01-01"^^xsd:string,
+            "Onset_symptoms startdate: 2017-05-12"^^xsd:string,
+            "Onset_symptoms startdate: 2018-01-13"^^xsd:string,
+            "Onset_symptoms startdate: 2018-06-01"^^xsd:string,
+            "Onset_symptoms startdate: 2018-12-01"^^xsd:string,
+            "Onset_symptoms startdate: 2019-01-01"^^xsd:string,
+            "Onset_symptoms startdate: 2019-02-01"^^xsd:string,
+            "Onset_symptoms startdate: 2020-01-13"^^xsd:string,
+            "Onset_symptoms startdate: 2020-04-01"^^xsd:string,
+            "Onset_symptoms startdate: 2021-01-11"^^xsd:string,
+            "Onset_symptoms startdate: 2022-04-12"^^xsd:string,
+            "Phenotype startdate: 1987-01-01"^^xsd:string,
+            "Phenotype startdate: 1993-05-11"^^xsd:string,
+            "Phenotype startdate: 2014-05-12"^^xsd:string,
+            "Phenotype startdate: 2014-06-12"^^xsd:string,
+            "Phenotype startdate: 2014-08-12"^^xsd:string,
+            "Phenotype startdate: 2016-01-01"^^xsd:string,
+            "Phenotype startdate: 2018-01-13"^^xsd:string,
+            "Phenotype startdate: 2018-06-01"^^xsd:string,
+            "Phenotype startdate: 2020-01-13"^^xsd:string,
+            "Sex startdate: 1975-07-01"^^xsd:string,
+            "Sex startdate: 1987-01-01"^^xsd:string,
+            "Sex startdate: 1993-05-11"^^xsd:string,
+            "Sex startdate: 2000-10-10"^^xsd:string,
+            "Sex startdate: 2010-07-07"^^xsd:string,
+            "Sex startdate: 2014-05-12"^^xsd:string,
+            "Sex startdate: 2014-06-12"^^xsd:string,
+            "Sex startdate: 2014-08-12"^^xsd:string,
+            "Sex startdate: 2016-01-01"^^xsd:string,
+            "Sex startdate: 2017-05-12"^^xsd:string,
+            "Sex startdate: 2018-01-13"^^xsd:string,
+            "Sex startdate: 2018-06-01"^^xsd:string,
+            "Sex startdate: 2018-12-01"^^xsd:string,
+            "Sex startdate: 2019-01-01"^^xsd:string,
+            "Sex startdate: 2019-02-01"^^xsd:string,
+            "Sex startdate: 2020-01-13"^^xsd:string,
+            "Sex startdate: 2020-04-01"^^xsd:string,
+            "Sex startdate: 2021-01-11"^^xsd:string,
+            "Sex startdate: 2022-04-12"^^xsd:string,
+            "Status startdate: 2022-01-01"^^xsd:string,
+            "Status startdate: 2022-01-02"^^xsd:string,
+            "Status startdate: 2022-01-03"^^xsd:string,
+            "Status startdate: 2022-01-04"^^xsd:string,
+            "Status startdate: 2022-01-05"^^xsd:string,
+            "Status startdate: 2022-01-06"^^xsd:string,
+            "Status startdate: 2022-01-07"^^xsd:string,
+            "Status startdate: 2022-01-08"^^xsd:string,
+            "Status startdate: 2022-01-09"^^xsd:string,
+            "Status startdate: 2022-01-10"^^xsd:string,
+            "Status startdate: 2022-01-11"^^xsd:string,
+            "Status startdate: 2022-01-12"^^xsd:string,
+            "Status startdate: 2022-01-13"^^xsd:string,
+            "Status startdate: 2022-01-14"^^xsd:string,
+            "Status startdate: 2022-01-15"^^xsd:string,
+            "Status startdate: 2022-01-16"^^xsd:string,
+            "Status startdate: 2022-01-17"^^xsd:string,
+            "Status startdate: 2022-05-11"^^xsd:string,
+            "Status startdate: 2022-05-12"^^xsd:string,
+            "Status startdate: 2022-05-13"^^xsd:string,
+            "Status startdate: 2022-05-14"^^xsd:string,
+            "Status startdate: 2022-05-15"^^xsd:string,
+            "Status startdate: 2022-05-16"^^xsd:string,
+            "Status startdate: 2022-05-17"^^xsd:string,
+            "Status startdate: 2022-05-18"^^xsd:string,
+            "Status startdate: 2022-07-01"^^xsd:string,
+            "Status startdate: 2022-07-02"^^xsd:string,
+            "Status startdate: 2022-07-03"^^xsd:string,
+            "Status startdate: 2022-07-04"^^xsd:string,
+            "Status startdate: 2022-07-05"^^xsd:string,
+            "Status startdate: 2022-07-09"^^xsd:string ;
+        sio:SIO_000300 "1975-07-01"^^xsd:date,
+            "1985-07-01"^^xsd:date,
+            "1987-01-01"^^xsd:date,
+            "1987-02-01"^^xsd:date,
+            "1991-04-11"^^xsd:date,
+            "1993-05-11"^^xsd:date,
+            "2000-10-10"^^xsd:date,
+            "2000-12-10"^^xsd:date,
+            "2010-07-07"^^xsd:date,
+            "2011-01-01"^^xsd:date,
+            "2014-05-12"^^xsd:date,
+            "2014-06-12"^^xsd:date,
+            "2014-08-12"^^xsd:date,
+            "2014-11-06"^^xsd:date,
+            "2016-01-01"^^xsd:date,
+            "2016-04-01"^^xsd:date,
+            "2017-05-12"^^xsd:date,
+            "2018-01-13"^^xsd:date,
+            "2018-06-01"^^xsd:date,
+            "2018-08-01"^^xsd:date,
+            "2018-10-13"^^xsd:date,
+            "2018-11-07"^^xsd:date,
+            "2018-12-01"^^xsd:date,
+            "2019-01-01"^^xsd:date,
+            "2019-02-01"^^xsd:date,
+            "2019-03-06"^^xsd:date,
+            "2019-03-12"^^xsd:date,
+            "2019-11-06"^^xsd:date,
+            "2020-01-13"^^xsd:date,
+            "2020-01-18"^^xsd:date,
+            "2020-02-01"^^xsd:date,
+            "2020-04-01"^^xsd:date,
+            "2020-10-11"^^xsd:date,
+            "2021-01-11"^^xsd:date,
+            "2021-05-01"^^xsd:date,
+            "2021-11-12"^^xsd:date,
+            "2021-11-16"^^xsd:date,
+            "2021-11-17"^^xsd:date,
+            "2021-11-18"^^xsd:date,
+            "2021-11-19"^^xsd:date,
+            "2021-11-20"^^xsd:date,
+            "2021-11-28"^^xsd:date,
+            "2021-12-01"^^xsd:date,
+            "2021-12-02"^^xsd:date,
+            "2022-01-01"^^xsd:date,
+            "2022-01-02"^^xsd:date,
+            "2022-01-03"^^xsd:date,
+            "2022-01-04"^^xsd:date,
+            "2022-01-05"^^xsd:date,
+            "2022-01-06"^^xsd:date,
+            "2022-01-07"^^xsd:date,
+            "2022-01-08"^^xsd:date,
+            "2022-01-09"^^xsd:date,
+            "2022-01-10"^^xsd:date,
+            "2022-01-11"^^xsd:date,
+            "2022-01-12"^^xsd:date,
+            "2022-01-13"^^xsd:date,
+            "2022-01-14"^^xsd:date,
+            "2022-01-15"^^xsd:date,
+            "2022-01-16"^^xsd:date,
+            "2022-01-17"^^xsd:date,
+            "2022-02-16"^^xsd:date,
+            "2022-03-15"^^xsd:date,
+            "2022-03-16"^^xsd:date,
+            "2022-04-12"^^xsd:date,
+            "2022-05-11"^^xsd:date,
+            "2022-05-12"^^xsd:date,
+            "2022-05-13"^^xsd:date,
+            "2022-05-14"^^xsd:date,
+            "2022-05-15"^^xsd:date,
+            "2022-05-16"^^xsd:date,
+            "2022-05-17"^^xsd:date,
+            "2022-05-18"^^xsd:date,
+            "2022-07-01"^^xsd:date,
+            "2022-07-02"^^xsd:date,
+            "2022-07-03"^^xsd:date,
+            "2022-07-04"^^xsd:date,
+            "2022-07-05"^^xsd:date,
+            "2022-07-09"^^xsd:date .
+
+    this:500-0001_Identifier a sio:SIO_000115 ;
+        sio:SIO_000300 "500-0001"^^xsd:string .
+
+    this:500-0001_Person a sio:SIO_000498 ;
+        sio:SIO_000671 this:500-0001_Identifier .
+
+    this:500-0001_Timeline a obo:NCIT_C54576,
+            sio:SIO_000417 ;
+        sio:SIO_000332 this:500-0001_Person .
+
+    this:500-0002_Identifier a sio:SIO_000115 ;
+        sio:SIO_000300 "500-0002"^^xsd:string .
+
+    this:500-0002_Person a sio:SIO_000498 ;
+        sio:SIO_000671 this:500-0002_Identifier .
+
+    this:500-0002_Timeline a obo:NCIT_C54576,
+            sio:SIO_000417 ;
+        sio:SIO_000332 this:500-0002_Person .
+
+    this:500-0003_Identifier a sio:SIO_000115 ;
+        sio:SIO_000300 "500-0003"^^xsd:string .
+
+    this:500-0003_Person a sio:SIO_000498 ;
+        sio:SIO_000671 this:500-0003_Identifier .
+
+    this:500-0003_Timeline a obo:NCIT_C54576,
+            sio:SIO_000417 ;
+        sio:SIO_000332 this:500-0003_Person .
+
+    this:500-0004_Identifier a sio:SIO_000115 ;
+        sio:SIO_000300 "500-0004"^^xsd:string .
+
+    this:500-0004_Person a sio:SIO_000498 ;
+        sio:SIO_000671 this:500-0004_Identifier .
+
+    this:500-0004_Timeline a obo:NCIT_C54576,
+            sio:SIO_000417 ;
+        sio:SIO_000332 this:500-0004_Person .
+
+    this:500-0005_Identifier a sio:SIO_000115 ;
+        sio:SIO_000300 "500-0005"^^xsd:string .
+
+    this:500-0005_Person a sio:SIO_000498 ;
+        sio:SIO_000671 this:500-0005_Identifier .
+
+    this:500-0005_Timeline a obo:NCIT_C54576,
+            sio:SIO_000417 ;
+        sio:SIO_000332 this:500-0005_Person .
+
+    this:500-0006_Identifier a sio:SIO_000115 ;
+        sio:SIO_000300 "500-0006"^^xsd:string .
+
+    this:500-0006_Person a sio:SIO_000498 ;
+        sio:SIO_000671 this:500-0006_Identifier .
+
+    this:500-0006_Timeline a obo:NCIT_C54576,
+            sio:SIO_000417 ;
+        sio:SIO_000332 this:500-0006_Person .
+
+    this:500-0007_Identifier a sio:SIO_000115 ;
+        sio:SIO_000300 "500-0007"^^xsd:string .
+
+    this:500-0007_Person a sio:SIO_000498 ;
+        sio:SIO_000671 this:500-0007_Identifier .
+
+    this:500-0007_Timeline a obo:NCIT_C54576,
+            sio:SIO_000417 ;
+        sio:SIO_000332 this:500-0007_Person .
+
+    this:500-0008_Identifier a sio:SIO_000115 ;
+        sio:SIO_000300 "500-0008"^^xsd:string .
+
+    this:500-0008_Person a sio:SIO_000498 ;
+        sio:SIO_000671 this:500-0008_Identifier .
+
+    this:500-0008_Timeline a obo:NCIT_C54576,
+            sio:SIO_000417 ;
+        sio:SIO_000332 this:500-0008_Person .
+
+    this:500-0009_Identifier a sio:SIO_000115 ;
+        sio:SIO_000300 "500-0009"^^xsd:string .
+
+    this:500-0009_Person a sio:SIO_000498 ;
+        sio:SIO_000671 this:500-0009_Identifier .
+
+    this:500-0009_Timeline a obo:NCIT_C54576,
+            sio:SIO_000417 ;
+        sio:SIO_000332 this:500-0009_Person .
+
+    this:500-0010_Identifier a sio:SIO_000115 ;
+        sio:SIO_000300 "500-0010"^^xsd:string .
+
+    this:500-0010_Person a sio:SIO_000498 ;
+        sio:SIO_000671 this:500-0010_Identifier .
+
+    this:500-0010_Timeline a obo:NCIT_C54576,
+            sio:SIO_000417 ;
+        sio:SIO_000332 this:500-0010_Person .
+
+    this:500-0011_Identifier a sio:SIO_000115 ;
+        sio:SIO_000300 "500-0011"^^xsd:string .
+
+    this:500-0011_Person a sio:SIO_000498 ;
+        sio:SIO_000671 this:500-0011_Identifier .
+
+    this:500-0011_Timeline a obo:NCIT_C54576,
+            sio:SIO_000417 ;
+        sio:SIO_000332 this:500-0011_Person .
+
+    this:500-0012_Identifier a sio:SIO_000115 ;
+        sio:SIO_000300 "500-0012"^^xsd:string .
+
+    this:500-0012_Person a sio:SIO_000498 ;
+        sio:SIO_000671 this:500-0012_Identifier .
+
+    this:500-0012_Timeline a obo:NCIT_C54576,
+            sio:SIO_000417 ;
+        sio:SIO_000332 this:500-0012_Person .
+
+    this:500-0013_Identifier a sio:SIO_000115 ;
+        sio:SIO_000300 "500-0013"^^xsd:string .
+
+    this:500-0013_Person a sio:SIO_000498 ;
+        sio:SIO_000671 this:500-0013_Identifier .
+
+    this:500-0013_Timeline a obo:NCIT_C54576,
+            sio:SIO_000417 ;
+        sio:SIO_000332 this:500-0013_Person .
+
+    this:500-0014_Identifier a sio:SIO_000115 ;
+        sio:SIO_000300 "500-0014"^^xsd:string .
+
+    this:500-0014_Person a sio:SIO_000498 ;
+        sio:SIO_000671 this:500-0014_Identifier .
+
+    this:500-0014_Timeline a obo:NCIT_C54576,
+            sio:SIO_000417 ;
+        sio:SIO_000332 this:500-0014_Person .
+
+    this:500-0015_Identifier a sio:SIO_000115 ;
+        sio:SIO_000300 "500-0015"^^xsd:string .
+
+    this:500-0015_Person a sio:SIO_000498 ;
+        sio:SIO_000671 this:500-0015_Identifier .
+
+    this:500-0015_Timeline a obo:NCIT_C54576,
+            sio:SIO_000417 ;
+        sio:SIO_000332 this:500-0015_Person .
+
+    this:500-0016_Identifier a sio:SIO_000115 ;
+        sio:SIO_000300 "500-0016"^^xsd:string .
+
+    this:500-0016_Person a sio:SIO_000498 ;
+        sio:SIO_000671 this:500-0016_Identifier .
+
+    this:500-0016_Timeline a obo:NCIT_C54576,
+            sio:SIO_000417 ;
+        sio:SIO_000332 this:500-0016_Person .
+
+    this:500-0017_Identifier a sio:SIO_000115 ;
+        sio:SIO_000300 "500-0017"^^xsd:string .
+
+    this:500-0017_Person a sio:SIO_000498 ;
+        sio:SIO_000671 this:500-0017_Identifier .
+
+    this:500-0017_Timeline a obo:NCIT_C54576,
+            sio:SIO_000417 ;
+        sio:SIO_000332 this:500-0017_Person .
+
+    this:500-0018_Identifier a sio:SIO_000115 ;
+        sio:SIO_000300 "500-0018"^^xsd:string .
+
+    this:500-0018_Person a sio:SIO_000498 ;
+        sio:SIO_000671 this:500-0018_Identifier .
+
+    this:500-0018_Timeline a obo:NCIT_C54576,
+            sio:SIO_000417 ;
+        sio:SIO_000332 this:500-0018_Person .
+
+    this:500-0019_Identifier a sio:SIO_000115 ;
+        sio:SIO_000300 "500-0019"^^xsd:string .
+
+    this:500-0019_Person a sio:SIO_000498 ;
+        sio:SIO_000671 this:500-0019_Identifier .
+
+    this:500-0019_Timeline a obo:NCIT_C54576,
+            sio:SIO_000417 ;
+        sio:SIO_000332 this:500-0019_Person .
+
+    this:500-0020_Identifier a sio:SIO_000115 ;
+        sio:SIO_000300 "500-0020"^^xsd:string .
+
+    this:500-0020_Person a sio:SIO_000498 ;
+        sio:SIO_000671 this:500-0020_Identifier .
+
+    this:500-0020_Timeline a obo:NCIT_C54576,
+            sio:SIO_000417 ;
+        sio:SIO_000332 this:500-0020_Person .
+
+    this:500-0021_Identifier a sio:SIO_000115 ;
+        sio:SIO_000300 "500-0021"^^xsd:string .
+
+    this:500-0021_Person a sio:SIO_000498 ;
+        sio:SIO_000671 this:500-0021_Identifier .
+
+    this:500-0021_Timeline a obo:NCIT_C54576,
+            sio:SIO_000417 ;
+        sio:SIO_000332 this:500-0021_Person .
+
+    this:500-0022_Identifier a sio:SIO_000115 ;
+        sio:SIO_000300 "500-0022"^^xsd:string .
+
+    this:500-0022_Person a sio:SIO_000498 ;
+        sio:SIO_000671 this:500-0022_Identifier .
+
+    this:500-0022_Timeline a obo:NCIT_C54576,
+            sio:SIO_000417 ;
+        sio:SIO_000332 this:500-0022_Person .
+
+    this:500-0023_Identifier a sio:SIO_000115 ;
+        sio:SIO_000300 "500-0023"^^xsd:string .
+
+    this:500-0023_Person a sio:SIO_000498 ;
+        sio:SIO_000671 this:500-0023_Identifier .
+
+    this:500-0023_Timeline a obo:NCIT_C54576,
+            sio:SIO_000417 ;
+        sio:SIO_000332 this:500-0023_Person .
+
+    this:500-0024_Identifier a sio:SIO_000115 ;
+        sio:SIO_000300 "500-0024"^^xsd:string .
+
+    this:500-0024_Person a sio:SIO_000498 ;
+        sio:SIO_000671 this:500-0024_Identifier .
+
+    this:500-0024_Timeline a obo:NCIT_C54576,
+            sio:SIO_000417 ;
+        sio:SIO_000332 this:500-0024_Person .
+
+    this:500-0025_Identifier a sio:SIO_000115 ;
+        sio:SIO_000300 "500-0025"^^xsd:string .
+
+    this:500-0025_Person a sio:SIO_000498 ;
+        sio:SIO_000671 this:500-0025_Identifier .
+
+    this:500-0025_Timeline a obo:NCIT_C54576,
+            sio:SIO_000417 ;
+        sio:SIO_000332 this:500-0025_Person .
+
+    this:500-0026_Identifier a sio:SIO_000115 ;
+        sio:SIO_000300 "500-0026"^^xsd:string .
+
+    this:500-0026_Person a sio:SIO_000498 ;
+        sio:SIO_000671 this:500-0026_Identifier .
+
+    this:500-0026_Timeline a obo:NCIT_C54576,
+            sio:SIO_000417 ;
+        sio:SIO_000332 this:500-0026_Person .
+
+    this:500-0027_Identifier a sio:SIO_000115 ;
+        sio:SIO_000300 "500-0027"^^xsd:string .
+
+    this:500-0027_Person a sio:SIO_000498 ;
+        sio:SIO_000671 this:500-0027_Identifier .
+
+    this:500-0027_Timeline a obo:NCIT_C54576,
+            sio:SIO_000417 ;
+        sio:SIO_000332 this:500-0027_Person .
+
+    this:500-0028_Identifier a sio:SIO_000115 ;
+        sio:SIO_000300 "500-0028"^^xsd:string .
+
+    this:500-0028_Person a sio:SIO_000498 ;
+        sio:SIO_000671 this:500-0028_Identifier .
+
+    this:500-0028_Timeline a obo:NCIT_C54576,
+            sio:SIO_000417 ;
+        sio:SIO_000332 this:500-0028_Person .
+
+    this:500-0029_Identifier a sio:SIO_000115 ;
+        sio:SIO_000300 "500-0029"^^xsd:string .
+
+    this:500-0029_Person a sio:SIO_000498 ;
+        sio:SIO_000671 this:500-0029_Identifier .
+
+    this:500-0029_Timeline a obo:NCIT_C54576,
+            sio:SIO_000417 ;
+        sio:SIO_000332 this:500-0029_Person .
+
+    this:500-0030_Identifier a sio:SIO_000115 ;
+        sio:SIO_000300 "500-0030"^^xsd:string .
+
+    this:500-0030_Person a sio:SIO_000498 ;
+        sio:SIO_000671 this:500-0030_Identifier .
+
+    this:500-0030_Timeline a obo:NCIT_C54576,
+            sio:SIO_000417 ;
+        sio:SIO_000332 this:500-0030_Person .
+
+    this:500-0031_Identifier a sio:SIO_000115 ;
+        sio:SIO_000300 "500-0031"^^xsd:string .
+
+    this:500-0031_Person a sio:SIO_000498 ;
+        sio:SIO_000671 this:500-0031_Identifier .
+
+    this:500-0031_Timeline a obo:NCIT_C54576,
+            sio:SIO_000417 ;
+        sio:SIO_000332 this:500-0031_Person .
+}
+
