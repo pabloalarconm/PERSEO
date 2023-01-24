@@ -2,7 +2,7 @@ Birth_date:
   cde: Birthdate
   columns:
     pid: pat_id
-    valueOutput: birthdate
+    valueOutput_date: birthdate
     startdate: first_visit_date
     enddate: first_visit_date
 
@@ -11,7 +11,7 @@ Sex:
   columns:
     pid: pat_id
     valueAttributeIRI: sex_uri
-    valueOutput: sex
+    valueOutput_string: sex
     startdate: first_visit_date
     enddate: first_visit_date
 
@@ -19,7 +19,7 @@ Status:
   cde: Status
   columns:
     pid: pat_id
-    valueOutput: status_label
+    valueOutput_string: status_label
     valueAttributeIRI: status_uri
     startdate: status_datetime
     enddate: status_datetime
@@ -28,7 +28,7 @@ Date_of_death:
   cde: Date_of_death
   columns:
     pid: pat_id
-    valueOutput: death_date
+    valueOutput_date: death_date
     startdate: death_date
     enddate: death_date
 
@@ -36,7 +36,7 @@ Care_pathway:
   cde: Care_pathway
   columns:
     pid: pat_id
-    valueOutput: first_visit_date
+    valueOutput_date: first_visit_date
     startdate: first_visit_date
     enddate: first_visit_date
 
@@ -45,7 +45,7 @@ Diagnosis:
   columns:
     pid: pat_id
     valueAttributeIRI: diagnosis
-    valueOutput: diagnosis_label
+    valueOutput_string: diagnosis_label
     startdate: diagnosis_date
     enddate: diagnosis_date
 
@@ -53,7 +53,7 @@ Onset_diagnosis:
   cde: Onset_diagnosis
   columns:
     pid: pat_id
-    valueOutput: diagnosis_date
+    valueOutput_date: diagnosis_date
     valueAttributeIRI: onset_diagnosis
     startdate: diagnosis_date
     enddate: diagnosis_date
@@ -63,7 +63,7 @@ Onset_symptoms:
   columns:
     pid: pat_id
     valueAttributeIRI: onset_symptom
-    valueOutput: first_symptoms_date
+    valueOutput_date: first_symptoms_date
     startdate: first_visit_date
     enddate: first_visit_date
 
@@ -71,7 +71,7 @@ Genotype_HGVS:
   cde: Genotype_HGVS
   columns:
     pid: pat_id
-    valueOutput: hgvs_code
+    valueOutput_string: hgvs_code
     valueAttributeIRI: hgvs_id
     startdate: first_visit_date
     enddate: first_visit_date
@@ -80,7 +80,7 @@ Genotype_HGNC:
   cde: Genotype_HGNC
   columns:
     pid: pat_id
-    valueOutput: hgnc_code
+    valueOutput_string: hgnc_code
     valueAttributeIRI: hgnc_id
     startdate: first_visit_date
     enddate: first_visit_date
@@ -89,7 +89,7 @@ Genotype_OMIM:
   cde: Genotype_OMIM
   columns:
     pid: pat_id
-    valueOutput: omim_code
+    valueOutput_string: omim_code
     valueAttributeIRI: omim_id
     startdate: first_visit_date
     enddate: first_visit_date
@@ -100,7 +100,7 @@ Phenotype:
   columns:
     pid: pat_id
     valueAttributeIRI: dia_ce_sle_vasculitis_uri
-    valueOutput: dia_ce_sle_vasculitis
+    valueOutput_string: dia_ce_sle_vasculitis
     startdate: first_visit_date
     enddate: first_visit_date
 
@@ -109,7 +109,7 @@ Consent_clinical:
   cde: Consent
   columns:
     pid: pat_id
-    valueOutput: consent_clinical
+    valueOutput_string: consent_clinical
     outputURI: consent_clinical_uri
     startdate: informed_consent_date
     enddate: informed_consent_date
@@ -119,7 +119,7 @@ Consent_research:
   cde: Consent
   columns:
     pid: pat_id
-    valueOutput: consent_research
+    valueOutput_string: consent_research
     outputURI: consent_research_uri
     startdate: informed_consent_date
     enddate: informed_consent_date
@@ -129,7 +129,7 @@ Disability:
   cde: Disability
   columns:
     pid: pat_id
-    valueOutput: disability_score
+    valueOutput_float: disability_score
     processURI : disability_type
     startdate: disability_datetime
     enddate: disability_datetime
@@ -138,6 +138,6 @@ Biobank:
   cde: Biobank
   columns:
     pid: pat_id
-    valueOutput: biobank_id
+    valueOutput_string: biobank_id
     startdate: informed_consent_date
     enddate: informed_consent_date
