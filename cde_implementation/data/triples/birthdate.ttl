@@ -4,18 +4,49 @@
 @prefix this: <http://example.org/data/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+this:20230120172105537581_Context {
+    this:500-0001_Entity a sio:SIO_000498 ;
+        rdfs:label "Person"^^xsd:string ;
+        sio:SIO_000008 this:500-0001_20230120172105534906_Attribute ;
+        sio:SIO_000228 this:500-0001_20230120172105534906_Role .
 
-this:20221117154928621302_Context a obo:NCIT_C25616 ;
+    this:500-0001_ID a sio:SIO_000115 ;
+        rdfs:label "Identifier"^^xsd:string ;
+        sio:SIO_000020 this:500-0001_20230120172105534906_Role ;
+        sio:SIO_000300 "500-0001"^^xsd:string .
+
+    this:500-0001_20230120172105534906_Output a <http://www.ebi.ac.uk/efo/EFO_0006921>,
+            sio:SIO_000015 ;
+        rdfs:label "Birthdate measurement output"^^xsd:string ;
+        sio:SIO_000300 "2010-10-05"^^xsd:date ;
+        sio:SIO_000628 this:500-0001_20230120172105534906_Attribute .
+
+    this:500-0001_20230120172105534906_Process a obo:NCIT_C142470,
+            sio:SIO_000006 ;
+        rdfs:label "Birthdate measurement process"^^xsd:string ;
+        sio:SIO_000229 this:500-0001_20230120172105534906_Output .
+
+    this:500-0001_20230120172105534906_Attribute a obo:NCIT_C68615,
+            sio:SIO_000614 ;
+        rdfs:label "Birthdate attribute"^^xsd:string .
+
+    this:500-0001_20230120172105534906_Role a obo:OBI_0000093,
+            sio:SIO_000016 ;
+        rdfs:label "Patient role"^^xsd:string ;
+        sio:SIO_000356 this:500-0001_20230120172105534906_Process .
+}
+
+this:20230120172105537581_Context a obo:NCIT_C25616 ;
     sio:SIO_000068 this:500-0001_Timeline ;
-    sio:SIO_000300 "20221117154928621302"^^xsd:string ;
-    sio:SIO_000680 this:20221117154928621302_Startdate ;
-    sio:SIO_000681 this:20221117154928621302_Enddate .
+    sio:SIO_000300 "20230120172105537581"^^xsd:string ;
+    sio:SIO_000680 this:20230120172105537581_Startdate ;
+    sio:SIO_000681 this:20230120172105537581_Enddate .
 
-this:20221117154928621302_Enddate a sio:SIO_000032 ;
+this:20230120172105537581_Enddate a sio:SIO_000032 ;
     rdfs:label "Birthdate enddate: 2020-01-13"^^xsd:string ;
     sio:SIO_000300 "2020-01-13"^^xsd:date .
 
-this:20221117154928621302_Startdate a sio:SIO_000031 ;
+this:20230120172105537581_Startdate a sio:SIO_000031 ;
     rdfs:label "Birthdate startdate: 2020-01-13"^^xsd:string ;
     sio:SIO_000300 "2020-01-13"^^xsd:date .
 
@@ -28,37 +59,4 @@ this:500-0001_Person a sio:SIO_000498 ;
 this:500-0001_Timeline a obo:NCIT_C54576,
         sio:SIO_000417 ;
     sio:SIO_000332 this:500-0001_Person .
-
-
-this:20221117154928621302_Context {
-    this:500-0001_Entity a sio:SIO_000498 ;
-        rdfs:label "Person"^^xsd:string ;
-        sio:SIO_000008 this:500-0001_20221117154928619115_Attribute ;
-        sio:SIO_000228 this:500-0001_20221117154928619115_Role .
-
-    this:500-0001_ID a sio:SIO_000115 ;
-        rdfs:label "Identifier"^^xsd:string ;
-        sio:SIO_000020 this:500-0001_20221117154928619115_Role ;
-        sio:SIO_000300 "500-0001"^^xsd:string .
-
-    this:500-0001_20221117154928619115_Output a <http://www.ebi.ac.uk/efo/EFO_0006921>,
-            sio:SIO_000015 ;
-        rdfs:label "Birthdate measurement output"^^xsd:string ;
-        sio:SIO_000300 "2010-10-05"^^<file:///data/$(datatype)> ;
-        sio:SIO_000628 this:500-0001_20221117154928619115_Attribute .
-
-    this:500-0001_20221117154928619115_Process a obo:NCIT_C142470,
-            sio:SIO_000006 ;
-        rdfs:label "Birthdate measurement process"^^xsd:string ;
-        sio:SIO_000229 this:500-0001_20221117154928619115_Output .
-
-    this:500-0001_20221117154928619115_Attribute a obo:NCIT_C68615,
-            sio:SIO_000614 ;
-        rdfs:label "Birthdate attribute"^^xsd:string .
-
-    this:500-0001_20221117154928619115_Role a obo:OBI_0000093,
-            sio:SIO_000016 ;
-        rdfs:label "Patient role"^^xsd:string ;
-        sio:SIO_000356 this:500-0001_20221117154928619115_Process .
-}
 

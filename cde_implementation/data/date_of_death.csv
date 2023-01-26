@@ -1,2 +1,2 @@
-model,processURI,outputURI,attributeURI,valueAttributeIRI,valueOutput,datatype,startdate,enddate,pid,context_id,uniqid
-Date_of_death,http://purl.obolibrary.org/obo/NCIT_C142470,http://purl.obolibrary.org/obo/NCIT_C103159,http://purl.obolibrary.org/obo/NCIT_C70810,,2022-01-01,xsd:date,2022-01-01,2022-01-01,500-0005,20230116170555511590,20230116170555508864
+model,processURI,outputURI,attributeURI,valueAttributeIRI,valueOutput_date,startdate,enddate,pid,context_id,valueOutput_string,valueOutput_float,uniqid
+Date_of_death,http://purl.obolibrary.org/obo/NCIT_C142470,http://purl.obolibrary.org/obo/NCIT_C103159,http://purl.obolibrary.org/obo/NCIT_C70810,,2022-05-11,2022-05-11,2022-05-11,500-0022,20230120172105539379,,,20230120172105536757

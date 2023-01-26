@@ -1,2 +1,2 @@
-model,processURI,outputURI,attributeURI,valueAttributeIRI,valueOutput,datatype,startdate,enddate,pid,context_id,uniqid
-Genotype_HGVS,http://purl.obolibrary.org/obo/NCIT_C15709,http://purl.obolibrary.org/obo/NCIT_C17248,http://edamontology.org/data_2127,https://www.ncbi.nlm.nih.gov/clinvar/RCV000652057/,NM_001282225.2(ADA2):c.973-2A>G,xsd:string,2020-01-13,2020-01-13,500-0001,20230116164336037516,20230116164336033724
+model,processURI,outputURI,attributeURI,valueAttributeIRI,valueOutput_date,startdate,enddate,pid,context_id,valueOutput_string,valueOutput_float,uniqid
+Genotype_HGVS,http://purl.obolibrary.org/obo/NCIT_C15709,http://purl.obolibrary.org/obo/NCIT_C17248,http://edamontology.org/data_2127,https://www.ncbi.nlm.nih.gov/clinvar/RCV000652057/,,2016-01-01,2016-01-01,500-0002,20230120172105537751,NM_001282225.2(ADA2):c.973-2A>G,,20230120172105535119

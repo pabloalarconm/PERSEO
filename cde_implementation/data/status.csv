@@ -1,2 +1,2 @@
-model,processURI,outputURI,attributeURI,valueAttributeIRI,valueOutput,datatype,startdate,enddate,pid,context_id,uniqid
-Status,http://purl.obolibrary.org/obo/NCIT_C142470,http://purl.obolibrary.org/obo/NCIT_C103159,http://purl.obolibrary.org/obo/NCIT_C166244,http://semanticscience.org/resource/SIO_010058,Alive,xsd:string,2022-07-09,2022-07-09,500-0001,20230116164336037462,20230116164336033670
+model,processURI,outputURI,attributeURI,valueAttributeIRI,valueOutput_date,startdate,enddate,pid,context_id,valueOutput_string,valueOutput_float,uniqid
+Status,http://purl.obolibrary.org/obo/NCIT_C142470,http://purl.obolibrary.org/obo/NCIT_C103159,http://purl.obolibrary.org/obo/NCIT_C166244,http://semanticscience.org/resource/SIO_010058,,2022-07-09,2022-07-09,500-0001,20230120172105537629,Alive,,20230120172105534995
