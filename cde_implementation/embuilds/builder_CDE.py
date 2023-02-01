@@ -69,13 +69,15 @@ triplets = [
 ["this:$(pid)_Identifier","sio:SIO_000300","$(pid)","xsd:string"],
 ["this:$(uniqid)_Context","sio:SIO_000300","$(uniqid)","xsd:string"]
 
-# Context:
-["this:$(uniqid)_Context","sio:SIO_000068","this:$(context_id)_Context_X","iri","this:$(context_id)_Mayor_context"],
-["this:$(context_id)_Context_X","sio:SIO_000680","this:$(context_id)_Startdate","iri","this:$(uniqid)_Mayor_context"],
-["this:$(context_id)_Context_X","sio:SIO_000681","this:$(context_id)_Enddate","iri","this:$(uniqid)_Mayor_context"],
-["this:$(context_id)_Startdate","rdf:type","sio:SIO_000031","iri","this:$(uniqid)_Mayor_context"],
-["this:$(context_id)_Enddate","rdf:type","sio:SIO_000032","iri","this:$(uniqid)_Mayor_context"],
-
+# Mayor Context:
+["this:$(uniqid)_Context","sio:SIO_000068","this:$(pid)_$(context_id)_Mayor_context","iri"],
+["this:$(pid)_$(context_id)_Mayor_context","sio:SIO_000680","this:$(pid)_$(context_id)_Startdate","iri"],
+["this:$(pid)_$(context_id)_Mayor_context","sio:SIO_000681","this:$(pid)_$(context_id)_Enddate","iri"],
+["this:$(pid)_$(context_id)_Startdate","rdf:type","sio:SIO_000031","iri"],
+["this:$(pid)_$(context_id)_Enddate","rdf:type","sio:SIO_000032","iri"],
+["this:$(pid)_$(context_id)_Startdate","sio:SIO_000300","$(context_startdate)","xsd:date"],
+["this:$(pid)_$(context_id)_Enddate","sio:SIO_000300","$(context_enddate)","xsd:date"],
+["this:$(pid)_$(context_id)_Mayor_context","rdf:type","obo:NCIT_C25616","iri"],
 ]
 
 config = dict(
