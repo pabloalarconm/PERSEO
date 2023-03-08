@@ -1,0 +1,95 @@
+mapping:
+
+
+
+  20230301145541684510_source_cde_test:  ### Subject
+    graph: this:$(uniqid)_Context
+    predicateobject:
+    - objects:
+        type: iri
+        value: this:$(pid)_$(uniqid)_Attribute
+      predicate: sio:SIO_000628
+    - objects:
+        type: iri
+        value: sio:SIO_000015
+      predicate: rdf:type
+    - objects:
+        type: iri
+        value: $(outputURI)
+      predicate: rdf:type
+    - objects:
+        datatype: xsd:string
+        value: $(model) measurement output
+      predicate: rdfs:label
+    - objects:
+        datatype: xsd:string
+        value: $(valueOutput_string)
+      predicate: sio:SIO_000300
+    - objects:
+        datatype: xsd:date
+        value: $(valueOutput_date)
+      predicate: sio:SIO_000300
+    - objects:
+        datatype: xsd:float
+        value: $(valueOutput_float)
+      predicate: sio:SIO_000300
+    sources:
+    - source_cde_test
+    subjects: this:$(pid)_$(uniqid)_Output
+
+
+
+
+
+  20230301145541684537_source_cde_test:   #### Object
+    graph: this:$(uniqid)_Context
+    predicateobject:
+    - objects:
+        type: iri
+        value: sio:SIO_000614
+      predicate: rdf:type
+    - objects:
+        type: iri
+        value: $(attributeURI)
+      predicate: rdf:type
+    - objects:
+        type: iri
+        value: $(demographIRI)
+      predicate: rdf:type
+    - objects:
+        datatype: xsd:string
+        value: $(model) attribute
+      predicate: rdfs:label
+    sources:
+    - source_cde_test
+    subjects:
+    condition:
+      function: grel:controls_if
+      parameters:
+        - [grel:bool_b, $(condition_id)]
+        - [grel:any_true, $(condition_id)]
+        - [grel:any_false, this:$(pid)_$(uniqid)_Attribute]
+
+
+
+if condition_id exists:
+  create a triple that have as subject $(condition_id)
+else:
+  create a triple that have as subject this:$(pid)_$(uniqid)_Attribute
+
+
+
+
+prefixes:
+  obo: http://purl.obolibrary.org/obo/
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  sio: https://sio.semanticscience.org/resource/
+  this: '|||BASE|||'
+  xsd: http://www.w3.org/2001/XMLSchema#
+sources:
+  source_cde_test:
+    access: '|||DATA|||'
+    iterator: $
+    referenceFormulation: '|||FORMULATION|||'
+

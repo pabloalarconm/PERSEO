@@ -1,6 +1,6 @@
 mapping:
-  20230307174603790216_source_cde_test:
-    graph: this:$(uniqid)_Context
+  20230306105653860869_source_cde_test:
+#    graph: this:$(uniqid)_Context
     predicateobject:
     - objects:
         type: iri
@@ -21,16 +21,19 @@ mapping:
     sources:
     - source_cde_test
     subjects: this:$(pid)_ID
-  20230307174603790233_source_cde_test:
-    graph: this:$(uniqid)_Context
+  20230306105653860885_source_cde_test:
+#    graph: this:$(uniqid)_Context
     predicateobject:
     - objects:
         type: iri
         value: this:$(pid)_$(uniqid)_Role
       predicate: sio:SIO_000228
     - objects:
-        type: iri
-        value: this:$(pid)_$(uniqid)_Attribute
+        function: grel:controls_if
+        parameters:
+          - [grel:bool_b, "true"]
+          - [grel:any_true, $(attribute_id)~iri]
+          - [grel:any_true, this:$(pid)_$(uniqid)_Attribute~iri]
       predicate: sio:SIO_000008
     - objects:
         type: iri
@@ -43,8 +46,8 @@ mapping:
     sources:
     - source_cde_test
     subjects: this:$(pid)_Entity
-  20230307174603790241_source_cde_test:
-    graph: this:$(uniqid)_Context
+  20230306105653860893_source_cde_test:
+#    graph: this:$(uniqid)_Context
     predicateobject:
     - objects:
         type: iri
@@ -65,8 +68,8 @@ mapping:
     sources:
     - source_cde_test
     subjects: this:$(pid)_$(uniqid)_Role
-  20230307174603790251_source_cde_test:
-    graph: this:$(uniqid)_Context
+  20230306105653860902_source_cde_test:
+#    graph: this:$(uniqid)_Context
     predicateobject:
     - objects:
         type: iri
@@ -76,10 +79,6 @@ mapping:
         type: iri
         value: $(agent_id)
       predicate: sio:SIO_000139
-    - objects:
-        type: iri
-        value: this:$(pid)_$(uniqid)_Route
-      predicate: sio:SIO_000552
     - objects:
         type: iri
         value: this:$(pid)_$(uniqid)_Input
@@ -107,21 +106,34 @@ mapping:
     sources:
     - source_cde_test
     subjects: this:$(pid)_$(uniqid)_Process
-  20230307174603790263_source_cde_test:
-    graph: this:$(uniqid)_Context
+  20230306105653860909_source_cde_test:
+#    graph: this:$(uniqid)_Context
     predicateobject:
     - objects:
         type: iri
-        value: this:$(pid)_$(uniqid)_Attribute
+        value: this:$(pid)_$(uniqid)_Route
+      predicate: sio:SIO_000362
+    - objects:
+        type: iri
+        value: sio:SIO_000015
+      predicate: rdf:type
+    - objects:
+        type: iri
+        value: $(agent_type)
+      predicate: rdf:type
+    sources:
+    - source_cde_test
+    subjects: $(agent_id)
+  20230306105653860917_source_cde_test:
+#    graph: this:$(uniqid)_Context
+    predicateobject:
+    - objects:
+        function: grel:controls_if
+        parameters:
+          - [grel:bool_b, "true"]
+          - [grel:any_true, $(attribute_id)~iri]
+          - [grel:any_true, this:$(pid)_$(uniqid)_Attribute~iri]
       predicate: sio:SIO_000628
-    - objects:
-        type: iri
-        value: this:$(pid)_$(uniqid)_Unit
-      predicate: sio:SIO_000221
-    - objects:
-        type: iri
-        value: this:$(pid)_$(uniqid)_Frequency
-      predicate: sio:SIO_000900
     - objects:
         type: iri
         value: sio:SIO_000015
@@ -147,14 +159,14 @@ mapping:
         value: $(value_float)
       predicate: sio:SIO_000300
     - objects:
-        datatype: xsd:integer
+        datatype: xsd:float
         value: $(value_integer)
       predicate: sio:SIO_000300
     sources:
     - source_cde_test
     subjects: this:$(pid)_$(uniqid)_Output
-  20230307174603790269_source_cde_test:
-    graph: this:$(uniqid)_Context
+  20230306105653860922_source_cde_test:
+#    graph: this:$(uniqid)_Context
     predicateobject:
     - objects:
         type: iri
@@ -171,8 +183,8 @@ mapping:
     sources:
     - source_cde_test
     subjects: this:$(pid)_$(uniqid)_Input
-  20230307174603790274_source_cde_test:
-    graph: this:$(uniqid)_Context
+  20230306105653860928_source_cde_test:
+#    graph: this:$(uniqid)_Context
     predicateobject:
     - objects:
         type: iri
@@ -189,8 +201,8 @@ mapping:
     sources:
     - source_cde_test
     subjects: this:$(pid)_$(uniqid)_Target
-  20230307174603790280_source_cde_test:
-    graph: this:$(uniqid)_Context
+  20230306105653860933_source_cde_test:
+#    graph: this:$(uniqid)_Context
     predicateobject:
     - objects:
         type: iri
@@ -207,22 +219,8 @@ mapping:
     sources:
     - source_cde_test
     subjects: this:$(pid)_$(uniqid)_Route
-  20230307174603790285_source_cde_test:
-    graph: this:$(uniqid)_Context
-    predicateobject:
-    - objects:
-        type: iri
-        value: sio:SIO_000015
-      predicate: rdf:type
-    - objects:
-        type: iri
-        value: $(agent_type)
-      predicate: rdf:type
-    sources:
-    - source_cde_test
-    subjects: $(agent_id)
-  20230307174603790292_source_cde_test:
-    graph: this:$(uniqid)_Context
+  20230306105653860940_source_cde_test:
+#    graph: this:$(uniqid)_Context
     predicateobject:
     - objects:
         type: iri
@@ -231,7 +229,7 @@ mapping:
     - objects:
         type: iri
         value: $(attribute_type)
-      predicate: sio:SIO_000332
+      predicate: rdf:type
     - objects:
         type: iri
         value: $(attribute_id)
@@ -242,49 +240,14 @@ mapping:
       predicate: rdfs:label
     sources:
     - source_cde_test
-    subjects: this:$(pid)_$(uniqid)_Attribute
-  20230307174603790298_source_cde_test:
-    graph: this:$(uniqid)_Context
-    predicateobject:
-    - objects:
-        type: iri
-        value: sio:SIO_000074
-      predicate: rdf:type
-    - objects:
-        type: iri
-        value: $(unit_type)
-      predicate: rdf:type
-    - objects:
-        datatype: xsd:string
-        value: $(model) unit of measurement
-      predicate: rdfs:label
-    sources:
-    - source_cde_test
-    subjects: this:$(pid)_$(uniqid)_Unit
-  20230307174603790310_source_cde_test:
-    graph: this:$(uniqid)_Context
-    predicateobject:
-    - objects:
-        type: iri
-        value: sio:SIO_001367
-      predicate: rdf:type
-    - objects:
-        type: iri
-        value: $(frequency_type)
-      predicate: rdf:type
-    - objects:
-        datatype: xsd:string
-        value: $(model) frequency
-      predicate: rdfs:label
-    - objects:
-        datatype: xsd:integer
-        value: $(frequency_value)
-      predicate: sio:SIO_000300
-    sources:
-    - source_cde_test
-    subjects: this:$(pid)_$(uniqid)_Frequency
-  20230307174603790314_source_cde_test:
-    graph: this:$(uniqid)_Context
+    subjects: 
+      function: grel:controls_if
+      parameters:
+        - [grel:bool_b, "true"]
+        - [grel:any_true, $(attribute_id)~iri]
+        - [grel:any_true, this:$(pid)_$(uniqid)_Attribute~iri]
+  20230306105653860944_source_cde_test:
+#    graph: this:$(uniqid)_Context
     predicateobject:
     - objects:
         datatype: xsd:string
@@ -293,7 +256,7 @@ mapping:
     sources:
     - source_cde_test
     subjects: this:$(pid)_$(uniqid)_Agent
-  20230307174603790320_source_cde_test:
+  20230306105653860950_source_cde_test:
     predicateobject:
     - objects:
         type: iri
@@ -322,7 +285,7 @@ mapping:
     sources:
     - source_cde_test
     subjects: this:$(uniqid)_Context
-  20230307174603790326_source_cde_test:
+  20230306105653860955_source_cde_test:
     predicateobject:
     - objects:
         type: iri
@@ -339,7 +302,7 @@ mapping:
     sources:
     - source_cde_test
     subjects: this:$(pid)_Timeline
-  20230307174603790330_source_cde_test:
+  20230306105653860960_source_cde_test:
     predicateobject:
     - objects:
         type: iri
@@ -352,7 +315,7 @@ mapping:
     sources:
     - source_cde_test
     subjects: this:$(pid)_Person
-  20230307174603790336_source_cde_test:
+  20230306105653860965_source_cde_test:
     predicateobject:
     - objects:
         type: iri
@@ -369,7 +332,7 @@ mapping:
     sources:
     - source_cde_test
     subjects: this:$(uniqid)_Startdate
-  20230307174603790341_source_cde_test:
+  20230306105653860969_source_cde_test:
     predicateobject:
     - objects:
         type: iri
@@ -386,7 +349,7 @@ mapping:
     sources:
     - source_cde_test
     subjects: this:$(uniqid)_Enddate
-  20230307174603790346_source_cde_test:
+  20230306105653860974_source_cde_test:
     predicateobject:
     - objects:
         type: iri
@@ -399,7 +362,7 @@ mapping:
     sources:
     - source_cde_test
     subjects: this:$(pid)_Identifier
-  20230307174603790351_source_cde_test:
+  20230306105653860979_source_cde_test:
     predicateobject:
     - objects:
         type: iri
@@ -420,29 +383,21 @@ mapping:
     sources:
     - source_cde_test
     subjects: this:$(pid)_$(context_id)_Mayor_context
-  20230307174603790355_source_cde_test:
+  20230306105653860983_source_cde_test:
     predicateobject:
     - objects:
         type: iri
         value: sio:SIO_000031
       predicate: rdf:type
-    - objects:
-        datatype: xsd:date
-        value: $(context_startdate)
-      predicate: sio:SIO_000300
     sources:
     - source_cde_test
     subjects: this:$(pid)_$(context_id)_Startdate
-  20230307174603790359_source_cde_test:
+  20230306105653860987_source_cde_test:
     predicateobject:
     - objects:
         type: iri
         value: sio:SIO_000032
       predicate: rdf:type
-    - objects:
-        datatype: xsd:date
-        value: $(context_enddate)
-      predicate: sio:SIO_000300
     sources:
     - source_cde_test
     subjects: this:$(pid)_$(context_id)_Enddate
@@ -451,11 +406,9 @@ prefixes:
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
   rdfs: http://www.w3.org/2000/01/rdf-schema#
   sio: https://sio.semanticscience.org/resource/
-  this: '|||BASE|||'
+  this: http://www.example.org/data/
   xsd: http://www.w3.org/2001/XMLSchema#
+  grel: http://users.ugent.be/~bjdmeest/function/grel.ttl#
 sources:
-  source_cde_test:
-    access: '|||DATA|||'
-    iterator: $
-    referenceFormulation: '|||FORMULATION|||'
+  source_cde_test: [CDE.csv~csv]
 
