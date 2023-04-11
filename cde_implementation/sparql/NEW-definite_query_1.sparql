@@ -1,0 +1,68 @@
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX sio: <https://sio.semanticscience.org/resource/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ordo: <http://www.orpha.net/ORDO/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT distinct ?individual_id  ?_dob_value ?_sex_value 
+WHERE {
+    GRAPH ?_dob_g {
+        ?_dob_id sio:SIO_000020 ?_dob_role ; a sio:SIO_000115 ; sio:SIO_000300 ?_dob_value_id .
+        ?_dob_entity sio:SIO_000228 ?_dob_role ; sio:SIO_000008 ?_dob_attribute ; a sio:SIO_000498 .
+        ?_dob_role sio:SIO_000356 ?_dob_process ;  a sio:SIO_000016 .
+        ?_dob_process sio:SIO_000229 ?_dob_output ; a sio:SIO_000006 , ?_dob_process_type ; rdfs:label ?_dob_process_label ; sio:SIO_000291 ?_dob_target; sio:SIO_000230 ?_dob_input; sio:SIO_000552 ?_dob_route.			FILTER (?_dob_process_type != sio:SIO_000006) .
+        OPTIONAL {?_dob_process rdfs:label ?_dob_comments}
+        ?_dob_output sio:SIO_000628 ?_dob_attribute ;a sio:SIO_000015 , ?_dob_output_type ; rdfs:label ?_dob_output_label .FILTER (?_dob_output_type != sio:SIO_000015) .
+        OPTIONAL{ ?_dob_output sio:SIO_000300 ?_dob_value.}
+        OPTIONAL{?_dob_input a sio:SIO_000015, ?_dob_input_type. FILTER(?_dob_input_type != sio:SIO_000015)} 
+        OPTIONAL{?_dob_target a sio:SIO_000015, ?_dob_target_type .FILTER(?_dob_target_type != sio:SIO_000015)}
+        OPTIONAL {?_dob_process sio:SIO_000139 ?_dob_agent_id .}
+        OPTIONAL {?_dob_agent_id a ?_dob_agent_type, sio:SIO_000015 . FILTER(?_dob_agent_type = obo:NCIT_C16696 || ?_dob_agent_type = obo:NCIT_C177929)}
+        OPTIONAL {?_dob_route a ?_dob_route_type, sio:SIO_000015 .FILTER (?_dob_route_type != sio:SIO_000015)}
+        OPTIONAL{?_dob_attribute a sio:SIO_000614, ?_dob_attribute_id ; sio:SIO_000332 ?_dob_attribute_type. FILTER (?_dob_attribute_type != sio:SIO_000614 && ?_dob_attribute_id != sio:SIO_000614)}
+        
+    }
+    ?_dob_g a obo:NCIT_C25616 ; sio:SIO_000068 ?_dob_timeline ; 
+    # sio:SIO_000068 ?_dob_context ; 
+    sio:SIO_000680 ?_dob_startdate ; sio:SIO_000681 ?_dob_enddate .
+    # ?_dob_context a obo:NCIT_C25616 ; sio:SIO_000300 ?_dob_context_id .
+    ?_dob_startdate a sio:SIO_000031 ; sio:SIO_000300 ?_dob_value_startdate .
+    ?_dob_enddate a sio:SIO_000032 ; sio:SIO_000300 ?_dob_value_enddate . 
+    ?_dob_timeline a obo:NCIT_C54576, sio:SIO_000417; sio:SIO_000332 ?_dob_individual .
+    ?_dob_individual a sio:SIO_000498 ; sio:SIO_000671 ?_dob_individual_identifier .       
+    ?_dob_individual_identifier a sio:SIO_000115 ; sio:SIO_000300 ?individual_id .
+
+
+
+    GRAPH ?_sex_g {
+        ?_sex_id sio:SIO_000020 ?_sex_role ; a sio:SIO_000115 ; sio:SIO_000300 ?_sex_value_id .
+        ?_sex_entity sio:SIO_000228 ?_sex_role ; sio:SIO_000008 ?_sex_attribute ; a sio:SIO_000498 .
+        ?_sex_role sio:SIO_000356 ?_sex_process ;  a sio:SIO_000016 .
+        ?_sex_process sio:SIO_000229 ?_sex_output ; a sio:SIO_000006 , ?_sex_process_type ; rdfs:label ?_sex_process_label ; sio:SIO_000291 ?_sex_target; sio:SIO_000230 ?_sex_input; sio:SIO_000552 ?_sex_route.			FILTER (?_sex_process_type != sio:SIO_000006) .
+        OPTIONAL {?_sex_process rdfs:label ?_sex_comments}
+        ?_sex_output sio:SIO_000628 ?_sex_attribute ;a sio:SIO_000015 , ?_sex_output_type ; rdfs:label ?_sex_output_label .FILTER (?_sex_output_type != sio:SIO_000015) .
+        OPTIONAL{ ?_sex_output sio:SIO_000300 ?_sex_value.}
+        OPTIONAL{?_sex_input a sio:SIO_000015, ?_sex_input_type. FILTER(?_sex_input_type != sio:SIO_000015)} 
+        OPTIONAL{?_sex_target a sio:SIO_000015, ?_sex_target_type .FILTER(?_sex_target_type != sio:SIO_000015)}
+        OPTIONAL {?_sex_process sio:SIO_000139 ?_sex_agent_id .}
+        OPTIONAL {?_sex_agent_id a ?_sex_agent_type, sio:SIO_000015 . FILTER(?_sex_agent_type = obo:NCIT_C16696 || ?_sex_agent_type = obo:NCIT_C177929)}
+        OPTIONAL {?_sex_route a ?_sex_route_type, sio:SIO_000015 .FILTER (?_sex_route_type != sio:SIO_000015)}
+        OPTIONAL{?_sex_attribute a sio:SIO_000614, ?_sex_attribute_id ; sio:SIO_000332 ?_sex_attribute_type. FILTER (?_sex_attribute_type != sio:SIO_000614 && ?_sex_attribute_id != sio:SIO_000614)}
+        
+    }
+    ?_sex_g a obo:NCIT_C25616 ; sio:SIO_000068 ?_sex_timeline ; 
+    #sio:SIO_000068 ?_sex_context ; 
+    sio:SIO_000680 ?_sex_startdate ; sio:SIO_000681 ?_sex_enddate .
+    # ?_sex_context a obo:NCIT_C25616 ; sio:SIO_000300 ?_sex_context_id .
+    ?_sex_startdate a sio:SIO_000031 ; sio:SIO_000300 ?_sex_value_startdate .
+    ?_sex_enddate a sio:SIO_000032 ; sio:SIO_000300 ?_sex_value_enddate . 
+    ?_sex_timeline a obo:NCIT_C54576, sio:SIO_000417; sio:SIO_000332 ?_sex_individual .
+    ?_sex_individual a sio:SIO_000498 ; sio:SIO_000671 ?_sex_individual_identifier .       
+    ?_sex_individual_identifier a sio:SIO_000115 ; sio:SIO_000300 ?individual_id .
+
+
+    # FILTER(?_dob_attribute_type = obo:NCIT_C25164).
+    # FILTER(?_sex_attribute_type = obo:NCIT_C28421).
+
+
+}
