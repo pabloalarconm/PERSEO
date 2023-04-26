@@ -1,2 +1,0 @@
-model,processURI,outputURI,attributeURI,valueAttributeIRI,valueOutput_date,startdate,enddate,pid,context_id,valueOutput_string,valueOutput_float,uniqid
-Diagnosis,http://purl.obolibrary.org/obo/NCIT_C15220,http://purl.obolibrary.org/obo/NCIT_C103159,http://purl.obolibrary.org/obo/NCIT_C2991,http://www.orpha.net/ORDO/Orphanet_93552,,2011-01-01,2011-01-01,500-0001,20230120172105537646,Pediatric systemic lupus erythematosus,,20230120172105535012

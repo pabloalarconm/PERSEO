@@ -1,2 +1,0 @@
-model,processURI,outputURI,attributeURI,valueAttributeIRI,valueOutput_date,startdate,enddate,pid,context_id,valueOutput_string,valueOutput_float,uniqid
-Biobank,http://purl.obolibrary.org/obo/OMIABIS_0000061,http://purl.obolibrary.org/obo/NCIT_C115570,http://purl.obolibrary.org/obo/NCIT_C25429,,,2020-01-13,2020-01-13,500-0001,20230120172105537709,http://hdl.handle.net/21.12110/1.0102-edc4-f36a,,20230120172105535077

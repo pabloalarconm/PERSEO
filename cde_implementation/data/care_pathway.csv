@@ -1,2 +1,0 @@
-model,processURI,outputURI,attributeURI,valueAttributeIRI,valueOutput_date,startdate,enddate,pid,context_id,valueOutput_string,valueOutput_float,uniqid
-Care_pathway,http://purl.obolibrary.org/obo/NCIT_C159705,http://purl.obolibrary.org/obo/NCIT_C25716,http://purl.obolibrary.org/obo/NCIT_C164021,,2020-01-13,2020-01-13,2020-01-13,500-0001,20230120172105537637,,,20230120172105535005

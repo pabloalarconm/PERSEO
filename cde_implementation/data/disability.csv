@@ -1,2 +1,0 @@
-model,processURI,outputURI,attributeURI,valueAttributeIRI,valueOutput_date,startdate,enddate,pid,context_id,valueOutput_string,valueOutput_float,uniqid
-Disability,http://purl.obolibrary.org/obo/NCIT_C107391,http://purl.obolibrary.org/obo/NCIT_C25338,http://purl.obolibrary.org/obo/NCIT_C21007,,,2021-11-12,2021-11-12,500-0002,20230120172105537793,,12.0,20230120172105535161

@@ -1,2 +1,0 @@
-model,processURI,outputURI,attributeURI,valueAttributeIRI,valueOutput_date,startdate,enddate,pid,context_id,valueOutput_string,valueOutput_float,uniqid
-Phenotype,http://purl.obolibrary.org/obo/NCIT_C25305,http://purl.obolibrary.org/obo/NCIT_C125204,http://semanticscience.org/resource/SIO_010056,http://purl.obolibrary.org/obo/HP_0002633,,2018-06-01,2018-06-01,500-0003,20230120172105537879,Vasculitis,,20230120172105535247

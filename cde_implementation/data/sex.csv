@@ -1,2 +1,0 @@
-model,processURI,outputURI,attributeURI,valueAttributeIRI,valueOutput_date,startdate,enddate,pid,context_id,valueOutput_string,valueOutput_float,uniqid
-Sex,http://purl.obolibrary.org/obo/NCIT_C142470,http://purl.obolibrary.org/obo/NCIT_C103159,http://purl.obolibrary.org/obo/NCIT_C28421,http://purl.obolibrary.org/obo/NCIT_C20197,,2020-01-13,2020-01-13,500-0001,20230120172105537618,Male,,20230120172105534981

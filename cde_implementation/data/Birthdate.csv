@@ -1,0 +1,2 @@
+model,process_type,output_type,attribute_type,attribute_id,value_datatype,startdate,enddate,pid,context_id,valueAttributeIRI,valueOutput_date,comments,input_type,target_type,unit_type,value_date,value_string,value_float,uniqid
+Birthdate,http://purl.obolibrary.org/obo/NCIT_C142470,http://purl.obolibrary.org/obo/NCIT_C70856,http://purl.obolibrary.org/obo/NCIT_C25164,http://purl.obolibrary.org/obo/NCIT_C68615,xsd:date,2020-01-13,2020-01-13,500-0001,1254788,,,,,,,2010-10-05,,,20230408102009022571

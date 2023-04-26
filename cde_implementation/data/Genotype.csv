@@ -1,0 +1,2 @@
+model,process_type,output_type,attribute_type,attribute_id,value_datatype,startdate,enddate,pid,context_id,valueAttributeIRI,valueOutput_date,comments,input_type,target_type,unit_type,value_date,value_string,value_float,uniqid
+Genetic,http://purl.obolibrary.org/obo/NCIT_C15709,http://purl.obolibrary.org/obo/NCIT_C70856,http://purl.obolibrary.org/obo/NCIT_C3367,https://www.omim.org/entry/607575,xsd:string,2016-01-01,2016-01-01,500-0002,1254789,,,,,,,,,,20230408102009022789

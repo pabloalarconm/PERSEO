@@ -1,0 +1,2 @@
+model,process_type,output_type,attribute_type,value_datatype,startdate,enddate,pid,context_id,attribute_id,comments,agent_id,input_type,target_type,unit_type,agent_type,frequency_type,frequency_value,value_date,value_string,value_float,uniqid
+Consent_used,http://purl.obolibrary.org/obo/OBI_0000810,http://purl.obolibrary.org/obo/DUO_0000001,http://purl.obolibrary.org/obo/NCIT_C25460,xsd:string,2021-05-01,2021-05-01,500-0002,1254789,,Consent to data being shared for clinical care,,,,,,,,,Consent to data being shared for clinical care,,20230421125447784385

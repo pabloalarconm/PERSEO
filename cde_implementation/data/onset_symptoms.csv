@@ -1,2 +1,0 @@
-model,processURI,outputURI,attributeURI,valueAttributeIRI,valueOutput_date,startdate,enddate,pid,context_id,valueOutput_string,valueOutput_float,uniqid
-Onset_symptoms,http://purl.obolibrary.org/obo/NCIT_C142470,http://purl.obolibrary.org/obo/NCIT_C103159,http://purl.obolibrary.org/obo/NCIT_C124353,http://purl.obolibrary.org/obo/NCIT_C93613,2015-01-10,2016-01-01,2016-01-01,500-0002,20230120172105537744,,,20230120172105535112

@@ -1,0 +1,66 @@
+<http://example.org/data/500-0002_Timeline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000417>.
+<http://example.org/data/500-0002_Timeline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/NCIT_C54576>.
+<http://example.org/data/500-0002_Timeline> <https://sio.semanticscience.org/resource/SIO_000332> <http://example.org/data/500-0002_Person>.
+<http://example.org/data/500-0002_ID> <https://sio.semanticscience.org/resource/SIO_000020> <http://example.org/data/500-0002_20230421125447784385_Role> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_ID> <https://sio.semanticscience.org/resource/SIO_000300> "500-0002"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_ID> <http://www.w3.org/2000/01/rdf-schema#label> "Identifier"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_ID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000115> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_Identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000115>.
+<http://example.org/data/500-0002_Identifier> <https://sio.semanticscience.org/resource/SIO_000300> "500-0002"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://example.org/data/500-0002_1254789_Mayor_context> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/NCIT_C25616>.
+<http://example.org/data/500-0002_1254789_Mayor_context> <https://sio.semanticscience.org/resource/SIO_000300> "1254789"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://example.org/data/500-0002_1254789_Mayor_context> <https://sio.semanticscience.org/resource/SIO_000681> <http://example.org/data/500-0002_1254789_Enddate>.
+<http://example.org/data/500-0002_1254789_Mayor_context> <https://sio.semanticscience.org/resource/SIO_000680> <http://example.org/data/500-0002_1254789_Startdate>.
+<http://example.org/data/500-0002_20230421125447784385_Input> <http://www.w3.org/2000/01/rdf-schema#label> "Consent_used input"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_20230421125447784385_Input> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000015> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_20230421125447784385_Attribute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000614> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_20230421125447784385_Attribute> <http://www.w3.org/2000/01/rdf-schema#label> "Consent_used attribute"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_20230421125447784385_Attribute> <https://sio.semanticscience.org/resource/SIO_000332> <http://purl.obolibrary.org/obo/NCIT_C25460> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_Entity> <http://www.w3.org/2000/01/rdf-schema#label> "Person"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_Entity> <https://sio.semanticscience.org/resource/SIO_000228> <http://example.org/data/500-0002_20230421125447784385_Role> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_Entity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000498> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_Entity> <https://sio.semanticscience.org/resource/SIO_000008> <http://example.org/data/500-0002_20230421125447784385_Attribute> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_20230421125447784385_Output> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000015> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_20230421125447784385_Output> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/DUO_0000001> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_20230421125447784385_Output> <https://sio.semanticscience.org/resource/SIO_000900> <http://example.org/data/500-0002_20230421125447784385_Frequency> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_20230421125447784385_Output> <https://sio.semanticscience.org/resource/SIO_000300> "Consent to data being shared for clinical care"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_20230421125447784385_Output> <https://sio.semanticscience.org/resource/SIO_000221> <http://example.org/data/500-0002_20230421125447784385_Unit> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_20230421125447784385_Output> <https://sio.semanticscience.org/resource/SIO_000628> <http://example.org/data/500-0002_20230421125447784385_Attribute> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_20230421125447784385_Output> <http://www.w3.org/2000/01/rdf-schema#label> "Consent_used measurement output"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000498>.
+<http://example.org/data/500-0002_Person> <https://sio.semanticscience.org/resource/SIO_000671> <http://example.org/data/500-0002_Identifier>.
+<http://example.org/data/500-0002_20230421125447784385_Route> <http://www.w3.org/2000/01/rdf-schema#label> "Consent_used route"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_20230421125447784385_Route> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000015> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/20230421125447784385_Enddate> <http://www.w3.org/2000/01/rdf-schema#label> "Consent_used enddate: 2021-05-01"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://example.org/data/20230421125447784385_Enddate> <https://sio.semanticscience.org/resource/SIO_000300> "2021-05-01"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://example.org/data/20230421125447784385_Enddate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000032>.
+<http://example.org/data/500-0002_1254789_Enddate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000032>.
+<http://example.org/data/500-0002_20230421125447784385_Frequency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_001367> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_20230421125447784385_Frequency> <http://www.w3.org/2000/01/rdf-schema#label> "Consent_used frequency"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/20230421125447784385_Context> <https://sio.semanticscience.org/resource/SIO_000068> <http://example.org/data/500-0002_Timeline>.
+<http://example.org/data/20230421125447784385_Context> <https://sio.semanticscience.org/resource/SIO_000300> "20230421125447784385"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://example.org/data/20230421125447784385_Context> <https://sio.semanticscience.org/resource/SIO_000068> <http://example.org/data/500-0002_1254789_Mayor_context>.
+<http://example.org/data/20230421125447784385_Context> <https://sio.semanticscience.org/resource/SIO_000680> <http://example.org/data/20230421125447784385_Startdate>.
+<http://example.org/data/20230421125447784385_Context> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/NCIT_C25616>.
+<http://example.org/data/20230421125447784385_Context> <https://sio.semanticscience.org/resource/SIO_000681> <http://example.org/data/20230421125447784385_Enddate>.
+<http://example.org/data/500-0002_20230421125447784385_Process> <https://sio.semanticscience.org/resource/SIO_000291> <http://example.org/data/500-0002_20230421125447784385_Target> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_20230421125447784385_Process> <https://sio.semanticscience.org/resource/SIO_000552> <http://example.org/data/500-0002_20230421125447784385_Route> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_20230421125447784385_Process> <http://www.w3.org/2000/01/rdf-schema#label> "Consent_used measurement process"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_20230421125447784385_Process> <https://sio.semanticscience.org/resource/SIO_000230> <http://example.org/data/500-0002_20230421125447784385_Input> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_20230421125447784385_Process> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/OBI_0000810> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_20230421125447784385_Process> <http://www.w3.org/2000/01/rdf-schema#comments> "Consent to data being shared for clinical care"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_20230421125447784385_Process> <https://sio.semanticscience.org/resource/SIO_000229> <http://example.org/data/500-0002_20230421125447784385_Output> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_20230421125447784385_Process> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000006> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_20230421125447784385_Target> <http://www.w3.org/2000/01/rdf-schema#label> "Consent_used target"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_20230421125447784385_Target> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000015> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_20230421125447784385_Role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000016> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_20230421125447784385_Role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/OBI_0000093> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_20230421125447784385_Role> <https://sio.semanticscience.org/resource/SIO_000356> <http://example.org/data/500-0002_20230421125447784385_Process> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_20230421125447784385_Role> <http://www.w3.org/2000/01/rdf-schema#label> "Patient role"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/20230421125447784385_Startdate> <https://sio.semanticscience.org/resource/SIO_000300> "2021-05-01"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://example.org/data/20230421125447784385_Startdate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000031>.
+<http://example.org/data/20230421125447784385_Startdate> <http://www.w3.org/2000/01/rdf-schema#label> "Consent_used startdate: 2021-05-01"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://example.org/data/500-0002_20230421125447784385_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000074> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_20230421125447784385_Unit> <http://www.w3.org/2000/01/rdf-schema#label> "Consent_used unit of measurement"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_20230421125447784385_Agent> <http://www.w3.org/2000/01/rdf-schema#label> "Consent_used agent"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230421125447784385_Context>.
+<http://example.org/data/500-0002_1254789_Startdate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000031>.

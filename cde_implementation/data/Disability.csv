@@ -1,0 +1,2 @@
+model,process_type,output_type,attribute_type,attribute_id,value_datatype,startdate,enddate,pid,context_id,valueAttributeIRI,valueOutput_date,comments,input_type,target_type,unit_type,value_date,value_string,value_float,uniqid
+Disability,http://purl.obolibrary.org/obo/NCIT_C107391,http://purl.obolibrary.org/obo/NCIT_C70856,http://purl.obolibrary.org/obo/NCIT_C21007,,xsd:float,2021-11-12,2021-11-12,500-0002,1254789,,,,,,,,,12.0,20230408102009022803

@@ -1,2 +1,0 @@
-model,processURI,outputURI,attributeURI,valueAttributeIRI,valueOutput_date,startdate,enddate,pid,context_id,valueOutput_string,valueOutput_float,uniqid
-Birthdate,http://purl.obolibrary.org/obo/NCIT_C142470,http://www.ebi.ac.uk/efo/EFO_0006921,http://purl.obolibrary.org/obo/NCIT_C68615,,2010-10-05,2020-01-13,2020-01-13,500-0001,20230120172105537581,,,20230120172105534906

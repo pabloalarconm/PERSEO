@@ -1,0 +1,2 @@
+model,process_type,output_type,attribute_type,attribute_id,value_datatype,startdate,enddate,pid,context_id,valueAttributeIRI,valueOutput_date,comments,input_type,target_type,unit_type,value_date,value_string,value_float,uniqid
+Status,http://purl.obolibrary.org/obo/NCIT_C142470,http://purl.obolibrary.org/obo/NCIT_C70856,http://purl.obolibrary.org/obo/NCIT_C166244,http://semanticscience.org/resource/SIO_010058,xsd:string,2022-07-09,2022-07-09,500-0001,1254788,,,,,,,,,,20230408102009022647
