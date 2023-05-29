@@ -1,0 +1,2 @@
+model,process_type,output_type,attribute_id,value_datatype,startdate,enddate,pid,context_id,attribute_type,comments,agent_id,input_type,target_type,unit_type,agent_type,frequency_type,frequency_value,value_date,value_integer,value_string,value_float,uniqid
+Birthyear,http://purl.obolibrary.org/obo/NCIT_C142470,http://purl.obolibrary.org/obo/NCIT_C70856,http://purl.obolibrary.org/obo/NCIT_C83164,xsd:integer,2020-01-13,2020-01-13,500-0001,1254788,,,,,,,,,,,2010.0,,,20230529112446967574

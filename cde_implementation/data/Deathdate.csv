@@ -1,2 +1,2 @@
-model,process_type,output_type,attribute_type,attribute_id,value_datatype,startdate,enddate,pid,context_id,valueAttributeIRI,valueOutput_date,comments,input_type,target_type,unit_type,value_date,value_string,value_float,uniqid
-Deathdate,http://purl.obolibrary.org/obo/NCIT_C142470,http://purl.obolibrary.org/obo/NCIT_C70856,http://purl.obolibrary.org/obo/NCIT_C25164,http://purl.obolibrary.org/obo/NCIT_C70810,xsd:date,2022-07-09,2022-07-09,500-0001,1254788,,,,,,,,,,20230408102009022656
+model,process_type,output_type,attribute_id,value_datatype,startdate,enddate,pid,context_id,attribute_type,comments,agent_id,input_type,target_type,unit_type,agent_type,frequency_type,frequency_value,value_date,value_integer,value_string,value_float,uniqid
+Deathdate,http://purl.obolibrary.org/obo/NCIT_C142470,http://purl.obolibrary.org/obo/NCIT_C70856,http://purl.obolibrary.org/obo/NCIT_C70810,xsd:date,2022-01-2,2022-01-2,500-0001,1254788,,,,,,,,,,2022-01-2,,,,20230529112446967603
