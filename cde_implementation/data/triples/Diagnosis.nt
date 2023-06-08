@@ -1,67 +1,67 @@
+<http://example.org/data/20230608135950630678_Context> <https://sio.semanticscience.org/resource/SIO_000681> <http://example.org/data/20230608135950630678_Enddate>.
+<http://example.org/data/20230608135950630678_Context> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/NCIT_C25616>.
+<http://example.org/data/20230608135950630678_Context> <https://sio.semanticscience.org/resource/SIO_000068> <http://example.org/data/500-0001_1254788_Mayor_context>.
+<http://example.org/data/20230608135950630678_Context> <https://sio.semanticscience.org/resource/SIO_000068> <http://example.org/data/500-0001_Timeline>.
+<http://example.org/data/20230608135950630678_Context> <https://sio.semanticscience.org/resource/SIO_000300> "20230608135950630678"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://example.org/data/20230608135950630678_Context> <https://sio.semanticscience.org/resource/SIO_000680> <http://example.org/data/20230608135950630678_Startdate>.
+<http://example.org/data/500-0001_1254788_Mayor_context> <https://sio.semanticscience.org/resource/SIO_000680> <http://example.org/data/500-0001_1254788_Startdate>.
+<http://example.org/data/500-0001_1254788_Mayor_context> <https://sio.semanticscience.org/resource/SIO_000681> <http://example.org/data/500-0001_1254788_Enddate>.
+<http://example.org/data/500-0001_1254788_Mayor_context> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/NCIT_C25616>.
+<http://example.org/data/500-0001_1254788_Mayor_context> <https://sio.semanticscience.org/resource/SIO_000300> "1254788"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://example.org/data/500-0001_1254788_Mayor_context> <https://sio.semanticscience.org/resource/SIO_000793> <http://example.org/data/500-0001_1254788_Age>.
+<http://example.org/data/500-0001_20230608135950630678_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000074> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/500-0001_20230608135950630678_Unit> <http://www.w3.org/2000/01/rdf-schema#label> "Diagnosis unit of measurement"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/500-0001_20230608135950630678_Input> <http://www.w3.org/2000/01/rdf-schema#label> "Diagnosis input"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/500-0001_20230608135950630678_Input> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000015> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/20230608135950630678_Startdate> <https://sio.semanticscience.org/resource/SIO_000300> "2011-01-01"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://example.org/data/20230608135950630678_Startdate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000031>.
+<http://example.org/data/20230608135950630678_Startdate> <http://www.w3.org/2000/01/rdf-schema#label> "Diagnosis startdate: 2011-01-01"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://example.org/data/500-0001_1254788_Age> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_001013>.
+<http://example.org/data/500-0001_20230608135950630678_Target> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000015> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/500-0001_20230608135950630678_Target> <http://www.w3.org/2000/01/rdf-schema#label> "Diagnosis target"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/500-0001_ID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000115> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/500-0001_ID> <https://sio.semanticscience.org/resource/SIO_000020> <http://example.org/data/500-0001_20230608135950630678_Role> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/500-0001_ID> <https://sio.semanticscience.org/resource/SIO_000300> "500-0001"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/500-0001_ID> <http://www.w3.org/2000/01/rdf-schema#label> "Identifier"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/500-0001_Timeline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/NCIT_C54576>.
+<http://example.org/data/500-0001_Timeline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000417>.
+<http://example.org/data/500-0001_Timeline> <https://sio.semanticscience.org/resource/SIO_000332> <http://example.org/data/500-0001_Person>.
+<http://example.org/data/500-0001_20230608135950630678_Process> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000006> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/500-0001_20230608135950630678_Process> <https://sio.semanticscience.org/resource/SIO_000291> <http://example.org/data/500-0001_20230608135950630678_Target> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/500-0001_20230608135950630678_Process> <https://sio.semanticscience.org/resource/SIO_000230> <http://example.org/data/500-0001_20230608135950630678_Input> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/500-0001_20230608135950630678_Process> <https://sio.semanticscience.org/resource/SIO_000229> <http://example.org/data/500-0001_20230608135950630678_Output> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/500-0001_20230608135950630678_Process> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/NCIT_C15220> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/500-0001_20230608135950630678_Process> <https://sio.semanticscience.org/resource/SIO_000552> <http://example.org/data/500-0001_20230608135950630678_Route> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/500-0001_20230608135950630678_Process> <http://www.w3.org/2000/01/rdf-schema#label> "Diagnosis measurement process"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230608135950630678_Context>.
 <http://example.org/data/500-0001_Identifier> <https://sio.semanticscience.org/resource/SIO_000300> "500-0001"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://example.org/data/500-0001_Identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000115>.
-<http://example.org/data/500-0001_20230529112446967659_Role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000016> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_20230529112446967659_Role> <https://sio.semanticscience.org/resource/SIO_000356> <http://example.org/data/500-0001_20230529112446967659_Process> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_20230529112446967659_Role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/OBI_0000093> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_20230529112446967659_Role> <http://www.w3.org/2000/01/rdf-schema#label> "Patient role"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_1254788_Enddate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000032>.
-<http://example.org/data/500-0001_20230529112446967659_Frequency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_001367> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_20230529112446967659_Frequency> <http://www.w3.org/2000/01/rdf-schema#label> "Diagnosis frequency"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_20230529112446967659_Attribute> <http://www.w3.org/2000/01/rdf-schema#label> "Diagnosis attribute"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_20230529112446967659_Attribute> <https://sio.semanticscience.org/resource/SIO_000332> <http://purl.obolibrary.org/obo/NCIT_C2991> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_20230529112446967659_Attribute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/HP_0002633> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_20230529112446967659_Attribute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000614> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_Timeline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000417>.
-<http://example.org/data/500-0001_Timeline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/NCIT_C54576>.
-<http://example.org/data/500-0001_Timeline> <https://sio.semanticscience.org/resource/SIO_000332> <http://example.org/data/500-0001_Person>.
+<http://example.org/data/500-0001_20230608135950630678_Role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000016> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/500-0001_20230608135950630678_Role> <https://sio.semanticscience.org/resource/SIO_000356> <http://example.org/data/500-0001_20230608135950630678_Process> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/500-0001_20230608135950630678_Role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/OBI_0000093> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/500-0001_20230608135950630678_Role> <http://www.w3.org/2000/01/rdf-schema#label> "Patient role"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/20230608135950630678_Enddate> <http://www.w3.org/2000/01/rdf-schema#label> "Diagnosis enddate: 2011-01-01"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://example.org/data/20230608135950630678_Enddate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000032>.
+<http://example.org/data/20230608135950630678_Enddate> <https://sio.semanticscience.org/resource/SIO_000300> "2011-01-01"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://example.org/data/500-0001_20230608135950630678_Route> <http://www.w3.org/2000/01/rdf-schema#label> "Diagnosis route"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/500-0001_20230608135950630678_Route> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000015> <http://example.org/data/20230608135950630678_Context>.
 <http://example.org/data/500-0001_1254788_Startdate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000031>.
-<http://example.org/data/500-0001_1254788_Mayor_context> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/NCIT_C25616>.
-<http://example.org/data/500-0001_1254788_Mayor_context> <https://sio.semanticscience.org/resource/SIO_000680> <http://example.org/data/500-0001_1254788_Startdate>.
-<http://example.org/data/500-0001_1254788_Mayor_context> <https://sio.semanticscience.org/resource/SIO_000300> "1254788"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://example.org/data/500-0001_1254788_Mayor_context> <https://sio.semanticscience.org/resource/SIO_000681> <http://example.org/data/500-0001_1254788_Enddate>.
-<http://example.org/data/500-0001_1254788_Mayor_context> <https://sio.semanticscience.org/resource/SIO_000793> <http://example.org/data/500-0001_1254788_Age>.
-<http://example.org/data/500-0001_Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000498>.
+<http://example.org/data/500-0001_20230608135950630678_Frequency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_001367> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/500-0001_20230608135950630678_Frequency> <http://www.w3.org/2000/01/rdf-schema#label> "Diagnosis frequency"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/500-0001_1254788_Enddate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000032>.
+<http://example.org/data/500-0001_20230608135950630678_Output> <http://www.w3.org/2000/01/rdf-schema#label> "Diagnosis measurement output"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/500-0001_20230608135950630678_Output> <https://sio.semanticscience.org/resource/SIO_000628> <http://example.org/data/500-0001_20230608135950630678_Attribute> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/500-0001_20230608135950630678_Output> <https://sio.semanticscience.org/resource/SIO_000221> <http://example.org/data/500-0001_20230608135950630678_Unit> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/500-0001_20230608135950630678_Output> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/NCIT_C70856> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/500-0001_20230608135950630678_Output> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000015> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/500-0001_20230608135950630678_Output> <https://sio.semanticscience.org/resource/SIO_000900> <http://example.org/data/500-0001_20230608135950630678_Frequency> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/500-0001_20230608135950630678_Agent> <http://www.w3.org/2000/01/rdf-schema#label> "Diagnosis agent"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/500-0001_20230608135950630678_Attribute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.orpha.net/ORDO/Orphanet_93552> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/500-0001_20230608135950630678_Attribute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000614> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/500-0001_20230608135950630678_Attribute> <https://sio.semanticscience.org/resource/SIO_000332> <http://purl.obolibrary.org/obo/NCIT_C2991> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/500-0001_20230608135950630678_Attribute> <http://www.w3.org/2000/01/rdf-schema#label> "Diagnosis attribute"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/500-0001_Entity> <http://www.w3.org/2000/01/rdf-schema#label> "Person"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/500-0001_Entity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000498> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/500-0001_Entity> <https://sio.semanticscience.org/resource/SIO_000228> <http://example.org/data/500-0001_20230608135950630678_Role> <http://example.org/data/20230608135950630678_Context>.
+<http://example.org/data/500-0001_Entity> <https://sio.semanticscience.org/resource/SIO_000008> <http://example.org/data/500-0001_20230608135950630678_Attribute> <http://example.org/data/20230608135950630678_Context>.
 <http://example.org/data/500-0001_Person> <https://sio.semanticscience.org/resource/SIO_000671> <http://example.org/data/500-0001_Identifier>.
-<http://example.org/data/500-0001_ID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000115> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_ID> <https://sio.semanticscience.org/resource/SIO_000300> "500-0001"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_ID> <http://www.w3.org/2000/01/rdf-schema#label> "Identifier"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_ID> <https://sio.semanticscience.org/resource/SIO_000020> <http://example.org/data/500-0001_20230529112446967659_Role> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_20230529112446967659_Input> <http://www.w3.org/2000/01/rdf-schema#label> "Diagnosis input"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_20230529112446967659_Input> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000015> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_20230529112446967659_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000074> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_20230529112446967659_Unit> <http://www.w3.org/2000/01/rdf-schema#label> "Diagnosis unit of measurement"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_20230529112446967659_Route> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000015> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_20230529112446967659_Route> <http://www.w3.org/2000/01/rdf-schema#label> "Diagnosis route"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_20230529112446967659_Output> <https://sio.semanticscience.org/resource/SIO_000221> <http://example.org/data/500-0001_20230529112446967659_Unit> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_20230529112446967659_Output> <https://sio.semanticscience.org/resource/SIO_000900> <http://example.org/data/500-0001_20230529112446967659_Frequency> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_20230529112446967659_Output> <http://www.w3.org/2000/01/rdf-schema#label> "Diagnosis measurement output"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_20230529112446967659_Output> <https://sio.semanticscience.org/resource/SIO_000628> <http://example.org/data/500-0001_20230529112446967659_Attribute> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_20230529112446967659_Output> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/NCIT_C70856> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_20230529112446967659_Output> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000015> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_20230529112446967659_Target> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000015> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_20230529112446967659_Target> <http://www.w3.org/2000/01/rdf-schema#label> "Diagnosis target"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/20230529112446967659_Startdate> <http://www.w3.org/2000/01/rdf-schema#label> "Diagnosis startdate: 2011-12-12"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://example.org/data/20230529112446967659_Startdate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000031>.
-<http://example.org/data/20230529112446967659_Startdate> <https://sio.semanticscience.org/resource/SIO_000300> "2011-12-12"^^<http://www.w3.org/2001/XMLSchema#date>.
-<http://example.org/data/20230529112446967659_Context> <https://sio.semanticscience.org/resource/SIO_000068> <http://example.org/data/500-0001_1254788_Mayor_context>.
-<http://example.org/data/20230529112446967659_Context> <https://sio.semanticscience.org/resource/SIO_000681> <http://example.org/data/20230529112446967659_Enddate>.
-<http://example.org/data/20230529112446967659_Context> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/NCIT_C25616>.
-<http://example.org/data/20230529112446967659_Context> <https://sio.semanticscience.org/resource/SIO_000680> <http://example.org/data/20230529112446967659_Startdate>.
-<http://example.org/data/20230529112446967659_Context> <https://sio.semanticscience.org/resource/SIO_000068> <http://example.org/data/500-0001_Timeline>.
-<http://example.org/data/20230529112446967659_Context> <https://sio.semanticscience.org/resource/SIO_000300> "20230529112446967659"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://example.org/data/500-0001_20230529112446967659_Process> <https://sio.semanticscience.org/resource/SIO_000229> <http://example.org/data/500-0001_20230529112446967659_Output> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_20230529112446967659_Process> <https://sio.semanticscience.org/resource/SIO_000230> <http://example.org/data/500-0001_20230529112446967659_Input> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_20230529112446967659_Process> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/NCIT_C15220> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_20230529112446967659_Process> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000006> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_20230529112446967659_Process> <https://sio.semanticscience.org/resource/SIO_000291> <http://example.org/data/500-0001_20230529112446967659_Target> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_20230529112446967659_Process> <https://sio.semanticscience.org/resource/SIO_000552> <http://example.org/data/500-0001_20230529112446967659_Route> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_20230529112446967659_Process> <http://www.w3.org/2000/01/rdf-schema#label> "Diagnosis measurement process"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_20230529112446967659_Agent> <http://www.w3.org/2000/01/rdf-schema#label> "Diagnosis agent"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_Entity> <https://sio.semanticscience.org/resource/SIO_000008> <http://example.org/data/500-0001_20230529112446967659_Attribute> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_Entity> <http://www.w3.org/2000/01/rdf-schema#label> "Person"^^<http://www.w3.org/2001/XMLSchema#string> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_Entity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000498> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_Entity> <https://sio.semanticscience.org/resource/SIO_000228> <http://example.org/data/500-0001_20230529112446967659_Role> <http://example.org/data/20230529112446967659_Context>.
-<http://example.org/data/500-0001_1254788_Age> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_001013>.
-<http://example.org/data/20230529112446967659_Enddate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000032>.
-<http://example.org/data/20230529112446967659_Enddate> <https://sio.semanticscience.org/resource/SIO_000300> "2011-12-12"^^<http://www.w3.org/2001/XMLSchema#date>.
-<http://example.org/data/20230529112446967659_Enddate> <http://www.w3.org/2000/01/rdf-schema#label> "Diagnosis enddate: 2011-12-12"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://example.org/data/500-0001_Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sio.semanticscience.org/resource/SIO_000498>.
