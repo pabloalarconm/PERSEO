@@ -20,10 +20,15 @@ SELECT DISTINCT
     ?ORDO
     ?yearOfDiagnosis
     (xsd:integer(ROUND(AVG(?timeOnsetToDiagnosis))) as ?avgoffset)
+
+
 WHERE {
     BIND(xsd:integer(ofn:asDays(?dateOfDiagnosis - ?dateOfOnset)) AS ?timeOnsetToDiagnosis)
     BIND(SUBSTR(str(?dateOfDiagnosis), 1,4) AS ?yearOfDiagnosis)
     {
+
+
+ ############################ Toma la date of diagnosis
     SELECT DISTINCT
         ?idValue
         ?dateOfDiagnosis
@@ -42,7 +47,12 @@ WHERE {
         FILTER (?processLabel = 'Process: Diagnosis date recording process' || !BOUND(?processLabel)).
         FILTER (?processOutputType != <http://semanticscience.org/resource/SIO_000015>).	
     }}
+
+
+
     {
+
+        ################################# toma la date of symptoms
     SELECT
         ?idValue
         ?dateOfOnset
@@ -60,6 +70,10 @@ WHERE {
         FILTER (?processLabel = 'Process: Symptom onset date recording process' || !BOUND(?processLabel)).
         FILTER (?processOutputType != <http://semanticscience.org/resource/SIO_000015>).
     }}
+
+
+   ################ toma la ORDO URI
+
     {
     SELECT
         ?idValue
@@ -77,5 +91,3 @@ WHERE {
         FILTER (contains(xsd:string(?ORDO), 'ORDO')).
 	}}
 } group by ?ORDO ?yearOfDiagnosis order by ?yearOfDiagnosis ?ORDO
-
-
