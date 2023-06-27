@@ -1,0 +1,38 @@
+mapping:
+  test:
+    po:
+        - p: sio:SIO_000229
+          o:
+            - value: this:$(pid)_$(uniqid)_Output
+              type: iri
+              condition:
+                function: equal
+                parameters:
+                  - [str1, $(value_id)]
+                  - [str2, "null"]
+            - value: $(value_id)
+              type: iri
+              condition:
+                function: idlab-fn:notEqual
+                parameters:
+                  - [grel:valueParameter, $(value_id)]
+                  - [grel:valueParameter2, "null"]
+    graph: this:$(pid)_Context
+    sources:
+    - source_cde_test
+    subjects: this:$(pid)_$(uniqid)_Process
+prefixes:
+  obo: http://purl.obolibrary.org/obo/
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  sio: https://sio.semanticscience.org/resource/
+  this: http://my_example.com/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  grel: http://users.ugent.be/~bjdmeest/function/grel.ttl#
+  idlab-fn: http://example.com/idlab/function/
+
+sources:
+  source_cde_test:
+    access: /mnt/data/CDE2.csv
+    iterator: $
+    referenceFormulation: csv
