@@ -15,11 +15,11 @@ mapping:
           value:
             function: idlab-fn:isNull
             parameters:
-              - [idlab-fn:str, $(value_id)]
+              - [idlab-fn:str, $(xxx)]
         - parameter: grel:any_true
-          value: this:$(pid)_$(uniqid)_Output
+          value: this:$(pid)_$(uniqid)_XXXX
         - parameter: grel:any_false
-          value: $(value_id)
+          value: $(xxx)
 prefixes:
   obo: http://purl.obolibrary.org/obo/
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#

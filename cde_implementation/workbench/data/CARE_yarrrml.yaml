@@ -1,5 +1,5 @@
 mapping:
-  20231027121055433771_source_cde_test:
+  20240309124425630476_source_cde_test:
     graph: this:$(uniqid)_Context
     predicateobject:
     - objects:
@@ -20,8 +20,8 @@ mapping:
       predicate: sio:SIO_000300
     sources:
     - source_cde_test
-    subjects: this:$(pid)_ID
-  20231027121055433788_source_cde_test:
+    subjects: this:$(pid)_Identifier
+  20240309124425630493_source_cde_test:
     graph: this:$(uniqid)_Context
     predicateobject:
     - objects:
@@ -30,20 +30,16 @@ mapping:
       predicate: sio:SIO_000228
     - objects:
         type: iri
-        value: this:$(pid)_$(uniqid)_Attribute
-      predicate: sio:SIO_000008
-    - objects:
-        type: iri
         value: sio:SIO_000498
       predicate: rdf:type
     - objects:
         datatype: xsd:string
-        value: Person
+        value: Subject
       predicate: rdfs:label
     sources:
     - source_cde_test
-    subjects: this:$(pid)_Entity
-  20231027121055433794_source_cde_test:
+    subjects: this:$(pid)_Individual
+  20240309124425630500_source_cde_test:
     graph: this:$(uniqid)_Context
     predicateobject:
     - objects:
@@ -65,39 +61,69 @@ mapping:
     sources:
     - source_cde_test
     subjects: this:$(pid)_$(uniqid)_Role
-  20231027121055433805_source_cde_test:
+  20240309124425630509_source_cde_test:
     graph: this:$(uniqid)_Context
     predicateobject:
     - objects:
         type: iri
-        value: this:$(pid)_$(uniqid)_Target
-      predicate: sio:SIO_000291
-    - objects:
-        type: iri
-        value: $(agent_id)
-      predicate: sio:SIO_000139
-    - objects:
-        type: iri
-        value: this:$(pid)_$(uniqid)_Route
-      predicate: sio:SIO_000552
-    - objects:
-        type: iri
-        value: this:$(pid)_$(uniqid)_Input
-      predicate: sio:SIO_000230
-    - objects:
         function: grel:controls_if
         parameters:
           - parameter: grel:bool_b
             value:
               function: idlab-fn:isNull
               parameters:
-                - [idlab-fn:str, $(value_id)]
+                - [idlab-fn:str, $(target_id)]
+          - parameter: grel:any_true
+            value: this:$(pid)_$(uniqid)_Target
+          - parameter: grel:any_false
+            value: $(target_id)
+      predicate: sio:SIO_000291
+    - objects:
+        type: iri
+        function: grel:controls_if
+        parameters:
+          - parameter: grel:bool_b
+            value:
+              function: idlab-fn:isNull
+              parameters:
+                - [idlab-fn:str, $(agent_id)]
+          - parameter: grel:any_true
+            value: this:$(pid)_$(uniqid)_Agent
+          - parameter: grel:any_false
+            value: $(agent_id)
+      predicate: sio:SIO_000139
+    - objects:
+        type: iri
+        value: this:$(pid)_$(uniqid)_Input
+      predicate: sio:SIO_000230
+    - objects:
+        type: iri
+        function: grel:controls_if
+        parameters:
+          - parameter: grel:bool_b
+            value:
+              function: idlab-fn:isNull
+              parameters:
+                - [idlab-fn:str, $(output_id)]
           - parameter: grel:any_true
             value: this:$(pid)_$(uniqid)_Output
           - parameter: grel:any_false
-            value: $(value_id)
-        type: iri
+            value: $(output_id)
       predicate: sio:SIO_000229
+    - objects:
+        type: iri
+        function: grel:controls_if
+        parameters:
+          - parameter: grel:bool_b
+            value:
+              function: idlab-fn:isNull
+              parameters:
+                - [idlab-fn:str, $(protocol_id)]
+          - parameter: grel:any_true
+            value: this:$(pid)_$(uniqid)_Protocol
+          - parameter: grel:any_false
+            value: $(protocol_id)
+      predicate: sio:SIO_000339
     - objects:
         type: iri
         value: sio:SIO_000006
@@ -108,7 +134,7 @@ mapping:
       predicate: rdf:type
     - objects:
         datatype: xsd:string
-        value: $(model) measurement process
+        value: $(model) assessment process
       predicate: rdfs:label
     - objects:
         datatype: xsd:string
@@ -117,7 +143,7 @@ mapping:
     sources:
     - source_cde_test
     subjects: this:$(pid)_$(uniqid)_Process
-  20231027121055433815_source_cde_test:
+  20240309124425630520_source_cde_test:
     graph: this:$(uniqid)_Context
     predicateobject:
     - objects:
@@ -128,10 +154,6 @@ mapping:
         type: iri
         value: this:$(pid)_$(uniqid)_Unit
       predicate: sio:SIO_000221
-    - objects:
-        type: iri
-        value: this:$(pid)_$(uniqid)_Frequency
-      predicate: sio:SIO_000900
     - objects:
         type: iri
         value: sio:SIO_000015
@@ -169,12 +191,111 @@ mapping:
           value:
             function: idlab-fn:isNull
             parameters:
-              - [idlab-fn:str, $(value_id)]
+              - [idlab-fn:str, $(output_id)]
         - parameter: grel:any_true
           value: this:$(pid)_$(uniqid)_Output
         - parameter: grel:any_false
-          value: $(value_id)
-  20231027121055433820_source_cde_test:
+          value: $(output_id)
+  20240309124425630529_source_cde_test:
+    graph: this:$(uniqid)_Context
+    predicateobject:
+    - objects:
+        type: iri
+        function: grel:controls_if
+        parameters:
+          - parameter: grel:bool_b
+            value:
+              function: idlab-fn:isNull
+              parameters:
+                - [idlab-fn:str, $(substance_id)]
+          - parameter: grel:any_true
+            value: this:$(pid)_$(uniqid)_Functional-specification
+          - parameter: grel:any_false
+            value: $(substance_id)
+      predicate: sio:SIO_000028
+    - objects:
+        type: iri
+        value: this:$(pid)_$(uniqid)_Action_specification
+      predicate: sio:SIO_000028
+    - objects:
+        type: iri
+        value: this:$(pid)_$(uniqid)_Concentration
+      predicate: sio:SIO_000028
+    - objects:
+        type: iri
+        value: this:$(pid)_$(uniqid)_Frequency
+      predicate: sio:SIO_000028
+    - objects:
+        type: iri
+        value: sio:SIO_000090
+      predicate: rdf:type
+    - objects:
+        type: iri
+        value: $(protocol_type)
+      predicate: rdf:type
+    - objects:
+        datatype: xsd:string
+        value: $(model) specification
+      predicate: rdfs:label
+    sources:
+    - source_cde_test
+    subjects:
+      function: grel:controls_if
+      parameters:
+        - parameter: grel:bool_b
+          value:
+            function: idlab-fn:isNull
+            parameters:
+              - [idlab-fn:str, $(protocol_id)]
+        - parameter: grel:any_true
+          value: this:$(pid)_$(uniqid)_Protocol
+        - parameter: grel:any_false
+          value: $(protocol_id)
+  20240309124425630535_source_cde_test:
+    graph: this:$(uniqid)_Context
+    predicateobject:
+    - objects:
+        type: iri
+        value: this:$(pid)_$(uniqid)_Specification_unit
+      predicate: sio:SIO_000221
+    - objects:
+        type: iri
+        value: sio:SIO_001088
+      predicate: rdf:type
+    - objects:
+        type: iri
+        value: $(substance_type)
+      predicate: rdf:type
+    - objects:
+        datatype: xsd:string
+        value: $(model) concentration specification
+      predicate: rdfs:label
+    - objects:
+        datatype: xsd:float
+        value: $(concentration_value)
+      predicate: sio:SIO_000300
+    sources:
+    - source_cde_test
+    subjects: this:$(pid)_$(uniqid)_Concentration
+  20240309124425630541_source_cde_test:
+    graph: this:$(uniqid)_Context
+    predicateobject:
+    - objects:
+        type: iri
+        value: this:$(pid)_$(uniqid)_Process
+      predicate: sio:SIO_000325
+    - objects:
+        type: iri
+        value: sio:SIO_000006
+      predicate: rdf:type
+    - objects:
+        type: iri
+        value: $(specific_process_type)
+      predicate: rdf:type
+    sources:
+    - source_cde_test
+    subjects: this:$(pid)_$(uniqid)_Specific_process
+  20240309124425630546_source_cde_test:
     graph: this:$(uniqid)_Context
     predicateobject:
     - objects:
@@ -192,7 +313,7 @@ mapping:
     sources:
     - source_cde_test
     subjects: this:$(pid)_$(uniqid)_Input
-  20231027121055433826_source_cde_test:
+  20240309124425630552_source_cde_test:
     graph: this:$(uniqid)_Context
     predicateobject:
     - objects:
@@ -209,26 +330,19 @@ mapping:
       predicate: rdfs:label
     sources:
     - source_cde_test
-    subjects: this:$(pid)_$(uniqid)_Target
-  20231027121055433832_source_cde_test:
-    graph: this:$(uniqid)_Context
-    predicateobject:
-    - objects:
-        type: iri
-        value: sio:SIO_000015
-      predicate: rdf:type
-    - objects:
-        type: iri
-        value: $(route_type)
-      predicate: rdf:type
-    - objects:
-        datatype: xsd:string
-        value: $(model) route
-      predicate: rdfs:label
-    sources:
-    - source_cde_test
-    subjects: this:$(pid)_$(uniqid)_Route
-  20231027121055433837_source_cde_test:
+    subjects:
+      function: grel:controls_if
+      parameters:
+        - parameter: grel:bool_b
+          value:
+            function: idlab-fn:isNull
+            parameters:
+              - [idlab-fn:str, $(target_id)]
+        - parameter: grel:any_true
+          value: this:$(pid)_$(uniqid)_Target
+        - parameter: grel:any_false
+          value: $(target_id)
+  20240309124425630557_source_cde_test:
     graph: this:$(uniqid)_Context
     predicateobject:
     - objects:
@@ -245,18 +359,25 @@ mapping:
       predicate: rdfs:label
     sources:
     - source_cde_test
-    subjects: $(agent_id)
-  20231027121055433843_source_cde_test:
+    subjects:
+      function: grel:controls_if
+      parameters:
+        - parameter: grel:bool_b
+          value:
+            function: idlab-fn:isNull
+            parameters:
+              - [idlab-fn:str, $(agent_id)]
+        - parameter: grel:any_true
+          value: this:$(pid)_$(uniqid)_Agent
+        - parameter: grel:any_false
+          value: $(agent_id)
+  20240309124425630563_source_cde_test:
     graph: this:$(uniqid)_Context
     predicateobject:
     - objects:
         type: iri
         value: sio:SIO_000614
       predicate: rdf:type
-    - objects:
-        type: iri
-        value: $(attribute_type2)
-      predicate: sio:SIO_000332
     - objects:
         type: iri
         value: $(attribute_type)
@@ -268,7 +389,7 @@ mapping:
     sources:
     - source_cde_test
     subjects: this:$(pid)_$(uniqid)_Attribute
-  20231027121055433848_source_cde_test:
+  20240309124425630568_source_cde_test:
     graph: this:$(uniqid)_Context
     predicateobject:
     - objects:
@@ -286,7 +407,54 @@ mapping:
     sources:
     - source_cde_test
     subjects: this:$(pid)_$(uniqid)_Unit
-  20231027121055433854_source_cde_test:
+  20240309124425630573_source_cde_test:
+    graph: this:$(uniqid)_Context
+    predicateobject:
+    - objects:
+        type: iri
+        value: sio:SIO_000315
+      predicate: rdf:type
+    - objects:
+        type: iri
+        value: $(substance_type)
+      predicate: rdf:type
+    - objects:
+        datatype: xsd:string
+        value: $(model) functional specification or substance
+      predicate: rdfs:label
+    sources:
+    - source_cde_test
+    subjects:
+      function: grel:controls_if
+      parameters:
+        - parameter: grel:bool_b
+          value:
+            function: idlab-fn:isNull
+            parameters:
+              - [idlab-fn:str, $(substance_id)]
+        - parameter: grel:any_true
+          value: this:$(pid)_$(uniqid)_Functional-specification
+        - parameter: grel:any_false
+          value: $(substance_id)
+  20240309124425630579_source_cde_test:
+    graph: this:$(uniqid)_Context
+    predicateobject:
+    - objects:
+        type: iri
+        value: sio:SIO_000091
+      predicate: rdf:type
+    - objects:
+        type: iri
+        value: $(activity_type)
+      predicate: rdf:type
+    - objects:
+        datatype: xsd:string
+        value: $(model) action or route specification
+      predicate: rdfs:label
+    sources:
+    - source_cde_test
+    subjects: this:$(pid)_$(uniqid)_Action_specification
+  20240309124425630586_source_cde_test:
     graph: this:$(uniqid)_Context
     predicateobject:
     - objects:
@@ -299,7 +467,7 @@ mapping:
       predicate: rdf:type
     - objects:
         datatype: xsd:string
-        value: $(model) frequency
+        value: $(model) frequency specification
       predicate: rdfs:label
     - objects:
         datatype: xsd:integer
@@ -308,12 +476,26 @@ mapping:
     sources:
     - source_cde_test
     subjects: this:$(pid)_$(uniqid)_Frequency
-  20231027121055433862_source_cde_test:
+  20240309124425630591_source_cde_test:
+    graph: this:$(uniqid)_Context
     predicateobject:
     - objects:
         type: iri
-        value: this:$(uniqid)_Date
-      predicate: sio:SIO_000687
+        value: sio:SIO_000074
+      predicate: rdf:type
+    - objects:
+        type: iri
+        value: $(concentration_unit_type)
+      predicate: rdf:type
+    - objects:
+        datatype: xsd:string
+        value: $(model) concentration specification unit
+      predicate: rdfs:label
+    sources:
+    - source_cde_test
+    subjects: this:$(pid)_$(uniqid)_Specification_unit
+  20240309124425630599_source_cde_test:
+    predicateobject:
     - objects:
         type: iri
         value: this:$(uniqid)_Age
@@ -345,28 +527,7 @@ mapping:
     sources:
     - source_cde_test
     subjects: this:$(uniqid)_Context
-  20231027121055433868_source_cde_test:
-    predicateobject:
-    - objects:
-        type: iri
-        value: sio:SIO_000418
-      predicate: rdf:type
-    - objects:
-        type: iri
-        value: obo:NCIT_C25164
-      predicate: rdf:type
-    - objects:
-        datatype: xsd:string
-        value: '$(model) date when it ocurred: $(date)'
-      predicate: rdfs:label
-    - objects:
-        datatype: xsd:date
-        value: $(date)
-      predicate: sio:SIO_000300
-    sources:
-    - source_cde_test
-    subjects: this:$(uniqid)_Date
-  20231027121055433873_source_cde_test:
+  20240309124425630604_source_cde_test:
     predicateobject:
     - objects:
         type: iri
@@ -387,11 +548,15 @@ mapping:
     sources:
     - source_cde_test
     subjects: this:$(uniqid)_Age
-  20231027121055433877_source_cde_test:
+  20240309124425630610_source_cde_test:
     predicateobject:
     - objects:
         type: iri
         value: sio:SIO_000031
+      predicate: rdf:type
+    - objects:
+        type: iri
+        value: obo:NCIT_C68616
       predicate: rdf:type
     - objects:
         datatype: xsd:string
@@ -404,11 +569,15 @@ mapping:
     sources:
     - source_cde_test
     subjects: this:$(uniqid)_Startdate
-  20231027121055433882_source_cde_test:
+  20240309124425630616_source_cde_test:
     predicateobject:
     - objects:
         type: iri
         value: sio:SIO_000032
+      predicate: rdf:type
+    - objects:
+        type: iri
+        value: obo:NCIT_C68617
       predicate: rdf:type
     - objects:
         datatype: xsd:string
@@ -421,7 +590,7 @@ mapping:
     sources:
     - source_cde_test
     subjects: this:$(uniqid)_Enddate
-  20231027121055433887_source_cde_test:
+  20240309124425630620_source_cde_test:
     predicateobject:
     - objects:
         type: iri
@@ -438,24 +607,32 @@ mapping:
     sources:
     - source_cde_test
     subjects: this:$(pid)_Timeline
-  20231027121055433891_source_cde_test:
+  20240309124425630626_source_cde_test:
     predicateobject:
     - objects:
         type: iri
-        value: this:$(pid)_Identifier
+        value: this:$(pid)_Person_identifier
       predicate: sio:SIO_000671
     - objects:
         type: iri
         value: sio:SIO_000498
       predicate: rdf:type
+    - objects:
+        type: iri
+        value: obo:NCIT_C25190
+      predicate: rdf:type
     sources:
     - source_cde_test
     subjects: this:$(pid)_Person
-  20231027121055433895_source_cde_test:
+  20240309124425630631_source_cde_test:
     predicateobject:
     - objects:
         type: iri
         value: sio:SIO_000115
+      predicate: rdf:type
+    - objects:
+        type: iri
+        value: obo:NCIT_C164337
       predicate: rdf:type
     - objects:
         datatype: xsd:string
@@ -463,8 +640,8 @@ mapping:
       predicate: sio:SIO_000300
     sources:
     - source_cde_test
-    subjects: this:$(pid)_Identifier
-  20231027121055433900_source_cde_test:
+    subjects: this:$(pid)_Person_identifier
+  20240309124425630635_source_cde_test:
     predicateobject:
     - objects:
         type: iri
@@ -481,7 +658,7 @@ prefixes:
   obo: http://purl.obolibrary.org/obo/
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
   rdfs: http://www.w3.org/2000/01/rdf-schema#
-  sio: https://sio.semanticscience.org/resource/
+  sio: http://semanticscience.org/resource/
   this: http://my_example.com/
   xsd: http://www.w3.org/2001/XMLSchema#
   grel: http://users.ugent.be/~bjdmeest/function/grel.ttl#
