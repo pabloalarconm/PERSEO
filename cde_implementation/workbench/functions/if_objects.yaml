@@ -2,6 +2,10 @@ mapping:
   test:
     po:
       - p: sio:SIO_000229
+
+
+#################### HERE ##########################
+
         o:
           function: grel:controls_if
           parameters:
@@ -15,6 +19,10 @@ mapping:
             - parameter: grel:any_false
               value: $(xxx)
           type: iri
+
+
+##############################################
+
     sources:
       - source_cde_test
     subjects: this:$(pid)_$(uniqid)_Process

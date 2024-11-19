@@ -1,0 +1,123 @@
+
+{
+"@id": "http://localhost/basePath/fc_metadata_authorization/about",
+"@type": [
+    "http://www.w3.org/ns/dcat#DataService"
+],
+"http://purl.org/dc/terms/identifier": [
+    {
+    "@id": "http://localhost/basePath/fc_metadata_authorization"
+    }
+],
+"http://purl.org/dc/terms/title": [
+    {
+    "@language": "en",
+    "@value": "FAIR Champion: Metadata Authorization"
+    }
+],
+"http://purl.org/dc/terms/description": [
+    {
+    "@language": "en",
+    "@value": "Tests metadata GUID for the ability to implement authentication and authorization in its resolution protocol.  Currently passes InChI Keys, DOIs, Handles, and URLs.  Recognition of other identifiers will be added upon request by the community."
+    }
+],
+"http://www.w3.org/ns/dcat#keyword": [
+    {
+    "@language": "en",
+    "@value": "FAIR Assessment"
+    },
+    {
+    "@language": "en",
+    "@value": "FAIR Principles"
+    }
+],
+"http://purl.org/dc/terms/creator": [
+    {
+    "@id": "https://orcid.org/0000-0001-6960-357X"
+    }
+],
+"https://w3id.org/ftr#indicator": [
+    {
+    "@id": "https://w3id.org/fair/principles/latest/A1.2"
+    }
+],
+"http://www.w3.org/ns/dcat#endpointDescription": [
+    {
+    "@id": "http://localhost/basePath/fc_metadata_authorization"
+    }
+],
+"http://www.w3.org/ns/dcat#endpointURL": [
+    {
+    "@id": "http://localhost/basePath/fc_metadata_authorization"
+    }
+],
+"http://purl.org/dc/terms/type": [
+    {
+    "@id": "http://edamontology.org/operation_2428"
+    }
+],
+"http://purl.org/dc/terms/license": [
+    {
+    "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+],
+"http://www.w3.org/ns/dcat#theme": [
+    {
+    "@id": "http://edamontology.org/topic_4012"
+    }
+],
+"http://www.w3.org/ns/dcat#version": [
+    {
+    "@language": "en",
+    "@value": "Hvst-1.4.2:Tst-2.0.0"
+    }
+],
+"http://semanticscience.org/ontology/SIO_000223": [
+    {
+    "@id": "https://doi.org/10.25504/FAIRsharing.VrP6sm"
+    }
+],
+"http://www.w3.org/ns/dcat#contactPoint": [
+    {
+    "@id": "urn:fairchampion:testmetadata:individualfc2ee0fd-12f7-49fb-8b3e-d35dbaafdbdb"
+    },
+    {
+    "@id": "urn:fairchampion:testmetadata:org:b7239b7a-9fdd-436c-8942-6a60c0a0d353"
+    }
+]
+},
+{
+"@id": "urn:fairchampion:testmetadata:individualfc2ee0fd-12f7-49fb-8b3e-d35dbaafdbdb",
+"@type": [
+    "http://www.w3.org/2006/vcard/ns#Individual"
+],
+"http://www.w3.org/2006/vcard/ns#fn": [
+    {
+    "@language": "en",
+    "@value": "Mark D Wilkinson"
+    }
+],
+"http://www.w3.org/2006/vcard/ns#email": [
+    {
+    "@language": "en",
+    "@value": "mark.wilkinson@upm.es"
+    }
+]
+},
+{
+"@id": "urn:fairchampion:testmetadata:org:b7239b7a-9fdd-436c-8942-6a60c0a0d353",
+"@type": [
+    "http://www.w3.org/2006/vcard/ns#Organization"
+],
+"http://www.w3.org/2006/vcard/ns#organization-name": [
+    {
+    "@language": "en",
+    "@value": "OSTrails Project"
+    }
+],
+"http://www.w3.org/2006/vcard/ns#url": [
+    {
+    "@id": "https://ostrails.eu/"
+    }
+]
+}
