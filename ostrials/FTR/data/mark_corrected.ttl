@@ -1,0 +1,42 @@
+<https://orcid.org/0000-0001-6960-357X>
+        a       <http://www.w3.org/2006/vcard/ns#Individual> ;
+        <http://www.w3.org/2006/vcard/ns#email>
+                "mark.wilkinson@upm.es"@en ;
+        <http://www.w3.org/2006/vcard/ns#fn>
+                "Mark D Wilkinson"@en .
+
+<https://ostrails.eu/>
+        a       <http://www.w3.org/2006/vcard/ns#Organization> ;
+        <http://www.w3.org/2006/vcard/ns#organization-name>
+                "OSTrails Project"@en .
+        
+<https://localhost//tests/fc_metadata_authorization/about>
+        a       <http://www.w3.org/ns/dcat#DataService> ;
+        <http://purl.org/dc/terms/creator>
+                <https://orcid.org/0000-0001-6960-357X> ;
+        <http://purl.org/dc/terms/description>
+                "Tests metadata GUID for the ability to implement authentication and authorization in its resolution protocol.  Currently passes InChI Keys, DOIs, Handles, and URLs.  Recognition of other identifiers will be added upon request by the community."@en ;
+        <http://purl.org/dc/terms/identifier>
+                <https://localhost//tests/fc_metadata_authorization> ;
+        <http://purl.org/dc/terms/license>
+                <https://creativecommons.org/publicdomain/zero/1.0/> ;
+        <http://purl.org/dc/terms/title>
+                "FAIR Champion: Metadata Authorization"@en ;
+        <http://purl.org/dc/terms/type>
+                <http://edamontology.org/operation_2428> ;
+        <http://semanticscience.org/ontology/SIO_000223>
+                <https://localhost//tests/fc_metadata_authorization/METRIC> ;
+        <http://www.w3.org/ns/dcat#contactPoint>
+                <https://ostrails.eu/> , <https://orcid.org/0000-0001-6960-357X> ;
+        <http://www.w3.org/ns/dcat#endpointDescription>
+                "endpoint_descrption"@en ;
+        <http://www.w3.org/ns/dcat#endpointURL>
+                <https://localhost//tests/fc_metadata_authorization/ENDPOINT> ;
+        <http://www.w3.org/ns/dcat#keyword>
+                "FAIR Assessment"@en , "FAIR Principles"@en ;
+        <http://www.w3.org/ns/dcat#theme>
+                <http://edamontology.org/topic_4012> ;
+        <http://www.w3.org/ns/dcat#version>
+                "Hvst-1.4.2:Tst-2.0.0"@en ;
+        <https://w3id.org/ftr#indicator>
+                <https://w3id.org/fair/principles/latest/A1.2> .

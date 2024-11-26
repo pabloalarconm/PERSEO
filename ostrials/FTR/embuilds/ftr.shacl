@@ -1,0 +1,131 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ftr: <https://w3id.org/ftr#> .
+@prefix dcat: <https://www.w3.org/ns/dcat#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix codemeta: <https://codemeta.github.io/terms/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix vivo: <http://vivoweb.org/ontology/core#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix dqv: <http://www.w3.org/ns/dqv#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+
+### :testShape
+:testShape a sh:NodeShape ;
+    sh:targetClass ftr:Test, dcat:DataService ;
+    sh:property [
+        sh:path dcterms:identifier ;
+        sh:datatype rdf:IRI ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path dcterms:title ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path dcterms:description ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path dcterms:keyword ;
+        sh:datatype xsd:string ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path ftr:indicator ;
+        sh:datatype rdf:IRI ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path dcat:endpointDescription ;
+        sh:datatype xsd:string ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path dcat:endpointURL ;
+        sh:datatype rdf:IRI ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path doap:repository ;
+        sh:datatype rdf:IRI ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path dcterms:type ;
+        sh:datatype rdf:IRI ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path dcterms:license ;
+        sh:datatype rdf:IRI ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path dcat:theme ;
+        sh:datatype rdf:IRI ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path dcterms:version ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path adms:versionNotes ;
+        sh:datatype xsd:string ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path dcat:contactPoint ;
+        sh:node :organizationShape ;
+        sh:minCount 0 ;
+    ] ;
+    sh:property [
+        sh:path dcterms:creator ;
+        sh:node :organizationShape ;
+        sh:minCount 0 ;
+    ] ;
+    sh:property [
+        sh:path dcat:contactPoint ;
+        sh:node :individualShape ;
+        sh:minCount 0 ;
+    ] ;
+    sh:property [
+        sh:path dcterms:creator ;
+        sh:node :individualShape ;
+        sh:minCount 0 ;
+    ] ;
+    sh:property [
+        sh:path sio:SIO_000233 ;
+        sh:node :metricShape ;
+        sh:minCount 1 ;
+    ] .
+
+### :organizationShape
+:organizationShape a sh:NodeShape ;
+    sh:targetClass vcard:Organization ;
+    sh:property [
+        sh:path vcard:organization-name ;
+        sh:datatype xsd:string ;
+        sh:maxCount 1 ;
+    ] .
+
+### :individualShape
+:individualShape a sh:NodeShape ;
+    sh:targetClass vcard:Individual ;
+    sh:property [
+        sh:path vcard:fn ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path vcard:email ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+    ] .
