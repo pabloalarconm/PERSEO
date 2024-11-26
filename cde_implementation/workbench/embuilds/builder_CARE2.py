@@ -7,8 +7,8 @@ prefixes = dict(
   sio = "http://semanticscience.org/resource/" ,
   xsd = "http://www.w3.org/2001/XMLSchema#",
   this = "http://example.com/",
-  grel = "http://users.ugent.be/~bjdmeest/function/grel.ttl#"
-  #idlab-fn = "http://example.com/idlab/function/"
+  grel = "http://users.ugent.be/~bjdmeest/function/grel.ttl#",
+  idlab = "http://example.com/idlab/function/"
   )
 
 
@@ -100,7 +100,7 @@ triplets = [
 ["this:$(uniqid)_Context","sio:SIO_000687","this:$(uniqid)_Age","iri"],
 ["this:$(uniqid)_Context","sio:SIO_000680","this:$(uniqid)_Startdate","iri"],
 ["this:$(uniqid)_Context","sio:SIO_000681","this:$(uniqid)_Enddate","iri"],
-["this:$(uniqid)_Context","sio:SIO_000681","$(organization_id)","iri"],
+["this:$(uniqid)_Context","sio:SIO_000253","$(organization_id)","iri"],
 
 ["this:$(uniqid)_Context","rdf:type","obo:NCIT_C62143","iri"],
 ["this:$(uniqid)_Age","rdf:type","sio:SIO_001013","iri"],
