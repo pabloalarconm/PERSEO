@@ -23,7 +23,7 @@ me:testShape IRI {
 	dcat:endpointDescription xsd:string? ;
 	dcat:endpointURL IRI? ;
 	doap:repository IRI? ;
-	dcterms:type IRI ?;
+	dcterms:type IRI?;
 	dcterms:license IRI ;
 	dcat:theme IRI? ;
 	dcterms:version xsd:string ;
