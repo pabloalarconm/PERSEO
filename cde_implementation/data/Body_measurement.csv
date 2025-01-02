@@ -1,2 +1,0 @@
-model,process_type,output_type,attribute_type,value_datatype,startdate,enddate,pid,attribute_type2,context_id,attribute_id_type,agent_id,comments,input_type,target_type,unit_type,agent_type,frequency_type,frequency_value,route_type,value_date,date,value_integer,value_string,attribute_id,attribute_id_value,value_float,uniqid
-Body_measurement,http://purl.obolibrary.org/obo/NCIT_C142470,http://purl.obolibrary.org/obo/NCIT_C70856,,xsd:float,2011-03-15,2011-03-15,50012001,,,,,,,,,,,,,,,,,,,29.3,20230618170934156313
